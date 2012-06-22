@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importacao>
+	<nota>	
+		<rps_numero>45</rps_numero>
+		<rps_data>2011-11-18</rps_data>
+		<tomador_nome>Zé da Silva</tomador_nome>
+		<tomador_cnpjcpf>123.456.789-99</tomador_cnpjcpf>
+		<tomador_inscrmunicipal>0123456789</tomador_inscrmunicipal>
+		<tomador_logradouro>Rua A</tomador_logradouro>
+		<tomador_numero>1</tomador_numero>
+		<tomador_complemento></tomador_complemento>
+		<tomador_bairro>Bairro A</tomador_bairro>
+		<tomador_cep>99999-999</tomador_cep>
+		<tomador_municipio>Feliz</tomador_municipio>
+		<tomador_uf>RS</tomador_uf>
+		<tomador_email>fernando@portalpublico.com.br</tomador_email>
+		<valortotal>100.00</valortotal>
+		<deducoes>1.00</deducoes>
+		<acrescimo>1.50</acrescimo>
+		<basecalculo>100.00</basecalculo>
+		<aliqpercentual>2.00</aliqpercentual>
+		<valoriss>2.00</valoriss>
+		<issretido>0.00</issretido>
+		<cofins>1.00</cofins>
+		<irrf>1.00</irrf>
+		<contribuicaosocial>1.00</contribuicaosocial>
+		<pispasep>1.00</pispasep>
+		<inss>1.00</inss>
+		<totalretencoes>1.00</totalretencoes>
+		<estado>N</estado>
+		<discriminacao>blá blá blá</discriminacao>
+		<observacoes>blá blá blá</observacoes>
+		<motivocancelamento></motivocancelamento>
+		<codservico>10100020189</codservico>
+	</nota>	
+</importacao>

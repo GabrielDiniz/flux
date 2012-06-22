@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<importacao>
+	<nota>
+		<rps_data>2011-04-05</rps_data> 
+		<tomador_nome>Nome do tomador</tomador_nome> 
+		<tomador_cnpjcpf>001.163.200-36</tomador_cnpjcpf> 
+		<tomador_inscrmunicipal>Inscrição municipal</tomador_inscrmunicipal> 
+		<tomador_logradouro>Rua do tomador</tomador_logradouro> 
+		<tomador_numero>01</tomador_numero> 
+		<tomador_complemento>Complemento (opcional)</tomador_complemento> 
+		<tomador_bairro>Bairro do tomador</tomador_bairro> 
+		<tomador_cep>00000-000</tomador_cep> 
+		<tomador_municipio>DOM ELISEU</tomador_municipio>
+		<tomador_uf>UF</tomador_uf>
+		<tomador_email>agnes@portalpublico.com.br</tomador_email>
+		<discriminacao>Discriminação da nota</discriminacao>
+		<observacao>Observação da nota</observacao>
+		<aliqinss>INSS da nota (aliquota ex: 1.00)</aliqinss>
+		<aliqirrf>IRRF da nota (aliquota ex: 1.00)</aliqirrf>
+		<deducaoirrf>Deduções de IRRF (ex: 1321.00)</deducaoirrf>
+		<valordeducoes>Deduções da nota (ex: 1321.00)</valordeducoes>
+		<estado>Estado da nota (ex: Normal ou N)</estado>
+		<codservico>
+			<codservico>2.01</codservico>
+			<basecalculo>1000.00</basecalculo>
+			<issretido>ISS retido do serviço (ex: 1321.00)</issretido>
+			<discriminacao>Discriminação do serviço</discriminacao>
+		</codservico>
+		
+	</nota>
+</importacao> 
+

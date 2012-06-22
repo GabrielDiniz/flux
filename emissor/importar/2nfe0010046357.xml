@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<importacao>
+<nota>
+<rps_numero>161</rps_numero>
+<rps_data>2011-09-21</rps_data>
+<tomador_nome>REMI ALOISIO HAHN</tomador_nome>
+<tomador_cnpjcpf>367.684.560-91</tomador_cnpjcpf>
+<tomador_inscrmunicipal></tomador_inscrmunicipal>
+<tomador_endereco></tomador_endereco>
+<tomador_cep>     -   </tomador_cep>
+<tomador_municipio>FELIZ</tomador_municipio>
+<tomador_uf>RS</tomador_uf>
+<tomador_email></tomador_email>
+<discriminacao>CAPSULAS</discriminacao>
+<valortotal>0000000021.50</valortotal>
+<valordeducoes>0000000000,00</valordeducoes>
+<basecalculo>0000000021.50</basecalculo>
+<valoriss>0000000000.65</valoriss>
+<issretido></issretido>
+<credito></credito>
+<estado>RS</estado>
+<codservico>4.07</codservico>
+</nota>
+</importacao>
