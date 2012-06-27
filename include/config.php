@@ -19,8 +19,8 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
 <?php
-$HOST = "localhost";
+$HOST = "boca.doctum.edu.br";
 $USUARIO = "root";
-$SENHA = "ak47";
+$SENHA = "100Jolnir001";
 $BANCO = "enota";
 ?>

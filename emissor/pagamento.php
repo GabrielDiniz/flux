@@ -118,6 +118,7 @@ if($_POST["btBoleto"]){
 			}
 			
 			$ACAO = "insere_guia_nfe";
+			echo "testestestes";
 			require "$diretorio/index.php";
 			
 		}else{	

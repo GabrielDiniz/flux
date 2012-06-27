@@ -72,6 +72,7 @@ if($cod_seguranca == $_SESSION['autenticacao'] && $cod_seguranca){
 
 		if($estado == "A"){	
 			//verifica se a senha digitada confere com a que está armazenada no banco	
+			 echo md5($txtSenha)." ".$dados['senha'];
 			if(md5($txtSenha) == $dados['senha']){	
 				if($dados['codtipo'] == 1){ 
 					if(($dados['nfe'] == "s") || ($dados['nfe'] == "S")){

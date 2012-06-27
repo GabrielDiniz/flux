@@ -40,7 +40,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		echo "<script>alert('Guia Cancelada');</script>";
 		add_logs('Cancelou uma guia');
 	} */
-  $sql=mysql_query("
+  $sql="
   	SELECT 
 		guia_pagamento.codigo,
 		guia_pagamento.datavencimento,
@@ -59,7 +59,9 @@ Fith Floor, Boston, MA 02110-1301, USA
 	ORDER BY 
 		guia_pagamento.datavencimento DESC
 	
-	");
+	";
+  echo $sql;
+  $sql = mysql_query($sql);
  ?>
  
 <form method="post" onsubmit="return ConfirmaForm();">
