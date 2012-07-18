@@ -36,7 +36,6 @@ Fith Floor, Boston, MA 02110-1301, USA
 	{
 	  include("guia_pagamento.php");
 	}
-	
 	elseif($_POST['btOp'] == "Guias Emitidas")
 	{
 	  include("pagamento_emitidas.php");

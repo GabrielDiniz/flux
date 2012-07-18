@@ -1,0 +1,33 @@
+input[type="text"],input[type=password],textarea{font-family: Arial, Helvetica, sans-serif;color:#9b9b9b;font-size:13px;vertical-align:middle;font-weight:normal;padding:10px 10px 10px 14px;margin:0;background:#fff;outline:none;border:1px solid #d2d2d4; border-radius:7px;}
+/* Contact form */
+#contact-form{position:relative; padding:6px 0 0 0;}
+	#contact-form fieldset{border:none;padding:0}
+	#contact-form label {display:block;min-height:46px; position:relative;}
+		#contact-form input{ width:343px;}
+		#contact-form textarea{height:195px;width:515px;overflow:auto;resize:none;}
+		#contact-form .message{min-height:220px;}
+.buttons{position:relative; overflow:hidden; padding:25px 0 0 0; text-align:right;}
+	.buttons span{position:relative; overflow:hidden; margin-left:14px;}
+.success, .error, .empty{display:none; text-align:left;}
+.error, .empty{position:relative; color:red; font-size:9px; top:0px; left:10px;}
+.success{ padding-bottom:10px;}
+.success, .success strong{ color:#2C9BB6;}
+/* search form */
+#search{ padding:4px 0 0 0;}
+	#search input{font-family: Arial, Helvetica, sans-serif;color:#a5a4a4;font-size:11px; font-style:italic; vertical-align:middle;font-weight:normal;padding:7px 5px 7px 28px;margin:0;background:#fbfbfc url(../images/input-mail.jpg) 6px 8px no-repeat;outline:none;border:1px solid #e7e7e7;width:163px;}
+	#search .button{ padding:3px 18px 5px; }
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	#search input{width:90px;}
+	#contact-form input{ width:250px;}
+	#contact-form textarea{ width:402px;}
+	#contact-form{position:relative; padding:6px 0 30px 0;}
+}
+@media only screen and (max-width: 767px) {
+	#search input{width:140px;}
+	#contact-form input,#contact-form textarea{ width:273px;}
+	#contact-form{position:relative; padding:6px 0 30px 0;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#search input{width:255px;}
+	#contact-form input,#contact-form textarea{ width:394px;}
+}

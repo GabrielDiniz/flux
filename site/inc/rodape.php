@@ -18,10 +18,16 @@ www.softwarepublico.gov.br, ou escreva para a Fundacao do Software Livre Inc., 5
 Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" background="../img/rodapes/fundo.jpg">
-  <tr>
-    <td align="center"><img src="../img/rodapes/rodape.jpg" /></td>
-  </tr>
-</table>
-
+<!-- footer -->
+<footer>
+<div class=" container_12">
+	<div class="wrapper">
+		<div class="grid_6">
+			<div class="pad2">
+				<span class="text1"><a href="#"></a></span>Copyright &copy; 2012 - Todos os Direitos Reservados
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
 

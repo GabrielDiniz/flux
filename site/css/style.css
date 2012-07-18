@@ -1,0 +1,192 @@
+@import"../css/reset.css";@import"../css/skeleton.css";@import"../css/superfish.css";@import"../css/forms.css";@import"../css/flexslider.css";@import"../css/prettyPhoto.css";
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+body{background:#fff url(../images/bg-body.jpg) 50% 0 repeat;font:13px/20px Arial, Helvetica, sans-serif;color:#9b9b9b;position:relative;min-width:320px; -webkit-text-size-adjust: none;}
+html,body{height:100%;}
+p{padding-bottom:20px}
+a{color:#2C9BB6;outline:none;cursor:pointer;text-decoration:none;}
+a:hover{text-decoration: underline}
+p a{ text-decoration:underline;}
+p a:hover{ text-decoration:none;}
+/*  Header styles */
+h1,h2,h3,h4,h5,h6{line-height:1.2em;color:#444; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+h1{font-size:30px;}
+h2{font-size:26px; padding-bottom:24px;}
+h3{font-size:18px; text-transform:uppercase; letter-spacing:2px;} 
+
+/* Global Structure---------------------------------------- */
+img{ max-width:100%; height:auto;}
+/*----- txt,links,lines,titles -----*/
+.clear{clear:both;line-height:0;font-size:0;overflow:hidden;height:0;width:100%;}
+.wrapper{width:100%;overflow:hidden;position:relative;}
+.extra-wrap{overflow:hidden;display:block;}
+.fleft{float:left}
+.fright{float:right}
+.alignright{text-align:right}
+.aligncenter{text-align:center}
+.alignmiddle *{vertical-align:middle}
+.color1{color:#2C9BB6;}
+.color2{ color:#828387;}
+.text1{font:12px/18px Arial, Helvetica, sans-serif; color:#444; text-transform:uppercase;}
+/*********************************header*************************************/
+header{ width:100%; background:#fff; padding:0; border-bottom:1px solid #d7d7d7;}
+header h1{ padding:20px 0 34px 0;width:208px; float:left;}
+header h1 a{ display:block; background:url(../images/logo.png) 0 0 no-repeat; width:223px; height:55px; text-indent:-5000px;}
+/********************** Content ************************/
+section{width:100%; background:url(../images/shadow.png) 50% 0 repeat-x; padding-bottom:55px;}
+section.padcontent{ padding-bottom:41px;}
+section.padcontent2{ padding:48px 0 41px;}
+section.padcontent3{ padding:48px 0 36px;}
+section.padcontent4{ padding:48px 0 29px;}
+section.padcontent5{ padding:48px 0 49px;}
+.box1{ background:#fff; border:1px solid #e8e8e8; border-radius:5px; text-align:center; margin:30px 0 0 0; padding:33px 0 53px 0; position:relative;
+-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+.box1 a{ display:block; position:absolute; top:0; left:0; right:0; bottom:0; z-index:3;}
+.imgs{ width:92px; height:92px; margin:0 auto; position:relative; z-index:2;}
+	.imgs img{ position:absolute; top:0; left:0;
+		-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+	.img-2{ opacity:0; z-index:2;}
+	.box1 h3{ padding:30px 0 22px 0;
+		-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+	.box1 p{ font:13px/18px Arial, Helvetica, sans-serif; padding:0 40px;
+		-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+	.box1:hover{ background:#2C9BB6;border:1px solid #2a94ae;}
+	.box1:hover .img-2{ opacity:1; z-index:2;}
+	.box1:hover .img-1{ opacity:0;}
+	.box1:hover h3,.box1:hover p{ color:#fff;}
+.news{ position:relative; overflow:hidden; padding-bottom:17px;}
+	.news img{ float:left; margin:5px 19px 0 0;}
+	.news p{ padding:3px 0 1px 0;}
+	.news em{ color:#444; font-size:12px;}
+.box2{ display:none; background:#fff; border:1px solid #e8e8e8; border-radius:5px; margin:53px 0 0 0; padding:20px 0 20px 26px; position:relative; overflow:hidden;}
+.quotes{ width:615px; height:52px; position:relative; float:left; border-right:1px solid #d7d7d7; padding-top:6px;}
+.quotes blockquote{ font:italic 15px/22px Arial, Helvetica, sans-serif; color:#828387; background: url(../images/quotes.png) 0 3px no-repeat; padding:0 50px 0 64px;}
+	.quotes .flex-control-nav{ position:relative; overflow:hidden; list-style:none; position:absolute; right:19px; bottom:1px;}
+	.quotes .flex-control-nav li{ float:left; margin-right:3px;}
+	.quotes .flex-control-nav li a{ display:block; background: none repeat scroll 0 0 #d7d7d7;
+    border-radius: 25px 25px 25px 25px; width:10px; height:10px; text-indent:-5000px;}
+	.quotes .flex-control-nav li a:hover,.quotes .flex-control-nav li a.active{ background: #2C9BB6;}
+.search{ float:left; padding:10px 0 0 20px; width:280px;}
+.dropcap{ font:24px/29px Arial, Helvetica, sans-serif; color:#444; border:5px solid #d2d1d2; border-radius:25px; width:38px; height:33px; float:left; text-align:center; margin:5px 12px 0 0; padding-top:5px;}
+.lineH{ width:100%; height:1px; background:#d7d7d7;}
+.quote{ background:#dedede url(../images/bg-quote.jpg) 0 0 repeat-x ; padding:10px; border-radius:10px; margin:0 2px 10px 0; position:relative; border:none;}
+	.quote span{ display:block; background:url(../images/quote2.png) 0 0 no-repeat; width:34px; height:19px; position:absolute; bottom:-19px; left:63px;}
+	.quote blockquote{ background:url(../images/quote1.png) 10px 1px no-repeat; padding:22px 20px 16px 19px; font:13px/18px Arial, Helvetica, sans-serif;}
+.quote-link{ text-align:right; padding-top:1px; text-transform: uppercase;}
+.list2{ position:relative; overflow:hidden; padding-top:3px;}
+	.list2 li{ padding:10px; float:left; background:#fff; width:145px; margin:0 22px 20px 0; border-radius:5px;}
+	.list2 li.last{ margin-right:0;}
+	.list2 li img{ margin:0 0 8px 0; max-width:100%; height:auto;}
+	.list2 li p{font:12px/20px Arial, Helvetica, sans-serif; margin-top:-1px; padding:0;}
+.list3{ position:relative; overflow:hidden;}
+	.list3 li{ float:left; width:259px; background:#fff; padding:20px 21px 16px 20px; border-radius:5px; margin:0 20px 20px 0;}
+	.list3 li.last{ margin-right:0;}
+	.list3 li>span{ text-transform:uppercase; font-size:11px;margin-top:14px; display:inline-block;}
+	.list3 li p{ padding-bottom:0;}
+.list4{ position:relative; overflow:hidden; padding:7px 0 0 0;}
+	.list4 li{ float:left; width:160px; margin:0 30px 27px 0;}
+	.list4 li.last{ margin-right:0;}
+	.list4 li span{ font-size:11px; text-transform:uppercase; display:inline-block; padding:15px 0 0 0;}
+	.list4 li p{ padding-bottom:0px;}
+.text2{ font:bold 16px/24px Arial, Helvetica, sans-serif; color:#444; min-width:30px; margin-top:-2px;}
+.faq p{ text-transform:uppercase; color:#2C9BB6; padding-bottom:8px;}
+	.faq p a{ text-decoration:none;}
+	.faq p a:hover{ text-decoration:underline; color:#000;}
+.faq2 p{ padding-bottom:21px;}
+.list1{ padding:2px 0 20px 0;}
+	.list1 li{ font:22px/24px Arial, Helvetica, sans-serif; margin-bottom:5px;}
+	.list1 li a{ 
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 5px solid #2C9BB6;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 1px 1px 1px lightGrey;
+    color: #444444;
+    display: block;
+    font-size: 14px;
+    padding: 7px 18px;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+	.list1 li a:hover{ color:#fff; background:#2C9BB6; text-decoration:none;}
+.map iframe{ width:300px; height:290px; border-radius:5px;}
+.contacts{ font-style:normal; padding:26px 0 28px 0;}
+	.contacts span{ display:inline-block; width:79px;}
+	.contacts p{ font-size:11px;color:#2C9BB6; text-transform:uppercase; padding:0;}
+/*  Buttons */
+.button{display:inline-block; background:#fff; border:1px solid #e8e8e8; padding:3px 20px 5px; color:#828387; border-radius:4px;
+	-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+	.button:hover{ background:#2C9BB6; border:1px solid #2C9BB6; color:#fff; text-decoration:none;}
+.link{ display:inline-block; text-transform:uppercase; font-size:11px; text-decoration:underline;}
+	.link:hover{color:#444;}
+.link2{ display:inline-block; font:14px/19px Arial, Helvetica, sans-serif; color:#2C9BB6; text-transform:uppercase;}
+	.link2:hover{ text-decoration:none; color:#000;}
+.link3{ display:inline-block; font-size:11px; text-transform:uppercase; text-decoration:none;}
+.link3:hover{ text-decoration:none; color:#000;}
+/* light box */
+.lightbox-image{ position:relative; display:block;}
+.lightbox-image span{ display:block; top:0; left:0; bottom:0; right:0; width:100%; height:100%; position:absolute; background:url(../images/magnifying-glass.png) center center no-repeat #fff;}
+.lightbox-image img{ position:relative; z-index:3;}
+/******************** Footer ******************/
+footer{ padding:51px 0 50px; font:12px/18px Arial, Helvetica, sans-serif;}
+footer .text1{ display: inline-block; padding-right:17px;}
+footer a{color:#9b9b9b; text-decoration:underline;}
+footer a:hover{ text-decoration:none; color:#000;}
+.social{ position:relative; overflow:hidden; float:right;}
+	.social li{ float:left; margin-right:5px;}
+	.social li:first-child{ margin-top:4px;}
+	.social li a{ display:block; position:relative; width:27px; height:26px;}
+	.social li a img{-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+.social .img-1{ position:relative; z-index:2; opacity:1;}
+.social .img-2{z-index:3; opacity:0; position:absolute; top:0; left:0;}
+	.social li a:hover .img-2{ opacity:1;}
+	.social li a:hover .img-1{ opacity:0;}
+/* padding */
+.padtop3{ padding-top:6px;}
+.padtop4{ padding-top:39px;}
+.padtop2{ padding-top:54px;}
+.padtop{ padding-top:55px;}
+.padtop22{ padding-top:61px;}
+.padbot{padding-bottom:19px;}
+.padbot2{padding-bottom:21px;}
+.padbot3{padding-bottom:24px;}
+.padbot4{padding-bottom:26px;}
+.imgindent{ margin-bottom:14px;}
+.imgindent2{ float:left; margin:1px 19px 29px 0;}
+.pad2{ padding:4px 0 21px 0;}
+.pad3{ padding-bottom:3px;}
+/*==========================================*/
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	.quotes{ width:460px;}
+	.search{ width:200px;}
+	.list2 li{ width:110px;margin:0 10px 10px 0;}
+	.list3 li{ width:195px;}
+	.list4 li{ float:left; width:130px; margin:0 10px 20px 0;}
+	.map iframe{ width:236px; height:230px;}
+}
+@media only screen and (max-width: 767px) {
+	.quotes{ width:270px; border:none;height:110px;}
+	.search{ width:270px; padding:10px 0 0 0px;}
+	.quotes blockquote{padding:0 20px 0 64px;}
+	.padRt{ padding-bottom:30px;}
+	.padRT2{ padding-top:30px;}
+	footer{ text-align:center;}
+	.social{ position:relative; overflow:hidden; float:none; padding-left:75px; padding-bottom:20px;}
+	footer .text1{ display:none;}
+	.list2 li{ width:120px;margin:0 10px 10px 0;}
+	.list2 li.last{ margin-right:10px;}
+	.list3 li{ width:259px;padding:15px 15px 15px 15px;margin:0 0 15px 5px;}
+	.list4 li{ float:left; width:140px; margin:0 10px 20px 0;}
+	.list4 li.last{ margin-right:10px;}
+	.map iframe{ width:300px; height:200px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.quotes{ width:370px;height:80px;}
+	.search{ width:370px;}
+	.social{ position:relative; overflow:hidden; float:none; padding-left:60px; padding-bottom:20px;}
+	footer .text1{ display:inline-block;}
+	.list2 li{ width:110px;margin:0 10px 10px 0;}
+	.list2 li.last{ margin-right:0;}
+	.list3 li{ width:170px;padding:15px 15px 15px 15px;margin:0 10px 10px 0;}
+	.list3 li.last{ margin-right:10px;}
+	.list4 li{ float:left; width:130px; margin:0 10px 20px 0;}
+	.list4 li.last{ margin-right:0;}
+	.map iframe{ width:420px; height:200px;}
+}
+/* Project specifics =========================================================== */
+/* Pour some CSS below ========================================================= */
