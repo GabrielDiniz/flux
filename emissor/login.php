@@ -63,6 +63,12 @@ if(!(isset($_SESSION["empresa"])))
 				<p>
 					<input type="text" name="txtCodigo" id="txtCodigo" size="30" class="texto" onkeydown="return NumbersOnly(event);" />
 				</p>
+				<h4> Código de verificação</h4>
+				<p>
+					<input type="text" name="codseguranca" id="codseguranca" size="6" class="texto" />  &nbsp;
+	   	   <?php include("inc/cod_verificacao.php"); ?>
+				</p>
+				<p><input type="submit" name="btEntrar" size="30" value="Entrar" class="botao" /></p>
 			</div>
 		</div>
 	</div>
@@ -101,13 +107,11 @@ if(!(isset($_SESSION["empresa"])))
 	    C&oacute;d. Verifica&ccedil;&atilde;o
 	  </td>
 	  <td align="left" >	 
-	   <input type="text" name="codseguranca" id="codseguranca" size="6" class="texto" />  &nbsp;
-	   <img style="cursor: pointer;" onclick="mostrar_teclado();" src="../img/botoes/num_key.jpg" title="Teclado Virtual" /> &nbsp;
-	   <?php include("inc/cod_verificacao.php"); ?></td>
+	   </td>
 	 </tr>
 	 <tr>	 
 	  <td align="center" colspan="2">
-	   <input type="submit" name="btEntrar" size="30" value="Entrar" class="botao" />
+	   
 	  </td>
 	 </tr>
      <tr>

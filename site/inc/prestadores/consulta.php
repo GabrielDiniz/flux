@@ -53,7 +53,7 @@ Fith Floor, Boston, MA 02110-1301, USA
                 	<tr>
                   		<td align="center">&nbsp;</td>
                   		<td align="left" valign="middle">
-                  		<input name="btAvancar" type="submit" value="Avançar" class="botao" onclick="return verificaCnpjCpfIm();" />&nbsp;<input type="button" name="btVoltar" value="Voltar" class="botao" onClick="window.location='prestadores.php'">
+                  		<input name="btAvancar" type="submit" value="AvanÃ§ar" class="botao" onclick="return verificaCnpjCpfIm();" />&nbsp;<input type="button" name="btVoltar" value="Voltar" class="botao" onClick="window.location='prestadores.php'">
                 		</td>
             		</tr>
         		</table>
@@ -142,7 +142,7 @@ Fith Floor, Boston, MA 02110-1301, USA
                             <td colspan="3" bgcolor="#FFFFFF" align="left" valign="middle"><?php echo $nome; ?></td>
                         </tr>
                         <tr>
-                            <td align="left" >Razão Social:</td>
+                            <td align="left" >Razï¿½o Social:</td>
                             <td align="left" bgcolor="#FFFFFF" colspan="3" valign="middle"><?php echo $razaosocial; ?></td>
                         </tr>
                         <tr>
@@ -154,11 +154,11 @@ Fith Floor, Boston, MA 02110-1301, USA
                             <td align="left" bgcolor="#FFFFFF" colspan="3" valign="middle"><?php echo verificaCampo($inscrmunicipal); ?></td>
                         </tr>
                         <tr>
-                            <td align="left" >Endereço:</td>
-                            <td align="left" bgcolor="#FFFFFF" colspan="3" valign="middle"><?php echo "$logradouro, n° $numero"; ?></td>
+                            <td align="left" >Endereï¿½o:</td>
+                            <td align="left" bgcolor="#FFFFFF" colspan="3" valign="middle"><?php echo "$logradouro, nï¿½ $numero"; ?></td>
                         </tr>
                         <tr>
-                            <td align="left" >Situacão:</td>
+                            <td align="left" >Situacï¿½o:</td>
                             <td align="left" bgcolor="#FFFFFF" colspan="3" valign="middle"><?php echo $estado; ?></td>
                         </tr>  
                         <tr>
@@ -190,9 +190,9 @@ Fith Floor, Boston, MA 02110-1301, USA
 						while(list($nome_resp, $cpf_resp)=mysql_fetch_array($sql_resp)){
 						?>
                         <tr>
-                            <td align="left" >Responsável:</td>
+                            <td align="left" >Responsï¿½vel:</td>
                             <td align="left" bgcolor="#FFFFFF" valign="middle"><?php echo verificaCampo($nome_resp); ?></td>
-                            <td align="left" width="20%">CPF Responsável:</td>
+                            <td align="left" width="20%">CPF Responsï¿½vel:</td>
                             <td align="left" width="20%" bgcolor="#FFFFFF" valign="middle"><?php echo verificaCampo($cpf_resp); ?></td>
                         </tr>
 						<?php
@@ -201,9 +201,9 @@ Fith Floor, Boston, MA 02110-1301, USA
 						while(list($nome_socio, $cpf_socio)=mysql_fetch_array($sql_socio)){
 						?>
                         <tr>
-                            <td align="left" >Sócio:</td>
+                            <td align="left" >Sï¿½cio:</td>
                             <td align="left" bgcolor="#FFFFFF" valign="middle"><?php echo verificaCampo($nome_socio); ?></td>
-                            <td align="left" width="20%">CPF Sócio:</td>
+                            <td align="left" width="20%">CPF Sï¿½cio:</td>
                             <td align="left" width="20%" bgcolor="#FFFFFF" valign="middle"><?php echo verificaCampo($cpf_socio); ?></td>
                         </tr>
 						<?php

@@ -23,7 +23,8 @@ Fith Floor, Boston, MA 02110-1301, USA
 	list($CIDADE,$UF)=mysql_fetch_array($sql);
 ?>
  <!-- Formul�rio de inser��o de empresa --> 
-	<table width="580" border="0" cellpadding="0" cellspacing="1">
+ <div class="grid_3">
+	<table  border="0" cellpadding="0" cellspacing="1">
         <tr>
 			<td width="5%" height="10" bgcolor="#FFFFFF"></td>
 	        <td width="30%" align="center" bgcolor="#FFFFFF" rowspan="3">Cadastro de Prestadores</td>
@@ -225,5 +226,5 @@ A senha cadastrada &eacute; intransfer&iacute;vel e configura a assinatura eletr
 	    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
 		</tr>
 	</table>    
-  
+</div>  
 <!-- Formul�rio de inser��o de servi�os Fim--->       

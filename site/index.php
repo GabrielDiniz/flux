@@ -33,7 +33,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 <? include ("../include/site-head.php"); ?>
 </head>
 <body>
-  <?php include("inc/topo.php"); ?>
+  <?php include("../include/topo.php"); ?>
 
 <!-- content -->
 <section>
@@ -42,8 +42,8 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<div class="grid_4">
 			<div class="box1">
 				<div class="imgs">
-					<img src="images/1page_img2.png" alt="" class="img-1">
-					<img src="images/1page_img2-hover.png" alt="" class="img-2">
+					<img src="../include/images/1page_img2.png" alt="" class="img-1">
+					<img src="../include/images/1page_img2-hover.png" alt="" class="img-2">
 				</div>
 				<h3>Prestadores</h3>
 				<p>
@@ -55,8 +55,8 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<div class="grid_4">
 			<div class="box1">
 				<div class="imgs">
-					<img src="images/1page_img1.png" alt="" class="img-1">
-					<img src="images/1page_img1-hover.png" alt="" class="img-2">
+					<img src="../include/images/1page_img1.png" alt="" class="img-1">
+					<img src="../include/images/1page_img1-hover.png" alt="" class="img-2">
 				</div>
 				<h3>Tomadores</h3>
 				<p>
@@ -68,8 +68,8 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<div class="grid_4">
 			<div class="box1">
 				<div class="imgs">
-					<img src="images/1page_img2.png" alt="" class="img-1">
-					<img src="images/1page_img2-hover.png" alt="" class="img-2">
+					<img src="../include/images/1page_img2.png" alt="" class="img-1">
+					<img src="../include/images/1page_img2-hover.png" alt="" class="img-2">
 				</div>
 				<h3>Contadores</h3>
 				<p>
@@ -133,7 +133,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</div>
 	</div>
 </div>
-<?php include("inc/rodape.php"); ?>
+<?php include("../include/rodape.php"); ?>
 
 </body>
 </html>

@@ -23,16 +23,15 @@ Fith Floor, Boston, MA 02110-1301, USA
 <header>
 <div class="container_12">
 	<div class="grid_12">
-		<h1><a href="index.html">NFSe</a></h1><?= "Prefeitura Municipal de ".$CONF_CIDADE;?>
+		<h1><a href="">NFSe</a></h1><?//= "Prefeitura Municipal de ".$CONF_CIDADE;?>
 		<nav class="main-menu">
 		<ul class="sf-menu">
 			<li class="current"><a href="#"><span>Acesso</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a>
 			<ul>
-				<li><a href="#">Prestadores</a></li>
-				<li><a href="#">Tomadores</a>
-				</li>
-				<li><a href="#">Contadores</a></li>
-				<li><a href="#">Fiscalização</a></li>
+				<li><a href="../site/prestadores.php">Prestadores</a></li>
+				<li><a href="../site/tomadores.php">Tomadores</a></li>
+				<li><a href="../site/contadores.php">Contadores</a></li>
+				<li><a href="../sep/">Fiscalização</a></li>
 			</ul>
 			</li>
 			<li><a href="#"><span>legislação</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>

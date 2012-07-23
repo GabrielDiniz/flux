@@ -20,7 +20,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 ?>
 <?php
   
-  // arquivo de conexão com o banco
+  // arquivo de conexï¿½o com o banco
   include("../include/conect.php"); 
   
   // arquivo com funcoes uteis
@@ -32,20 +32,11 @@ Fith Floor, Boston, MA 02110-1301, USA
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>e-Nota</title>
-<script type="text/javascript" src="../scripts/java_site.js" language="javascript"></script>
-<script type="text/javascript" src="../scripts/padrao.js"></script>
-<script type="text/javascript" src="../scripts/prototype.js"></script>
-<script type="text/javascript" src="../scripts/scriptaculous.js?load=effects,builder"></script>
-<script type="text/javascript" src="../scripts/lightbox/lightbox.js"></script>
-<link rel="stylesheet" type="text/css" href="../css/padrao_site.css" />
+<? include '../include/site-head.php'; ?>
 </head>
 
 <body>
-<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tr>
-    <td><?php include("inc/topo.php"); ?></td>
+    <td><?php include("../include/topo.php"); ?></td>
   </tr>
   <tr>
     <td bgcolor="#FFFFFF" valign="top" align="center">
@@ -60,7 +51,7 @@ Fith Floor, Boston, MA 02110-1301, USA
     <td align="center" valign="top">
     
     
-<!-- box de conteúdos -->
+<!-- box de conteï¿½dos -->
     
     
  <?php
