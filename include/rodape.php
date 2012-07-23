@@ -18,18 +18,16 @@ www.softwarepublico.gov.br, ou escreva para a Fundacao do Software Livre Inc., 5
 Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
-<?php
-//array com os menus e seus respectivos links
-$menus = array(
-	'Prestadores' 			=> 'prestadores.php',
-	'Contadores' 			=> 'contadores.php',
-	'Tomadores' 			=> 'tomadores.php',
-	'RPS' 					=> 'rps.php',
-	'Benefícios' 			=> 'beneficios.php',
-	'Perguntas e Respostas' => 'faq.php',
-	'Reclamações' 			=> 'ouvidoria.php',
-	'Notícias'				=> 'noticias.php',
-	'Legislação'			=> 'legislacao.php'
-);
+<!-- footer -->
+<footer>
+<div class=" container_12">
+	<div class="wrapper">
+		<div class="grid_6">
+			<div class="pad2">
+				<span class="text1"><a href="#"></a></span>Copyright &copy; 2012 - Todos os Direitos Reservados
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
 
-?>

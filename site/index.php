@@ -20,36 +20,17 @@ Fith Floor, Boston, MA 02110-1301, USA
 ?>
 <?php
   
-  // arquivo de conex�o com o banco
+  // arquivo de conexão com o banco
   include("../include/conect.php"); 
   
   // arquivo com funcoes uteis
   include("../funcoes/util.php");
   //print("<a href=index.php target=_parent><img src=../img/topos/$TOPO></a>");
-  
 ?>
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>NFSe - Nota Fiscal de Serviço Eletrônica</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width; initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-<script src="js/jquery-1.7.1.min.js"></script>
-<script src="js/script.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<!--[if lt IE 8]>
-   <div style=' clear: both; text-align:center; position: relative;'>
-     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-    </a>
-  </div>
-<![endif]-->
-<!--[if lt IE 9]>
-	<script src="js/html5.js"></script>
-	<link rel="stylesheet" href="css/ie.css"> 
-<![endif]-->
+<? include ("../include/site-head.php"); ?>
 </head>
 <body>
   <?php include("inc/topo.php"); ?>
@@ -68,7 +49,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				<p>
 					Unean auctor wisi eturna aliquam volutpat adipiscing duisac.
 				</p>
-				<a href="#"></a>
+				<a href="prestadores.php"></a>
 			</div>
 		</div>
 		<div class="grid_4">
@@ -81,7 +62,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				<p>
 					Área destinada aos tomadores de serviços para consulta
 				</p>
-				<a href="#"></a>
+				<a href="tomadores.php"></a>
 			</div>
 		</div>
 		<div class="grid_4">
@@ -94,7 +75,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				<p>
 					Unean auctor wisi eturna aliquam volutpat adipiscing duisac.
 				</p>
-				<a href="#"></a>
+				<a href="contadores.php"></a>
 			</div>
 		</div>
 	</div>

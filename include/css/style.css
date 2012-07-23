@@ -58,6 +58,7 @@ section.padcontent5{ padding:48px 0 49px;}
 	.news p{ padding:3px 0 1px 0;}
 	.news em{ color:#444; font-size:12px;}
 .box2{ display:none; background:#fff; border:1px solid #e8e8e8; border-radius:5px; margin:53px 0 0 0; padding:20px 0 20px 26px; position:relative; overflow:hidden;}
+.box3{ background:#fff; border:1px solid #e8e8e8; border-radius:5px; margin:53px 0 0 0; padding:20px 0 20px 26px; position:relative; overflow:hidden; text-align:center;}
 .quotes{ width:615px; height:52px; position:relative; float:left; border-right:1px solid #d7d7d7; padding-top:6px;}
 .quotes blockquote{ font:italic 15px/22px Arial, Helvetica, sans-serif; color:#828387; background: url(../images/quotes.png) 0 3px no-repeat; padding:0 50px 0 64px;}
 	.quotes .flex-control-nav{ position:relative; overflow:hidden; list-style:none; position:absolute; right:19px; bottom:1px;}

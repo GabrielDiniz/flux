@@ -17,32 +17,35 @@ junto com este sistema, se nao, acesse o Portal do Software Publico Brasileiro n
 www.softwarepublico.gov.br, ou escreva para a Fundacao do Software Livre Inc., 51 Franklin St,
 Fith Floor, Boston, MA 02110-1301, USA
 */
+//rawurlencode($CONF_BRASAO);
 ?>
-<?php
-   session_start();	
-  // arquivo de conex�o com o banco
-  include("conect.php"); 
-  
-  // arquivo com funcoes uteis
-  include("../funcoes/util.php");
-  
-  //arquivo com a funcao de logs
-  include("../funcoes/funcao_logs.php");
-  
-  // arquivo com funcoes uteis
-  include("../include/teclado.php");
-
-
-?>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" height="130">
-  <tr>
-    <td width="15%" align="left" valign="middle">
-	<a href="index.php" class="menuTopo">
-		<?php if($CONF_BRASAO){ echo "<img src=../img/brasoes/".rawurlencode($CONF_BRASAO)." height='100' width='100'>";} ?>
-	</a>
-    </td>
-    <td width="85%" align="left" valign="middle">
-	<font class="prefeituraTitulo" color="#FFFFFF" size="-1"><b><?php echo "Prefeitura Municipal de ".$CONF_CIDADE; ?></b></font><br />
-	<font class="secretariaTitulo" color="#FFFFFF" size="+1"><b><?php echo $CONF_SECRETARIA; ?></b></font></td>
-  </tr>
-</table>
+<!-- header -->
+<header>
+<div class="container_12">
+	<div class="grid_12">
+		<h1><a href="index.html">NFSe</a></h1><?= "Prefeitura Municipal de ".$CONF_CIDADE;?>
+		<nav class="main-menu">
+		<ul class="sf-menu">
+			<li class="current"><a href="#"><span>Acesso</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a>
+			<ul>
+				<li><a href="#">Prestadores</a></li>
+				<li><a href="#">Tomadores</a>
+				</li>
+				<li><a href="#">Contadores</a></li>
+				<li><a href="#">Fiscalização</a></li>
+			</ul>
+			</li>
+			<li><a href="#"><span>legislação</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
+			<li><a href="#"><span>Ouvidoria</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
+			<li><a href="#"><span>suporte</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
+		</ul>
+		<div class="clear">
+		</div>
+		</nav>
+		<div class="clear">
+		</div>
+	</div>
+	<div class="clear">
+	</div>
+</div>
+</header>

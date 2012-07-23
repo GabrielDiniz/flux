@@ -19,7 +19,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
 <?php 
-// inicia a sessão verificando se jah esta com o usuario logado, se estiver entra na página admin
+// inicia a sessï¿½o verificando se jah esta com o usuario logado, se estiver entra na pï¿½gina admin
 
 
 session_name("emissor");
@@ -27,59 +27,52 @@ session_start();
 $_SESSION['autenticacao'] = rand(10000,99999);
 
 if(!(isset($_SESSION["empresa"])))
-{   ?>
- 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{  
+	?>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>e-Nota</title>
-<script src="../scripts/padrao.js" language="javascript" type="text/javascript"></script>
-<script src="../scripts/java_site.js" language="javascript" type="text/javascript"></script>
-<link href="../css/padrao_emissor.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" language="javascript" src="../scripts/funcoes_emissor.js"></script>
-</head>
-
-<body>
-<center>
-<table width="700" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tr>
-    <td> <?php include("../include/topo.php"); ?> </td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF" height="400" background="../img/fundos/login.jpg" style="background-repeat:repeat-x">
 	
- 
+	<? include ("../include/site-head.php"); ?>
+ 	<script src=""></script>
+</head>
+<body>
+ <?php include("../include/topo.php"); ?> 
  
 <!-- formulario de login --> 
 <form action="inc/verifica.php" method="post" onsubmit="return verificaCnpjCpfCodigo();ValidaLogin('txtSenha|codseguranca');">
-<table border="0" align="center" cellpadding="0" cellspacing="1">
-    <tr>
-      <td width="10" height="10" bgcolor="#FFFFFF"></td>
-	  <td width="100" align="center" bgcolor="#FFFFFF" rowspan="3">Acesso Restrito</td>
-      <td width="200" bgcolor="#FFFFFF"></td>
-	</tr>
-	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
-	</tr>
-	<tr>
-	  <td height="10" bgcolor="#FFFFFF"></td>
-      <td bgcolor="#FFFFFF"></td>
-	</tr>
-	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
-	</tr>
-	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
 
-    <table border="0" align="center">
-	 <tr> 
-	  <td align="left">
-	    CPF/CNPJ
-	  </td>
+	  <!-- content -->
+<section>
+<div class=" container_12">
+	<div class="wrapper">
+		<div class="grid_6 prefix_3">
+			<div class="box3">
+				
+				<h4>CPF/CNPJ</h4>
+				<p>
+					<input type="text" name="txtLogin" id="txtLogin" size="30" class="texto" onkeyup="CNPJCPFMsk( this )"  onkeydown="return NumbersOnly(event); "/>
+				</p>
+				ou
+				<h4> CÃ³digo</h4>
+				<p>
+					<input type="text" name="txtCodigo" id="txtCodigo" size="30" class="texto" onkeydown="return NumbersOnly(event);" />
+				</p>
+				<br/>
+				<h4> Senha</h4>
+				<p>
+					<input type="text" name="txtCodigo" id="txtCodigo" size="30" class="texto" onkeydown="return NumbersOnly(event);" />
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- 
+	    
+	  
 	  <td>	   	   
-	   <input type="text" name="txtLogin" id="txtLogin" size="30" class="texto" onkeyup="CNPJCPFMsk( this )"  onkeydown="return NumbersOnly(event); "/>
+	   
 	  </td>
 	 </tr>
      <tr> 
@@ -89,10 +82,10 @@ if(!(isset($_SESSION["empresa"])))
 	 </tr>
      <tr> 
 	  <td align="left">
-	    C&oacute;digo
+	   
 	  </td>
 	  <td>	   	   
-	   <input type="text" name="txtCodigo" id="txtCodigo" size="30" class="texto" onkeydown="return NumbersOnly(event);" />
+	   
 	  </td>
 	 </tr>
 	 <tr> 
@@ -127,20 +120,11 @@ if(!(isset($_SESSION["empresa"])))
     	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
 	</tr>
 </table>    
+-->
 </form>  
-<!-- formulario de login Fim -->	 
-	
-	
-	</td>
-  </tr>
-</table>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" background="../img/rodapes/fundo.jpg">
-  <tr>
-    <td align="center"><img src="../img/rodapes/rodape_login.jpg" alt="" /></td>
-  </tr>
-</table>
-</center>
+
+<?php include("../include/rodape.php"); ?>
 
 </body>
 </html>

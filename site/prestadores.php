@@ -20,73 +20,47 @@ Fith Floor, Boston, MA 02110-1301, USA
 ?>
 <?php
   
-  // arquivo de conexão com o banco
+  // arquivo de conexï¿½o com o banco
   include("../include/conect.php"); 
   
   // arquivo com funcoes uteis
   include("../funcoes/util.php");
   //print("<a href=index.php target=_parent><img src=../img/topos/$TOPO></a>");
-  
-?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>e-Nota</title>
-<script src="../scripts/java_site.js" language="javascript" type="text/javascript"></script>
-<script src="../scripts/padrao.js" language="javascript" type="text/javascript"></script>
-<script type="text/javascript" src="js/java.js"></script>
-<script type="text/javascript" src="js/prototype.js"></script>
-<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
-<script type="text/javascript" src="js/lightbox.js"></script>
-<link href="../css/padrao_site.css" rel="stylesheet" type="text/css" />
-</head>
+ 
+ <?  include ("../include/site-head.php");?>
+ </head>
+
 
 <body>
-<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tr>
-    <td><?php include("inc/topo.php"); ?></td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF" valign="top" align="center">
-	
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="170" rowspan="2" align="left" valign="top" background="../img/menus/menu_fundo.jpg"><?php include("inc/menu.php"); ?>
-    </td>
-    <td align="right" valign="top" width="590"><img src="../img/cabecalhos/prestadores.jpg" width="590" height="100" /></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-    
+    <?php include("../include/topo.php"); ?>
+    <div class=" container_12">
+    <div class="wrapper">
     
 <!-- box de conteudos -->
     
+		<div class="grid_7 padRT2">
+			<h2 class="padbot"></h2>
+			 <?php
+			 	if($_POST["txtMenu"])
+					{
+						include("inc/prestadores/".$_POST["txtMenu"].".php");
+					}
+				else {
+					include("inc/prestadores/links.php");
+				
+				} // fim else
+			 ?>   
+			
+			<!--Conteudo -->
+		</div>
+	</div>
+</div>
     
- <?php
- 	if($_POST["txtMenu"])
-		{
-			include("inc/prestadores/".$_POST["txtMenu"].".php");
-		}
-	else {
-		include("inc/prestadores/links.php");
-	
-	} // fim else
- ?>   
- 
-
-    
-    </td>
-  </tr>
-</table>
-
-
-
-	</td>
-  </tr>
-</table>
-<?php include("inc/rodape.php"); ?>
+<?php include("../include/rodape.php"); ?>
 
 </body>
 </html>
