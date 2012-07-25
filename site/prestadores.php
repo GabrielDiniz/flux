@@ -41,19 +41,21 @@ Fith Floor, Boston, MA 02110-1301, USA
     <div class="wrapper">
     
 <!-- box de conteudos -->
-  <?php  include("inc/prestadores/links.php"); ?>
-		<div class="grid_3 padRT2">
-			<h2 class="padbot"></h2>
-			
-			 <?php
-			 	
-			 	if($_POST["txtMenu"])
-					{
-						include("inc/prestadores/".$_POST["txtMenu"].".php");
-					}
-			 ?>   
-			
-			<!--Conteudo -->
+    <?php  include("inc/prestadores/links.php"); ?>
+  		<div>
+			<div class="grid_3 padRT2">
+				<h2 class="padbot"></h2>
+				
+				 <?php
+				 	
+				 	if($_POST["txtMenu"])
+						{
+							include("inc/prestadores/".$_POST["txtMenu"].".php");
+						}
+				 ?>   
+				
+				<!--Conteudo -->
+			</div>
 		</div>
 	</div>
 </div>

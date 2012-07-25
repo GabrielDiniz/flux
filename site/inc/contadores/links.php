@@ -22,78 +22,12 @@ Fith Floor, Boston, MA 02110-1301, USA
 <form name="frmContadoresBox" method="post" action="contadores.php" id="frmContadoresBox">
 	<input type="hidden" name="txtMenu" id="txtMenu" />
 	<input type="hidden" name="txtCNPJ" id="txtCNPJ" />
-
-<table border="0" cellspacing="5" cellpadding="0" align="left">
-  <tr>
-    <td width="190" align="center" valign="top">
-    <!-- quadro da esquerda acima -->
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
-      </tr>
-      <tr>
-        <td height="10" bgcolor="#999999"></td>
-      </tr>
-      <tr>
-        <td height="120" align="left" valign="top" bgcolor="#CCCCCC" style="padding:5px;"><font class="boxTitulo">Acessar Sistema</font><br />
-          <br />          
-                    Contador emissor de NFe, ou prestador de servi&ccedil;o,   acesse todas as funcionalidades do sistema.<br />
-          <br />
-          <div align="center"></div>          </td>
-      </tr>
-      <tr>
-        <td height="1"></td>
-      </tr>
-      <tr>
-        <td height="20" align="left" bgcolor="#859CAD">&nbsp;<img src="../img/box/web.png" width="14" height="14" /> <a href="../contador/index.php" target="_blank">Servi&ccedil;o on-line</a></td>
-      </tr>
-    </table>    </td>
-    <td width="190" align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
-      </tr>
-      <tr>
-        <td height="10" bgcolor="#999999"></td>
-      </tr>
-      <tr>
-        <td height="120" align="left" valign="top" bgcolor="#CCCCCC" style="padding:5px;"><font class="boxTitulo">Cadastro</font><br />
-            <br />
-            Se voc&ecirc; n&atilde;o possui acesso ao sistema, &eacute; necess&aacute;rio realizar o seu cadastramento.<br />
-          <br />
-          <div align="center"></div></td>
-      </tr>
-      <tr>
-        <td height="1"></td>
-      </tr>
-      <tr>
-        <td height="20" align="left" bgcolor="#859CAD">&nbsp;<img src="../img/box/web.png" alt="" width="14" height="14" /><a onclick="document.getElementById('txtMenu').value='cadastro';document.getElementById('frmContadoresBox').submit();" href="#" class="box">Servi&ccedil;o on-line</a></td>
-      </tr>
-    </table>
-	
-	<!-- Quadro do meio acima --></td>
-    <td width="190" align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
-      </tr>
-      <tr>
-        <td height="10" bgcolor="#999999"></td>
-      </tr>
-      <tr>
-        <td height="120" align="left" valign="top" bgcolor="#CCCCCC" style="padding:5px;"><font class="boxTitulo">Consulta</font><br />
-            <br />
-          Consulte se o seu cadastro j&aacute; foi liberado pela Prefeitura Municipal.<br />
-          <br />
-          <div align="center"></div></td>
-      </tr>
-      <tr>
-        <td height="1"></td>
-      </tr>
-      <tr>
-        <td height="20" align="left" bgcolor="#859CAD">&nbsp;<img src="../img/box/web.png" alt="" width="14" height="14" /><a onclick="document.getElementById('txtMenu').value='liberacao';frmContadoresBox.submit();" href="#" class="box">Servi&ccedil;o on-line</a></td>
-      </tr>
-    </table>
-	
-	<!-- quadro direita acima --></td>
-  </tr>   
-    </table>
+	<div class="grid_3 suffix_1">
+			<h2></h2>
+			<ul class="list1">
+				<li><a title="Contador emissor de NFe, ou prestador de serviço, acesse todas as funcionalidades do sistema." href="../contador/index.php">Acessar Sistema</a></li>
+				<li><a title="Se você não possui acesso ao sistema, é necessário realizar o seu cadastramento." onclick="document.getElementById('txtMenu').value='cadastro';document.getElementById('frmContadoresBox').submit();" href="#">Cadastro</a></li>
+				<li><a title="Consulte se o seu cadastro já foi liberado pela Prefeitura Municipal." onclick="document.getElementById('txtMenu').value='liberacao';frmContadoresBox.submit();" href="#">Consulta</a></li>
+			</ul>
+	</div>
 </form>

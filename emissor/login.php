@@ -61,7 +61,7 @@ if(!(isset($_SESSION["empresa"])))
 				<br/>
 				<h4> Senha</h4>
 				<p>
-					<input type="text" name="txtCodigo" id="txtCodigo" size="30" class="texto" onkeydown="return NumbersOnly(event);" />
+					<input type="text" name="txtSenha" id="txtSenha" size="30" class="texto" onkeydown="return NumbersOnly(event);" />
 				</p>
 				<h4> Código de verificação</h4>
 				<p>
@@ -74,57 +74,7 @@ if(!(isset($_SESSION["empresa"])))
 	</div>
 </div>
 </section>
-<!-- 
-	    
-	  
-	  <td>	   	   
-	   
-	  </td>
-	 </tr>
-     <tr> 
-	  <td align="left" colspan="2">
-	    ou
-	  </td>
-	 </tr>
-     <tr> 
-	  <td align="left">
-	   
-	  </td>
-	  <td>	   	   
-	   
-	  </td>
-	 </tr>
-	 <tr> 
-	  <td align="left">
-	    Senha
-	  </td>
-	  <td>	 
-	   <input type="password" name="txtSenha" id="txtSenha" size="30" class="texto" />
-	  </td>
-	 </tr>
-	 <tr valign="baseline"> 
-	  <td style="font-size:9px">
-	    C&oacute;d. Verifica&ccedil;&atilde;o
-	  </td>
-	  <td align="left" >	 
-	   </td>
-	 </tr>
-	 <tr>	 
-	  <td align="center" colspan="2">
-	   
-	  </td>
-	 </tr>
-     <tr>
-      <td align="center" colspan="2"><a href="../site/recuperarsenha.php">Recuperar Senha</a></td>
-     </tr>
-	</table>			
-		</td>
-	</tr>
-	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
-	</tr>
-</table>    
--->
+
 </form>  
 
 

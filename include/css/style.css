@@ -57,6 +57,7 @@ section.padcontent5{ padding:48px 0 49px;}
 	.news img{ float:left; margin:5px 19px 0 0;}
 	.news p{ padding:3px 0 1px 0;}
 	.news em{ color:#444; font-size:12px;}
+.boxbase{background-color: white; float: left; box-shadow: 1px 1px 1px lightGrey; width: 645px; margin-left: -50px; margin-top: 25px; border-radius: 0 5px 5px 0; padding: 7px 18px; padding-bottom: 18px;}
 .box2{ display:none; background:#fff; border:1px solid #e8e8e8; border-radius:5px; margin:53px 0 0 0; padding:20px 0 20px 26px; position:relative; overflow:hidden;}
 .box3{ background:#fff; border:1px solid #e8e8e8; border-radius:5px; margin:53px 0 0 0; padding:20px 0 20px 26px; position:relative; overflow:hidden; text-align:center;}
 .quotes{ width:615px; height:52px; position:relative; float:left; border-right:1px solid #d7d7d7; padding-top:6px;}

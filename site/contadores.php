@@ -36,47 +36,30 @@ Fith Floor, Boston, MA 02110-1301, USA
 </head>
 
 <body>
-    <td><?php include("../include/topo.php"); ?></td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF" valign="top" align="center">
-	
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="170" rowspan="2" align="left" valign="top" background="../img/menus/menu_fundo.jpg"><?php include("inc/menu.php"); ?>
-    </td>
-    <td align="right" valign="top" width="590"><img src="../img/cabecalhos/contadores.jpg" width="590" height="100" /></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
+  <?php include("../include/topo.php"); ?>
+    <div class=" container_12">
+    <div class="wrapper">
     
-    
-<!-- box de conte�dos -->
-    
-    
- <?php
- 	if($_POST["txtMenu"])
-		{
-			include("inc/contadores/".$_POST["txtMenu"].".php");
-		}
-	else {
-		include("inc/contadores/links.php");
-	
-	} // fim else
- ?>   
- 
-
-    
-    </td>
-  </tr>
-</table>
-
-
-
-	</td>
-  </tr>
-</table>
-<?php include("inc/rodape.php"); ?>
+<!-- box de conteudos -->
+  	<?php  include("inc/contadores/links.php"); ?>
+		<div class="boxbase">
+			<div class="grid_3 padRT2">
+				<h2 class="padbot"></h2>
+				
+				 <?php
+				 	
+				 	if($_POST["txtMenu"])
+						{
+							include("inc/contadores/".$_POST["txtMenu"].".php");
+						}
+				 ?>   
+				
+		
+			</div>
+		</div>
+	</div>
+</div>
+<?php include("../include/rodape.php"); ?>
 
 </body>
 </html>
