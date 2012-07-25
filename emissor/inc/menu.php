@@ -26,12 +26,89 @@ $codtipodec = coddeclaracao('Simples Nacional');
 
 if($codtipodeclaracao == $codtipodec){
 	// itens de menu
-	$menu = array("Cadastro","AIDF Eletr鬾ico","Notas Eletr鬾icas"/*,"NF-e Tomadas"*/,"Relat&oacute;rio","Livro Digital","RPS","Contador","Exportar Notas","Ouvidoria","Utilit醨ios","Sair");
-	$links = array("empresas.php","aidf.php","notas.php"/*,"notas_tomadas.php"*/,"relatorio.php","livro.php","importar.php","definir_contador.php","exportar.php","reclamacoes.php","utilitarios.php","logout.php");
+	$menu = array
+	(
+		"Cadastro",
+		"AIDF Eletr么nico",
+		"Notas Eletr么nicas"/*,"NF-e Tomadas"*/,
+		"Relat贸rio",
+		"Livro Digital",
+		"RPS",
+		"Contador",
+		"Exportar Notas",
+		"Ouvidoria",
+		"Sair"
+	);
+	$title = array
+	(
+		"Cadastro",
+		"AIDF Eletr么nico",
+		"Notas Eletr么nicas"/*,"NF-e Tomadas"*/,
+		"Relat贸rio",
+		"Livro Digital",
+		"RPS",
+		"Contador",
+		"Exportar Notas",
+		"Ouvidoria",
+		"Sair"
+	);
+	$links = array
+	(
+		"empresas.php",
+		"aidf.php",
+		"notas.php"/*,"notas_tomadas.php"*/,
+		"relatorio.php",
+		"livro.php",
+		"importar.php",
+		"definir_contador.php",
+		"exportar.php",
+		"reclamacoes.php",
+		"logout.php"
+	);
 }else{
 	// itens de menu
-	$menu = array("Cadastro","AIDF Eletr&ocirc;nico","Notas Eletr&ocirc;nicas"/*,"NF-e Tomadas"*/,"Relat&oacute;rio","Livro Digital","Guia de Pagamento","RPS","Contador","Exportar Notas","Ouvidoria","Utilit&aacute;rios","Sair");
-	$links = array("empresas.php","aidf.php","notas.php"/*,"notas_tomadas.php"*/,"relatorio.php","livro.php","pagamento.php","importar.php","definir_contador.php","exportar.php","reclamacoes.php","utilitarios.php","logout.php");
+	$menu = array
+	(
+		"Cadastro",
+		"AIDF Eletr&ocirc;nico",
+		"Notas Eletr&ocirc;nicas"/*,"NF-e Tomadas"*/,
+		"Relat&oacute;rio",
+		"Livro Digital",
+		"Guia de Pagamento",
+		"RPS",
+		"Contador",
+		"Exportar Notas",
+		"Ouvidoria",
+		"Sair"
+	);
+	$title = array
+	(
+		"Cadastro",
+		"AIDF Eletr&ocirc;nico",
+		"Notas Eletr&ocirc;nicas"/*,"NF-e Tomadas"*/,
+		"Relat&oacute;rio",
+		"Livro Digital",
+		"Guia de Pagamento",
+		"RPS",
+		"Contador",
+		"Exportar Notas",
+		"Ouvidoria",
+		"Sair"
+	);
+	$links = array
+	(
+		"empresas.php",
+		"aidf.php",
+		"notas.php"/*,"notas_tomadas.php"*/,
+		"relatorio.php",
+		"livro.php",
+		"pagamento.php",
+		"importar.php",
+		"definir_contador.php",
+		"exportar.php",
+		"reclamacoes.php",
+		"logout.php"
+	);
 }
 // contador do vetor
 $cont = count($menu);
@@ -39,26 +116,17 @@ $cont = count($menu);
 $aux = 0;
 
 ?>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-<?php
-// lista itens de menu
-while($aux < $cont) {
-	// imprime html
-	
-?>
-  <tr>
-    <td height="20" class="menu">
-		<?php 
-			print(" <a class=\"menu\" href=$links[$aux] target=_parent>&nbsp;$menu[$aux]</a>"); 
+<div class="grid_3 suffix_1">
+	<h2></h2>
+	<ul class="list1">
+		<?php
+		// lista itens de menu
+		while($aux < $cont) {
+			// imprime html
+			echo "<li><a title=\"{$title[$aux]}\" href=\"{$links[$aux]}\">{$menu[$aux]}</a></li>"; 
+			$aux++;
+		}
 		?>
-	</td>
-  </tr>
-  <tr>
-    <td height="1" bgcolor="#CCCCCC"></td>
-  </tr>
-<?php
-	$aux++;
-// fecha while
-}
-?>
-</table>
+	</ul>
+</div>
+

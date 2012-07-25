@@ -34,7 +34,7 @@ if(!(isset($_SESSION["empresa"])))
 <head>
 	
 	<? include ("../include/site-head.php"); ?>
- 	<script src=""></script>
+ 	<script type="text/javascript" language="javascript" src="../scripts/funcoes_emissor.js"></script>
 </head>
 <body>
  <?php include("../include/topo.php"); ?> 
@@ -61,7 +61,7 @@ if(!(isset($_SESSION["empresa"])))
 				<br/>
 				<h4> Senha</h4>
 				<p>
-					<input type="text" name="txtSenha" id="txtSenha" size="30" class="texto" onkeydown="return NumbersOnly(event);" />
+					<input type="password" name="txtSenha" id="txtSenha" size="30" class="texto" />
 				</p>
 				<h4> Código de verificação</h4>
 				<p>

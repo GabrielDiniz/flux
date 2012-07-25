@@ -27,20 +27,63 @@ if(isset($_SESSION["logado"]))
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>SEP - Sistema Eletr&ocirc;nico de Prefeitura v1.0</title>
+<title>NFSe - Nota Fiscal de Serviço Eletrônica</title>
 <link href="css/padrao.css" rel="stylesheet" type="text/css">
 <link href="css/menu.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/jquery.tabs.css" type="text/css" media="print, projection, screen">
 <link type="text/css" href="css/dark-hive/jquery-ui-1.8.2.custom.css" rel="stylesheet" />	
 <?php include("scripts.php");?>
+
+
+
+<meta content="width=device-width; initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="../include/css/style.css" type="text/css" media="screen">
+<script src="../include/js/jquery-1.7.1.min.js"></script>
+<script src="../include/js/script.js"></script>
+<script src="../include/js/superfish.js"></script>
+<script src="../include/js/jquery.easing.1.3.js"></script>
+<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="../include/js/html5.js"></script>
+	<link rel="stylesheet" href="../include/css/ie.css"> 
+<![endif]-->
 </head>
-<body class="principal">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="left" valign="middle" bgcolor="#3c5c72" background="img/form/bg.png">
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body >
+<header>
+<div class="container_12">
+	<div class="grid_12">
+		<h1 class="sep-logo"><a href="#">NFSe</a></h1>
+		<nav class="main-menu">
+		<ul class="sf-menu">
 	<?php include("inc/menu.php"); ?>
-	</td>
-  </tr>
+</ul></nav>
+</div></div>
+</header>
+<section>
+<div class=" container_12">
+	<div class="wrapper">
+    <div class="grid_12">
+			<div class="box2">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  
   <tr>
   
     <td align="left" valign="top">	
@@ -71,7 +114,18 @@ if(isset($_SESSION["logado"]))
 	</td>
   </tr>
 </table>
-
+</div></div></div></div></section>
+<footer>
+<div class=" container_12">
+	<div class="wrapper">
+		<div class="grid_6">
+			<div class="pad2">
+				<span class="text1"><a href="#"></a></span>Copyright &copy 2012 - Todos os Direitos Reservados
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
 </body>
 </html>
 

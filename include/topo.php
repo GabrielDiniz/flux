@@ -19,6 +19,19 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 //rawurlencode($CONF_BRASAO);
 ?>
+<?    session_start();	
+  // arquivo de conexão com o banco
+  include_once("conect.php"); 
+  
+  // arquivo com funcoes uteis
+  include_once("../funcoes/util.php");
+  
+  //arquivo com a funcao de logs
+  include_once("../funcoes/funcao_logs.php");
+  
+  // arquivo com funcoes uteis
+ // include_once("../include/teclado.php");
+?>
 <!-- header -->
 <header>
 <div class="container_12">

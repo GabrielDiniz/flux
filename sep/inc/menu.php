@@ -77,19 +77,17 @@ if(!$_GET['m']){
 			
 				$menu_content[$cont_menu][] = "['$submenu',\"javascript:chamaForm('$menulink','$submenulink');\"]";
             
-			/*	<li><a  class="submenua" id="submenua" onClick="chamaForm('<?php echo $menulink; ?>','<?php echo $submenulink; ?>')"><?php echo $submenu; ?></a></li>
-			*/
-				
+			
             } // fim while submenus       
             echo implode(',',$menu_content[$cont_menu])."];</script>";
-            ?>
-            <a href="#" class="menuanchorclass menua" 	rel="menu_content<?php echo $cont_menu?>[mouseover]" rev="up"><?php echo $menu;?></a>
+            ?><li>
+            <a href="#" class="menuanchorclass menua" 	rel="menu_content<?php echo $cont_menu?>[mouseover]" rev="up"><span><?php echo $menu;?></span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
 			<?php
 		}//end if
 		$cont_menu++;
 	} // fim while
 ?>
-<a href="logout.php" class="menua">Sair</a>
+<li><a href="logout.php"><span> Sair </span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
 
 <form method="post" name="frmMenu" id="frmMenu">
 	<input type="hidden" name="include" id="include" />
@@ -120,7 +118,7 @@ if(!$_GET['m']){
 		<li><a class="menua" href="principal.php" target="_parent"><?php echo $menu; ?></a>
         	<ul>
 			<?php
-			//Verifica o nivel de permissï¿½o do usuario
+			//Verifica o nivel de permissição do usuario
 			$string = "";
 			if($_SESSION['nivel_de_acesso'] == "M"){
 				$string = " AND menus_prefeitura_submenus.nivel <> 'A'";
@@ -142,7 +140,7 @@ if(!$_GET['m']){
 		}//end if
 	} // fim while
 ?>
-	<li><a class="menua" href="logout.php">Sair</a></li>
+	<li><a class="menua" href="logout.php"><span> Sair </span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
 </ul>
 
 <form method="post" name="frmMenu" id="frmMenu">
