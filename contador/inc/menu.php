@@ -41,8 +41,6 @@
 			"Livro Digital"     => "livro.php",
 			"RPS" 				=> "importar.php",
 			"Exportar Notas" 	=> "exportar.php",
-			"Ouvidoria" 		=> "reclamacoes.php",
-			"Utilit&aacute;rios"	 	=> "utilitarios.php",
 			"Contador Simples"  => "contador_simples.php",
 			"Sair" 				=> "logout.php"
 		);
@@ -57,8 +55,6 @@
 			"Guia de Pagamento" => "pagamento.php",
 			"RPS" 				=> "importar.php",
 			"Exportar Notas" 	=> "exportar.php",
-			"Ouvidoria" 		=> "reclamacoes.php",
-			"Utilit&aacute;rios"	 	=> "utilitarios.php",
 			"Contador Simples"  => "contador_simples.php",
 			"Sair" 				=> "logout.php"
 		);
@@ -68,30 +64,22 @@
 			"Cadastro" 			=> "empresas.php",
 			"AIDF Eletr&ocirc;nico" 	=> "aidf.php",
 			"Notas Eletr&ocirc;nicas" => "notas.php",
-			/*"NF-e Tomadas"      => "notas_tomadas.php",*/
 			"Livro Digital"     => "livro.php",
 			"Guia de Pagamento" => "pagamento.php",
 			"RPS"		 		=> "importar.php",
 			"Exportar Notas" 	=> "exportar.php",
-			"Ouvidoria" 		=> "reclamacoes.php",
-			"Utilit&aacute;rios"	 	=> "utilitarios.php",
 			"Sair" 				=> "logout.php"
 		);
 	}
 	?>
-	
-	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<div class="grid_3 suffix_1">
+	<h2></h2>
+	<ul class="list1">
 		<?php
 	// lista itens de menu
 	foreach($menus as $menu => $link){
-	?>
-		<tr>
-			<td height="20" class="menu"><?php print(" <a class=\"menu\" href='$link' target='_parent'>&nbsp;$menu</a>"); ?></td>
-		</tr>
-		<tr>
-			<td height="1" bgcolor="#CCCCCC"></td>
-		</tr>
-		<?php
+		print("<li> <a  href='$link' target='_parent'>&nbsp;$menu</a></li>"); 
 	}
 	?>
-	</table>
+</ul>
+</div>

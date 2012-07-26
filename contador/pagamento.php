@@ -19,7 +19,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
 <?php 
-// inicia a sessão verificando se jah esta com o usuario logado, se estiver entra na página admin
+// inicia a sessï¿½o verificando se jah esta com o usuario logado, se estiver entra na pï¿½gina admin
 session_name("contador");
 session_start();
 if(!(isset($_SESSION["empresa"])))
@@ -35,55 +35,32 @@ if(!(isset($_SESSION["empresa"])))
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>e-Nota</title>
 <script language="javascript" src="../scripts/java_contador.js" type="text/javascript"></script>
 <?php // include("scripts/java.php")?>
 <link href="../css/padrao_contador.css" rel="stylesheet" type="text/css" />
 <script language="javascript" src="../scripts/java_site.js" ></script>
 <script language="javascript" src="../scripts/padrao.js" ></script>
+<? include '../include/site-head.php'; ?>
 </head>
 
 <body>
-<center>
-<table width="700" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tr>
-    <td><?php include("../include/topo.php"); ?></td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF" height="400" valign="top" align="center">
-	
-<!-- frame central inicio --> 	
-<table border="0" cellspacing="0" cellpadding="0" height="100%" align="center">
-  <tr>
-    <td width="170" align="left" background="../img/menus/menu_fundo.jpg" valign="top"><?php include("inc/menu.php"); ?></td>
-    <td width="590"bgcolor="#FFFFFF" valign="top">
-    <img src="../img/cabecalhos/guia.jpg" />
-
-<!-- frame central lateral direita inicio -->	
-	
-<?php include("inc/pagamento_principal.php"); ?>	
-	
-	
-
-
-<!-- frame central lateral direita fim -->	
-	</td>
-  </tr>
-</table>
-
-
-<!-- frame central fim --> 	
-	</td>
-  </tr>
-  <tr>
-    <td><?php include("inc/rodape.php"); ?></td>
-  </tr>
-</table>
-</center>
-
+	<?php include("../include/topo.php"); ?>
+	<section> 
+	<div class=" container_12">
+    	<div class="wrapper">
+			<?php include("inc/menu.php"); ?>
+			<div class="boxbase">
+				<?php include("inc/pagamento_principal.php"); ?>
+			</div>
+		</div>
+	</div>	
+	</section>	
+	<?php include("../include/rodape.php"); ?>
 </body>
 </html>
+
 <?php }
 
 if($_POST["btBoleto"]){			

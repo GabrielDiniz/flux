@@ -33,14 +33,10 @@ if($_POST["btBoleto"] == "Boleto"){
 	$sql_configuracoes = mysql_query("SELECT codigo, endereco, cidade, estado, cnpj, email, secretaria, secretario, chefetributos, lei, decreto, topo_nfe, logo_nfe, brasao_nfe, codlayout, taxacorrecao, taxamulta, taxajuros, data_tributacao, declaracoes_atrazadas, gerar_guia_site FROM configuracoes");
 	list($codigo,$endereco,$cidade,$estado,$cnpj,$email,$secretaria,$secretario,$chefetributos,$lei,$decreto,$topo,$logo,$brasao,$layout,$taxacorrecao,$taxamulta,$taxajuros,$data_tributacao,$declaracoes_atrazadas,$gerar_guia_site) = mysql_fetch_array($sql_configuracoes);
 ?>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0">
+ 
   <tr>
-    <td width="18" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
-    <td width="700" background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho">&nbsp;Utilit&aacute;rios - Configurações</td>  
-    <td width="19" align="right" valign="top" background="img/form/cabecalho_fundo.jpg"><a href=""><img src="img/form/cabecalho_btfechar.jpg" width="19" height="21" border="0" /></a></td>
-  </tr>
-  <tr>
-    <td width="18" background="img/form/lateralesq.jpg"></td>
+   
     <td align="center">
 		<form method="post" id="frmConfiguracoes" enctype="multipart/form-data">
 			<input name="include" id="include" type="hidden" value="<?php echo $_POST["include"];?>" />
@@ -161,13 +157,9 @@ if($_POST["btBoleto"] == "Boleto"){
 			</fieldset>
 		</form>
 		</td>
-	<td width="19" background="img/form/lateraldir.jpg"></td>
+	
   </tr>
-  <tr>
-    <td align="left" background="img/form/rodape_fundo.jpg"><img src="img/form/rodape_cantoesq.jpg" /></td>
-    <td background="img/form/rodape_fundo.jpg"></td>
-    <td align="right" background="img/form/rodape_fundo.jpg"><img src="img/form/rodape_cantodir.jpg" /></td>
-  </tr>
+  
 </table>
 <?php 
 }

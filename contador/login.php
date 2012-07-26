@@ -57,7 +57,7 @@ if(!(isset($_SESSION["empresa"])))
 				
 				<h4> Senha</h4>
 				<p>
-					<input type="text" name="txtSenha" id="txtSenha" size="30" class="texto" />
+					<input type="password" name="txtSenha" id="txtSenha" size="30" class="texto" />
 				</p>
 				<h4> Código de verificação</h4>
 				<p>

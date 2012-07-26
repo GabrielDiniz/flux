@@ -37,7 +37,7 @@ if(!(isset($_SESSION["empresa"])))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
 <title>e-Nota</title><script src="../scripts/padrao.js" language="javascript" type="text/javascript"></script>
-<!-- <link href="../css/padrao_emissor.css" rel="stylesheet" type="text/css" /> -->
+<link href="../css/padrao_emissor.css" rel="stylesheet" type="text/css" />
 <? include '../include/site-head.php'; ?>
 </head>
 

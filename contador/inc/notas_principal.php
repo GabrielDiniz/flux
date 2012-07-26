@@ -32,7 +32,6 @@ Fith Floor, Boston, MA 02110-1301, USA
 <?php 
     //$btInserir = $_POST['btInserir'];
     //$btPesquisar = $_POST['btPesquisar'];
-	
     if($_POST['btCancel']){
         include("inc/notas_cancelar.php");
         $btPesquisar='T';
@@ -45,6 +44,12 @@ Fith Floor, Boston, MA 02110-1301, USA
         }
 
     }
-    if($btPropria!=""){include("inc/notas_propria.php");}
-    if($btEmpresa!=""){include("inc/notas_empresa.php");}
+    if($_POST['btPropria'] != "" || $_GET['btPropria'] != "")
+    {
+    	include("inc/notas_propria.php");
+    }
+    if($_POST['btEmpresa'] != "" || $_GET['btEmpresa'] != "")
+    {
+    	include("inc/notas_empresa.php");
+    }
 ?>

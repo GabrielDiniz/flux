@@ -19,7 +19,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
 <?php 
-// inicia a sessão verificando se jah esta com o usuario logado, se estiver entra na página admin
+// inicia a sessï¿½o verificando se jah esta com o usuario logado, se estiver entra na pï¿½gina admin
 session_name("contador");
 session_start();
 if(!(isset($_SESSION["empresa"])))
@@ -35,29 +35,22 @@ if(!(isset($_SESSION["empresa"])))
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>e-Nota</title><script src="../scripts/padrao.js" language="javascript" type="text/javascript"></script>
 <script src="../scripts/java_emissor_contador.js" language="javascript" type="text/javascript"></script>
 <?php// include("scripts/java.php")?>
 <link href="../css/padrao_emissor.css" rel="stylesheet" type="text/css" />
+<? include '../include/site-head.php'; ?>
 </head>
 
 <body>
-<center>
-<form method="post">
-<table width="700" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tr>
-    <td><?php include("../include/topo.php"); ?></td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF" height="400" valign="top" align="center">
-	
-<!-- frame central inicio --> 	
-<table border="0" cellspacing="0" cellpadding="0" height="100%">
-  <tr>
-    <td width="170" align="left" background="../img/menus/menu_fundo.jpg" valign="top"><?php include("inc/menu.php"); ?></td>
-    <td width="510"bgcolor="#FFFFFF" valign="top">
-    <img src="../img/cabecalhos/importarrps.jpg" />
+	<?php include("../include/topo.php"); ?>
+	<section> 
+	<div class=" container_12">
+    	<div class="wrapper">
+			<?php include("inc/menu.php"); ?>
+			<div class="boxbase">
+				
 
 <!-- frame central lateral direita inicio -->	
 <table border="0" align="center" cellpadding="0" cellspacing="1">
@@ -136,22 +129,12 @@ if(!(isset($_SESSION["empresa"])))
 			include("inc/importar_principal.php"); 
 		}
 	?>	
-	
-<!-- frame central lateral direita fim -->	
-	</td>
-  </tr>
-</table>
 
-
-<!-- frame central fim --> 	
-	</td>
-  </tr>
-  <tr>
-    <td><?php include("inc/rodape.php"); ?></td>
-  </tr>
-</table>
-</center>
-
+			</div>
+		</div>
+	</div>	
+	</section>	
+	<?php include("../include/rodape.php"); ?>
 </body>
 </html>
 <?php }?>
