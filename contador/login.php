@@ -19,7 +19,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
 <?php 
-// inicia a sess�o verificando se jah esta com o usuario logado, se estiver entra na p�gina admin
+// inicia a sessï¿½o verificando se jah esta com o usuario logado, se estiver entra na pï¿½gina admin
 session_name("contador");
 session_start();
 $_SESSION['autenticacao'] = rand(10000,99999);
@@ -29,6 +29,10 @@ if(!(isset($_SESSION["empresa"])))
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<script src="../scripts/padrao.js" language="javascript" type="text/javascript"></script>
+<script src="../scripts/java_site.js" language="javascript" type="text/javascript"></script>
+<link href="../css/padrao_emissor.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="javascript" src="../scripts/funcoes_emissor.js"></script>
 	
 	<? include ("../include/site-head.php"); ?>
  	<script src=""></script>
@@ -53,7 +57,7 @@ if(!(isset($_SESSION["empresa"])))
 				
 				<h4> Senha</h4>
 				<p>
-					<input type="text" name="txtSenha" id="txtSenha" size="30" class="texto" onkeydown="return NumbersOnly(event);" />
+					<input type="text" name="txtSenha" id="txtSenha" size="30" class="texto" />
 				</p>
 				<h4> Código de verificação</h4>
 				<p>

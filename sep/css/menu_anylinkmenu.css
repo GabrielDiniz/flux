@@ -42,7 +42,7 @@ padding: 0;
 }
 
 /* ######### Alternate multi-column class for drop down menus ######### */
-
+.anylinkshadow{display: none;}
 
 .anylinkmenucols{
 position: absolute;

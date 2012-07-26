@@ -82,11 +82,7 @@ if(isset($_SESSION["logado"]))
 	<div class="wrapper">
     <div class="grid_12">
 			<div class="box2">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  
-  <tr>
-  
-    <td align="left" valign="top">	
+
     <?php
 	if($_GET['d']){
 		if(substr($_GET['d'],0,6)== 'janela'){
@@ -110,10 +106,12 @@ if(isset($_SESSION["logado"]))
 	
  		include($_POST['include']);
 	}
+	else
+	{
+	
 	?>	
-	</td>
-  </tr>
-</table>
+    <img src="../include/images/logo.png">
+	<?}?>
 </div></div></div></div></section>
 <footer>
 <div class=" container_12">

@@ -32,6 +32,12 @@ Fith Floor, Boston, MA 02110-1301, USA
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<script type="text/javascript" src="../scripts/java_site.js" language="javascript"></script>
+<script type="text/javascript" src="../scripts/padrao.js"></script>
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+<script type="text/javascript" src="../scripts/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="../scripts/lightbox/lightbox.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/padrao_site.css" />
 <? include '../include/site-head.php'; ?>
 </head>
 

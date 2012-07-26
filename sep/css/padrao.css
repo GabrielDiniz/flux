@@ -48,24 +48,14 @@ div.imprimirPaisagem {
 	padding: 0px;
 }
 .formulario {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 8pt;
-	color: #000000;
-	background-color:#CCCCCC;
-	margin: 0px;
-	padding: 0px;
+	
 }
 td {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 8pt;
 }
 input.texto {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 8pt;
-	font-style:normal;
-	color: #333333;
-	height: 20px;
-	border:solid #000000 1px;
+	padding: 0 !important;
 }
 input.botao {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
@@ -141,32 +131,23 @@ input#btGestao{
 	background: #fff url("../img/gestao.jpg");
 }
 .formCabecalho{
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:8pt;
-	color:#FFFFFF;
-	font-weight:bold;
+
 
 }
 table.form{
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:8pt;
-	color: #CCCCCC;
-	font-weight:normal;
-	background-color:#CCCCCC;
+	
 
 }
 img {
 	border:0px;
 }
 a:link {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 8pt;
+font-size: 100%;
 	color: #000000;
 	text-decoration: none;
 }
 a:visited {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 8pt;
+
 	color: #000000;
 	text-decoration: none;
 }
