@@ -21,22 +21,14 @@ Fith Floor, Boston, MA 02110-1301, USA
 <style type="text/css" media="all">
 <!--
 	#divBuscaPrestador {
-		position:absolute;
-		left:40%;
-		top:20%;
-		width:298px;
-		height:276px;
-		z-index:1;
+		position:fixed;
+	
 	 visibility:<?php if(isset($btBuscarPrestador)) { echo"visible"; }else { echo"hidden";}?>
 	}
 	
 	#divBuscaContador {
 		position:absolute;
-		left:40%;
-		top:20%;
-		width:298px;
-		height:276px;
-		z-index:1;
+	
 	 visibility:<?php if(isset($btBuscarContador)) { echo"visible"; }else { echo"hidden"; }?>
 	}
 	

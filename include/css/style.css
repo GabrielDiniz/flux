@@ -12,6 +12,24 @@ h1,h2,h3,h4,h5,h6{line-height:1.2em;color:#444; font-weight:normal; font-family:
 h1{font-size:30px;}
 h2{font-size:26px; padding-bottom:24px;}
 h3{font-size:18px; text-transform:uppercase; letter-spacing:2px;} 
+/*SEP */
+
+#draggable { box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25), 0 0 3px white inset;
+    padding: 25px 20px;
+    z-index: 2000;}
+#divBuscaPrestador {
+    left: 40%;
+    position: fixed;
+    top: 20%;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
 
 /* Global Structure---------------------------------------- */
 img{ max-width:100%; height:auto;}
