@@ -29,18 +29,18 @@ Fith Floor, Boston, MA 02110-1301, USA
 	  	<td width="405" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-      <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+      <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
 	  <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
         <form method="post" name="frmCNPJ">
     		<input type="hidden" value="<?php echo $_POST['txtMenu'];?>" name="txtMenu">
 	            <table width="98%" height="100%" border="0" align="center" cellpadding="5" cellspacing="0">
@@ -61,7 +61,7 @@ Fith Floor, Boston, MA 02110-1301, USA
         </td>	
     </tr>
     <tr>
-        <td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+        <td height="1" colspan="3" ></td>
     </tr>
 </table> 
 
@@ -119,21 +119,21 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<td width="30%" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td height="1" bgcolor="#CCCCCC"></td>
-		<td bgcolor="#CCCCCC"></td>
+		<td height="1" ></td>
+		<td ></td>
 	</tr>
 	<tr>
 		<td height="10" bgcolor="#FFFFFF"></td>
 		<td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
 			<form method="post" id="frmCadastroInst" action="inc/dec/inserir.php">
 				<input type="hidden" name="include" id="include" value="<?php echo  $_POST['include'];?>" />
-                    <table width="98%" height="100%" border="0" bgcolor="#CCCCCC" align="center" cellpadding="1" cellspacing="2">
+                    <table width="98%" height="100%" border="0"  align="center" cellpadding="1" cellspacing="2">
                         <tr>
                             <td colspan="4" height="5"></td>
                         </tr>
@@ -218,7 +218,7 @@ Fith Floor, Boston, MA 02110-1301, USA
         </td>	
 	</tr>
 	<tr>
-        <td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+        <td height="1" colspan="3" ></td>
 	</tr>
 </table>
 

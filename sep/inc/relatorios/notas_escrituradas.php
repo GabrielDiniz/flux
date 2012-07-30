@@ -63,7 +63,7 @@ Esta é uma tradução não oficial em português da Licença Pública Geral GNU
 		else $nome_prestador = $prestador['razaosocial'];
 	}
 ?>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
   
   <tr>
     

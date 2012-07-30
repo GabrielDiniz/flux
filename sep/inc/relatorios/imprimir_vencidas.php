@@ -182,7 +182,7 @@ Fith Floor, Boston, MA 02110-1301, USA
                     if(mysql_num_rows($sql) > 0){
                         ?>
                             <table width="95%" border="2" cellspacing="0" class="tabela">
-                                <tr bgcolor="#CCCCCC">
+                                <tr >
                                     <td align="center">Prestador</td>
                                     <td align="center">CNPJ/CPF</td>
                                     <td align="center">Tomador</td>

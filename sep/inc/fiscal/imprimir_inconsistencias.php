@@ -117,7 +117,7 @@ if(!$codprestador){
 		?>
 		<center><strong>Foram encontrado(s) <?php echo mysql_num_rows($sql_lista);?> resultado(s)</strong></center>
 		<table width="95%" border="2" cellspacing="0" class="tabela">
-			<tr bgcolor="#999999">
+			<tr >
 				<td width="4%" align="center">CNPJ</td>
 				<td width="33%" align="center">Emissor</td>
 				<?php 
@@ -282,7 +282,7 @@ if(!$codprestador){
 	?>
 	<center><strong>Foram encontrado(s) <?php echo mysql_num_rows($sql_lista);?> resultado(s)</strong></center>
 	<table width="95%" border="2" cellspacing="0" class="tabela">
-		<tr bgcolor="#999999">
+		<tr >
 			<td width="11%" align="center">CNPJ</td>
 			<td width="38%" align="center">Emissor</td>
 			<td width="6%" align="center">Data</td>

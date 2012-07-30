@@ -63,18 +63,18 @@ function atualizacreditos(valormaximo,valortotal){
 	        <td width="70%" bgcolor="#FFFFFF"></td>
 	    </tr>
 		<tr>
-		  <td height="1" bgcolor="#CCCCCC"></td>
-	      <td bgcolor="#CCCCCC"></td>
+		  <td height="1" ></td>
+	      <td ></td>
 		</tr>
 		<tr>
 		  <td height="10" bgcolor="#FFFFFF"></td>
 	      <td bgcolor="#FFFFFF"></td>
 		</tr>
 		<tr>
-			<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+			<td colspan="3" height="1" ></td>
 		</tr>
 		<tr>
-			<td height="60" colspan="3" bgcolor="#CCCCCC">
+			<td height="60" colspan="3" >
                 <table width="99%" border="0" align="center" cellpadding="5" cellspacing="0">
                     <tr>
                         <td width="30%" align="left">Tomador CPF/CNPJ<font color="#FF0000">*</font></td>
@@ -89,12 +89,12 @@ function atualizacreditos(valormaximo,valortotal){
                     </tr>
                 </table>
 		        <tr>
-            <td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+            <td height="1" colspan="3" ></td>
         </tr>
 	</table>
     <table width="580" border="0" cellpadding="0" cellspacing="1">
     	<tr>
-    		<td bgcolor="#CCCCCC"><div id="divUsarCreditos"></div></td>
+    		<td ><div id="divUsarCreditos"></div></td>
         </tr>
     </table>
 </form>

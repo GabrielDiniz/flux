@@ -54,15 +54,15 @@ function AbrirGuias(ano, mes){
         <td width="55%" bgcolor="#FFFFFF"></td>
     </tr>
     <tr>
-        <td height="1" bgcolor="#CCCCCC"></td>
-        <td bgcolor="#CCCCCC"></td>
+        <td height="1" ></td>
+        <td ></td>
 	</tr>
 	<tr>
         <td height="10" bgcolor="#FFFFFF"></td>
         <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<?php
     $qryano=mysql_query("SELECT DISTINCT SUBSTRING(periodo,1,4) FROM livro WHERE codcadastro='{$dados['codigo']}' AND estado='N'");
@@ -77,7 +77,7 @@ function AbrirGuias(ano, mes){
     $codcript=base64_encode('des');
     ?>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC" align="center">
+		<td height="60" colspan="3"  align="center">
 			<p align="center">Escolha o per&iacute;odo da compet&ecirc;ncia e o tipo</p>				
 			<form method="post" id="frmPeriodo">
 				<input type="hidden" name="txtMenu" value="guia_pagamento" />
@@ -122,7 +122,7 @@ function AbrirGuias(ano, mes){
 	}else{
 		?>
 		<tr>
-			<td height="60" colspan="3" bgcolor="#CCCCCC" align="center">Nenhum livro fechado ou guias j&aacute; emitidas.</td>
+			<td height="60" colspan="3"  align="center">Nenhum livro fechado ou guias j&aacute; emitidas.</td>
         </tr>
 		<?php
 	} ?>

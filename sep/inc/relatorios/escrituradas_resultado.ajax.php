@@ -74,13 +74,13 @@ if (mysql_num_rows($sql) < 1) {
 	?>
 		<table width="100%" border="0" cellspacing="2" cellpadding="2">
 			<tr>
-                <td bgcolor="#999999" align="center">Emissor</td>
-				<td bgcolor="#999999" align="center">N&ordm;</td>
-				<td bgcolor="#999999" align="center">Data de emiss&atilde;o</td>
-				<td bgcolor="#999999" align="center">CNPJ/CPF Tomador</td>
-				<td bgcolor="#999999" align="center">Tomador</td>
-				<td bgcolor="#999999" align="center">Valor</td>
-				<td bgcolor="#999999" align="center">Iss</td>
+                <td  align="center">Emissor</td>
+				<td  align="center">N&ordm;</td>
+				<td  align="center">Data de emiss&atilde;o</td>
+				<td  align="center">CNPJ/CPF Tomador</td>
+				<td  align="center">Tomador</td>
+				<td  align="center">Valor</td>
+				<td  align="center">Iss</td>
 			</tr>
 			<?php
 			while ($dados = mysql_fetch_array($sql)){

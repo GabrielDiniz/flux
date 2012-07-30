@@ -104,10 +104,10 @@ if(mysql_num_rows($sql_infos_prestador)){
 	?>
 	<table width="100%" style="border:1px solid #000000">
 		<tr>
-			<td align="left" bgcolor="#999999" style="border-bottom:1px solid #000; border-right:1px solid #000">Serviço <?php echo $cont+1;?></td>
+			<td align="left"  style="border-bottom:1px solid #000; border-right:1px solid #000">Serviço <?php echo $cont+1;?></td>
 			<td align="left" colspan="4"></td>
 		</tr>
-		<tr bgcolor="#999999">
+		<tr >
 			<td align="center"><strong>Atividade</strong></td>
 			<td align="center"><strong>B. cálculo</strong></td>
 			<td align="center"><strong>Aliq.</strong></td>
@@ -186,7 +186,7 @@ if(mysql_num_rows($sql_infos_prestador)){
 	?>
 	<table width="100%" style="border:1px solid #000000">
 		<tr>
-			<td align="left" colspan="4" bgcolor="#999999" style="border-bottom:1px solid #000; border-right:1px solid #000">Total nota</td>
+			<td align="left" colspan="4"  style="border-bottom:1px solid #000; border-right:1px solid #000">Total nota</td>
 		</tr>
 		<tr>
 			<td width="19%" align="left"><strong>ISS: </strong></td>

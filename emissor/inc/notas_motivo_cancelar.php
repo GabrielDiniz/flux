@@ -22,7 +22,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	//recebe o codigo que veio por get
 	$codigo = $_GET['hdcod'];
 ?>
-	<table width="100%" bgcolor="#CCCCCC">
+	<table width="100%" >
 		<tr>
 			<td align="center">Informe o motivo do cancelamento da nota</td>
 		</tr>

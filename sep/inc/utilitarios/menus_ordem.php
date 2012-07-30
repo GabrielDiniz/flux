@@ -90,7 +90,7 @@ $sql = mysql_query("
 			</td>
 		</tr>
 		<tr id="conteudoTd<?php echo $cont;?>">
-			<td id="tdMenus<?php echo $cont;?>" colspan="3" bgcolor="#999999"></td>
+			<td id="tdMenus<?php echo $cont;?>" colspan="3" ></td>
 		</tr>
 		<?php
 		$cont++;

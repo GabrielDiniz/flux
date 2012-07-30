@@ -170,7 +170,7 @@ $nfe = verificacampo($nfe);
 <br>
 <table width="700" border="1" align="center" cellpadding="0" cellspacing="0" class="tabela">
   <tr>
-    <td colspan="2" bgcolor="#999999"><div align="center"><strong>Dados Cadastrais </strong></div></td>
+    <td colspan="2" ><div align="center"><strong>Dados Cadastrais </strong></div></td>
   </tr>
   <tr><?php // comeca a disposicao dos dados na tela em uma tabela em forma de relatorio  
   ?>

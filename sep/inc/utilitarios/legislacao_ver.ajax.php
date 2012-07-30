@@ -44,7 +44,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	if($result>0){
 ?>
 	<table width="100%">
-		<tr bgcolor="#999999">
+		<tr >
 			<td width="32%" align="center">Titulo</td>
 			<td width="11%" align="center">Data</td>
 			<td width="30%" align="center">Texto</td>

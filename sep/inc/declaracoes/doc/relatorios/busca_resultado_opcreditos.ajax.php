@@ -79,7 +79,7 @@ if(mysql_num_rows($sql)>0){
 ?>
 <div align="left"><input type="submit" name="btImprimir" value="Imprimir" class="botao" onclick="cancelaAction('frmRelatorio','inc/operadoras_creditos/relatorios/imprimir_relatorios_operadoras_creditos.php','_blank')" /></div>
 <table width="100%">
-	<tr bgcolor="#999999">
+	<tr >
 		<td align="center" width="240">Nome</td>
 		<td align="center" width="130">CNPJ</td>
 		<td align="center" width="130">Município</td>

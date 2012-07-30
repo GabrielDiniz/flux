@@ -37,19 +37,19 @@
         ?>
         <table width="800" align="center" border="0" cellspacing="0" style="border:1px solid #000000;">
             <tr>
-                <td bgcolor="#999999" align="center"
+                <td  align="center"
                 style="border-right:1px solid #000000; border-bottom:1px solid #000000;">
                     Emissor
                 </td>
-                <td bgcolor="#999999" align="center"
+                <td  align="center"
                 style="border-right:1px solid #000000; border-bottom:1px solid #000000;">
                     Competência
                 </td>
-                <td bgcolor="#999999" align="center"
+                <td  align="center"
                 style="border-right:1px solid #000000; border-bottom:1px solid #000000;">
                     Débito
                 </td>
-                <td bgcolor="#999999" align="center" style=" border-bottom:1px solid #000000;">
+                <td  align="center" style=" border-bottom:1px solid #000000;">
                     Estado
                 </td>
             </tr>

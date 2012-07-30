@@ -25,18 +25,18 @@ Fith Floor, Boston, MA 02110-1301, USA
 	        <td width="65%" bgcolor="#FFFFFF"></td>
 	    </tr>
 		<tr>
-		  <td height="1" bgcolor="#CCCCCC"></td>
-	      <td bgcolor="#CCCCCC"></td>
+		  <td height="1" ></td>
+	      <td ></td>
 		</tr>
 		<tr>
 		  <td height="10" bgcolor="#FFFFFF"></td>
 	      <td bgcolor="#FFFFFF"></td>
 		</tr>
 		<tr>
-			<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+			<td colspan="3" height="1" ></td>
 		</tr>
 		<tr>
-			<td height="60" colspan="3" bgcolor="#CCCCCC">
+			<td height="60" colspan="3" >
 
 <form method="post">
 	<input type="hidden" name="txtMenu" value="<?php echo $_POST['txtMenu'];?>" />
@@ -131,7 +131,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		  </td>
 		</tr>
 		<tr>
-	    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+	    	<td height="1" colspan="3" ></td>
 		</tr>
 	</table>    
 

@@ -37,11 +37,11 @@ if($btSalvar == "Salvar")
 	echo "<script language=JavaScript>alert('Reclamação atualizada.');document.getElementById('frmRedireciona').submit();</script>";
 	add_logs('Atualizou uma Reclamação');
  }?>	
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
   <tr>
   
     <td align="center">
-		<table width="600" bgcolor="#CCCCCC" cellpadding="0" cellspacing="0" border="0">
+		<table width="600"  cellpadding="0" cellspacing="0" border="0">
 			<tr>
 				<td>
 			<?php		 
@@ -50,7 +50,7 @@ if($btSalvar == "Salvar")
 			}else{
 			?>
 			   <!-- Formulário de pesquisa de usuarios  --->
-			   <table width="100%" align="center" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+			   <table width="100%" align="center" cellpadding="0" cellspacing="0" >
 				<tr>
 				 <td>
 				  <fieldset style="width:730px"><legend>Pesquisa de Reclamações</legend>

@@ -125,20 +125,20 @@ if (mysql_num_rows($sql) == 0) {
     <fieldset><legend><strong>Informa&ccedil;&otilde;es</strong></legend>
 	<table width="100%" border="0" cellspacing="2" cellpadding="2">
 		<tr>
-			<td bgcolor="#999999" align="center">Nome</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['nome']; ?></td>
-            <td bgcolor="#999999" align="center">Cpf/Cnpj</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['cnpj']; ?></td>
+			<td  align="center">Nome</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['nome']; ?></td>
+            <td  align="center">Cpf/Cnpj</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['cnpj']; ?></td>
         </tr>
         <tr>
-			<td bgcolor="#999999" align="center">Logradouro</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['logradouro']; ?></td>
-            <td bgcolor="#999999" align="center">Bairro</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['bairro']; ?></td>
+			<td  align="center">Logradouro</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['logradouro']; ?></td>
+            <td  align="center">Bairro</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['bairro']; ?></td>
 		</tr>
         <tr>
-			<td bgcolor="#999999" align="center">Cep</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['cep']; ?></td>
-            <td bgcolor="#999999" align="center">Munic&iacute;pio/Estado</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['municipio']."/".$dados['uf']; ?></td>
+			<td  align="center">Cep</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['cep']; ?></td>
+            <td  align="center">Munic&iacute;pio/Estado</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['municipio']."/".$dados['uf']; ?></td>
 		</tr>
         <tr>
-			<td bgcolor="#999999" align="center">Email</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['email']; ?></td>
-            <td bgcolor="#999999" align="center">Fone</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['fonecomercial']; ?></td>
+			<td  align="center">Email</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['email']; ?></td>
+            <td  align="center">Fone</td><td bgcolor="#FFFFFF" align="center"><?php echo $dados['fonecomercial']; ?></td>
 		</tr>
 	</table>
     <div id="divVerNotas"></div>
@@ -207,7 +207,7 @@ if (mysql_num_rows($sql) == 0) {
                         <input name="btTomador" type="button" value="Tomador" class="botao" 
                         onclick="mostraDivTomador();" /></label>
                         <div id="divTomadorNota" class="divTomadorNota">
-                            <table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" height="100%">
+                            <table border="0" cellspacing="0" cellpadding="0"  height="100%">
                                 <tr>
                                     <td width="18" align="left" background="../img/form/cabecalho_fundo.jpg"></td>
                                     <td width="95%" background="../img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho"></td>  
@@ -343,7 +343,7 @@ if (mysql_num_rows($sql) == 0) {
                         <input name="btServico" type="button" value="Servi&ccedil;os" class="botao" 
                         onclick="mostraDivServicos();" /></label>
                         <div id="divServicosNota" class="divServicosNota">
-                            <table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" height="100%">
+                            <table border="0" cellspacing="0" cellpadding="0"  height="100%">
                                 <tr>
                                     <td width="18" align="left" background="../img/form/cabecalho_fundo.jpg"></td>
                                     <td width="95%" background="../img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho"></td>  

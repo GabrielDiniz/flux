@@ -33,7 +33,7 @@ if(mysql_num_rows($sql)>0){
                 if(mysql_num_rows($sql)>0){
                 ?>
 				<table width="100%">
-							<tr bgcolor="#999999">
+							<tr >
 								<td width="210" align="center">Nome</td>
 								<td width="200" align="center">Nosso Número</td>
 								<td width="80" align="center">Valor</td>

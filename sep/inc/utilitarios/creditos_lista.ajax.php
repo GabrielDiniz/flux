@@ -28,7 +28,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	if(mysql_num_rows($sql_creditos)>0){
 ?>
 	<table width="100%">
-		<tr bgcolor="#999999">
+		<tr >
 			<td width="3%" align="center">N°</td>
 			<td width="22%" align="center">Tipo Pessoa</td>
 			<td width="13%" align="center">ISS Retido</td>

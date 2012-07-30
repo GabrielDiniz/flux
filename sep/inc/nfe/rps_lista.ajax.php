@@ -51,7 +51,7 @@
 	</style>
 	<div id="divDetalhesRPS"></div>
 	<table width="100%">
-		<tr bgcolor="#999999">
+		<tr >
 			<td width="4%" align="center">N&deg;</td>
 			<td width="44%" align="center">Emissor</td>
 			<td width="12%" align="center">CNPJ</td>

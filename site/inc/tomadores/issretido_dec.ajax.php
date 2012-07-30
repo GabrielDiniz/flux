@@ -31,10 +31,10 @@
     if(mysql_num_rows($sql)){
  ?>
 <table width="100%" border="0" cellspacing="1">
-	<tr bgcolor="#999999">
+	<tr >
 		<td colspan="5" align="center" > Dados dos Emissores: </td>
 	</tr>
-	<tr bgcolor="#999999">
+	<tr >
 		<td align="center"> Cnpj/Cpf </td>
 		<td align="center"> Número Nota </td>
 		<td align="center"> Valor Nota </td>

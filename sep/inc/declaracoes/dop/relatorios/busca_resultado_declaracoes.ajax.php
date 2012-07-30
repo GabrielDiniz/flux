@@ -96,7 +96,7 @@ if(mysql_num_rows($sql)>0){
         </tr>
     </table>
 <table width="100%">
-    <tr bgcolor="#999999">
+    <tr >
         <td width="6%" align="center">N&deg; Dec</td>
         <td width="12%" align="center">Cod verificação</td>
         <td width="35%" align="center">Nome</td>

@@ -38,6 +38,7 @@ if(isset($_SESSION["logado"]))
 
 <meta content="width=device-width; initial-scale=1.0" name="viewport">
 <link rel="stylesheet" href="../include/css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../include/css/forms-sep.css" type="text/css" media="screen">
 <script src="../include/js/jquery-1.7.1.min.js"></script>
 <script src="../include/js/script.js"></script>
 <script src="../include/js/superfish.js"></script>

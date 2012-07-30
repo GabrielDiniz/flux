@@ -102,7 +102,7 @@ if(mysql_num_rows($sql)>0){
     <td align="center"><b>Editar</b></td>
   </tr>
   <tr>
-  	<td colspan="6" bgcolor="#999999" height="1">  </tr> 
+  	<td colspan="6"  height="1">  </tr> 
 
 <?php 
 

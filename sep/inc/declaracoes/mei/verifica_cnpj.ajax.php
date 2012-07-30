@@ -34,7 +34,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<input type="hidden" name="include" id="include" value="<?php echo $_GET['include'];?>" />
 	<input type="hidden" name="hdCnpjMei" value="<?php echo $cnpj; ?>" />
 	<input type="hidden" name="hdCodMei" value="<?php echo $codigo; ?>" />
-	<table width="100%" height="100%" bgcolor="#CCCCCC" border="0" align="center" cellpadding="5" cellspacing="0">
+	<table width="100%" height="100%"  border="0" align="center" cellpadding="5" cellspacing="0">
 		<tr>
 			<td colspan="3" align="center"><strong>C&aacute;lculo de Receita Bruta com Discrimina&ccedil;&atilde;o de Tomadores<br>
 				Guia destinada SOMENTE para tributa&ccedil;&atilde;o de receitas PR&Oacute;PRIAS. </strong>

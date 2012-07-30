@@ -66,13 +66,13 @@ Fith Floor, Boston, MA 02110-1301, USA
 		  
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:5px;">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
   <tr>
-    <td align="center" bgcolor="#CCCCCC">
+    <td align="center" >
 		<table width="98%" border="0" cellspacing="2" cellpadding="0">
 
 <?php 	
@@ -112,12 +112,12 @@ if(isset($_GET['CODIGO'])) {
 ?>	  
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:5px;">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
-    <td height="76" align="left" bgcolor="#CCCCCC">
+    <td height="76" align="left" >
 	
 <table width="100%" border="0" cellspacing="2" cellpadding="0">
   <tr>

@@ -72,7 +72,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 <?php
 if(mysql_num_rows($sql)>0){
 ?>
- <tr bgcolor="#999999">
+ <tr >
    <td width="217" align="center">
       <b>Vencimento</b>   </td>
    <td width="85" align="center">

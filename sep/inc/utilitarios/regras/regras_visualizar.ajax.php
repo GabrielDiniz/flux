@@ -41,7 +41,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				<option value="I"<?php if($estado == "I"){ echo "selected=\"selected\"";}?>>Inativo</option>
 			</select>
 		</td>
-		<td width="14%" bgcolor="#CCCCCC">
+		<td width="14%" >
 			<input name="btEditar" type="submit" value="Salvar" class="botao" 
 			onclick="return (ValidaFormulario('txtDiasEdit|txtMultaEdit|cmbEstadoEdit','Os campos não podem estar vazios!'))">
 		</td>

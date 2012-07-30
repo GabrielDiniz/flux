@@ -62,18 +62,18 @@ if($_POST['btCadastrar'] == "Cadastrar"){
 			<td width="65%" bgcolor="#FFFFFF"></td>
 		</tr>
 		<tr>
-			<td height="1" bgcolor="#CCCCCC"></td>
-			<td bgcolor="#CCCCCC"></td>
+			<td height="1" ></td>
+			<td ></td>
 		</tr>
 		<tr>
 			<td height="10" bgcolor="#FFFFFF"></td>
 			<td bgcolor="#FFFFFF"></td>
 		</tr>
 		<tr>
-			<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+			<td colspan="3" height="1" ></td>
 		</tr>
 		<tr>
-			<td height="60" colspan="3" bgcolor="#CCCCCC">
+			<td height="60" colspan="3" >
 				<table width="99%" border="0" align="center" cellpadding="5" cellspacing="0">
 					<tr>
 						<td align="left" background="../../img/index/index_oquee_fundo.jpg" > Assunto </td>
@@ -136,7 +136,7 @@ if($_POST['btCadastrar'] == "Cadastrar"){
 			</td>
 		</tr>
 		<tr>
-			<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+			<td height="1" colspan="3" ></td>
 		</tr>
 	</table>
 </form>

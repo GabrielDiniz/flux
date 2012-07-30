@@ -70,7 +70,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		} // FIM DO IF BOTAO CONFIRMAR
 ?>
 
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
 	<tr>
 		<td width="18" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
 		<td width="700" background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho">&nbsp;Escritura&ccedil;&otilde;es - Processos</td>  
@@ -79,7 +79,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<tr>
 		<td width="18" background="img/form/lateralesq.jpg"></td>
 		<td align="center">
-			<table width="730" bgcolor="#CCCCCC">
+			<table width="730" >
 				<tr>
 					<td>
 						<form method="post"  enctype="multipart/form-data" id="frmEscrituracoes"name="frmEscrituracoes">
@@ -133,15 +133,15 @@ $arquivo_tmp=$_FILES['Arquivo_bb']["tmp_name"];
    $ponteiro=fopen("/dados/sepiss/docs/$arquivo", "r");
    $x=0; $y=0;
 	 	?>
-        <table width="730" bgcolor="#CCCCCC">
+        <table width="730" >
          <tr>
           <td>
            <fieldset>
             <table width="100%">
              <tr>
-              <td align="center" bgcolor="#999999">Nome</td>
-              <td align="center" bgcolor="#999999">Boleto N°</td>
-              <td align="center" bgcolor="#999999">Pagamento</td>
+              <td align="center" >Nome</td>
+              <td align="center" >Boleto N°</td>
+              <td align="center" >Pagamento</td>
              </tr>
         <?php  
    while(!feof($ponteiro))

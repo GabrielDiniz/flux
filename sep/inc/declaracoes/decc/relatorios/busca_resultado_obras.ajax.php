@@ -64,7 +64,7 @@ Fith Floor, Boston, MA 02110-1301, USA
         </tr>
     </table>
     <table width="100%">
-        <tr bgcolor="#999999">
+        <tr >
             <td width="15%" align="center">Nome</td>
             <td width="6%"  align="center">Alvara</td>
             <td width="19%" align="center">Endereco</td>

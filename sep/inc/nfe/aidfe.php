@@ -36,7 +36,7 @@ INNER JOIN aidfe_solicitacoes ON cadastro.codigo = aidfe_solicitacoes.solicitant
 	if(mysql_num_rows($sql)){
 	?>
 	<table width="100%">
-		<tr bgcolor="#999999">
+		<tr >
 			<td>Prestador</td>
 			<td>Nota Atual</td>
 			<td>AIDF</td>
@@ -81,7 +81,7 @@ INNER JOIN aidfe_solicitacoes ON cadastro.codigo = aidfe_solicitacoes.solicitant
 				<input type="hidden" name="btSolicitacoes" id="btSolicitacoes" value="T"  />
 				<input type="hidden" name="btAtualiza" id="btAtualiza" value="T"  />
 				<table align="left" width="100%">
-					<tr align="left" bgcolor="#999999">
+					<tr align="left" >
 						<td>Prestador</td>
 						<td>Limite Atual</td>
 						<td>Novo Limite</td>
@@ -206,7 +206,7 @@ INNER JOIN aidfe_solicitacoes ON cadastro.codigo = aidfe_solicitacoes.solicitant
 	}else{
 		?>
 		<table align="left" width="100%">
-			<tr align="left" bgcolor="#999999">
+			<tr align="left" >
 				<td>Empresa</td>
 				<td>AIDF</td>
 				<td>Liberar AIDF</td>

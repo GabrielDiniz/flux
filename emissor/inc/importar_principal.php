@@ -30,18 +30,18 @@ Fith Floor, Boston, MA 02110-1301, USA
       <td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
 			<?php
 				if(isset($_POST['btSolicitarRPS'])){
 					if($_POST['btSolicitarRPS'] == "Solicitar RPS"){
@@ -99,7 +99,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>
 
@@ -110,18 +110,18 @@ Fith Floor, Boston, MA 02110-1301, USA
       <td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
         
 <table width="100%" align="center" cellpadding="0" cellspacing="0">
 	<tr>
@@ -179,7 +179,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>  
 
@@ -191,18 +191,18 @@ Fith Floor, Boston, MA 02110-1301, USA
       <td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
         
 <form action="inc/importar_gerarelatorio.php" method="post" name="frmGeraRelatorio" target="_blank" id="frmGeraRelatorio">
 	<input name="cmbEmissor" type="hidden" value="<?php echo $codLogado;?>" />
@@ -250,7 +250,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>    
 
@@ -262,18 +262,18 @@ Fith Floor, Boston, MA 02110-1301, USA
       <td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
 
 <table width="100%" border="0" align="center" cellpadding="2" cellspacing="2">
     <tr>
@@ -291,7 +291,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table> 
 
@@ -307,18 +307,18 @@ Fith Floor, Boston, MA 02110-1301, USA
       <td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
 		
 			<table width="100%" border="0" align="center" cellpadding="2" cellspacing="2">
 				<tr>
@@ -335,6 +335,6 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table> 

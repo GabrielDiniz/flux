@@ -39,7 +39,7 @@ if($btSalvar == "Salvar")
 	echo "<script language=JavaScript>alert('Reclamação atualizada.');document.getElementById('frmRedireciona').submit();</script>";
 	add_logs('Atualizou reclamação');
  }?>	
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
   <tr>
     <td width="18" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
     <td width="800" background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho">&nbsp;Ouvidoria - Reclama&ccedil;&otilde;es</td>  
@@ -48,7 +48,7 @@ if($btSalvar == "Salvar")
   <tr>
     <td width="18" background="img/form/lateralesq.jpg"></td>
     <td align="center">
-			<table width="600" bgcolor="#CCCCCC" cellpadding="0" cellspacing="0" border="0">
+			<table width="600"  cellpadding="0" cellspacing="0" border="0">
 				<tr>
 					<td>
 			<?php		 
@@ -63,7 +63,7 @@ if($btSalvar == "Salvar")
 			
 			
 						   <!-- Formulário de pesquisa de usuarios  --->
-						   <table width="100%" align="center" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+						   <table width="100%" align="center" cellpadding="0" cellspacing="0" >
 							<tr>
 							 <td>
 							  <fieldset style="width:730px"><legend>Pesquisa de Reclamações</legend>

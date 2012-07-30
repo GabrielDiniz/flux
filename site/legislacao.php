@@ -64,13 +64,13 @@ Fith Floor, Boston, MA 02110-1301, USA
 		  
 <table width="99%" border="0" cellspacing="0" cellpadding="0" style="padding:5px;">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
   <tr>
-    <td height="20" align="left" bgcolor="#CCCCCC">
+    <td height="20" align="left" >
 	
 Você pode visualizar os manuais fazendo o download dos arquivos em formato PDF.
 	
@@ -103,13 +103,13 @@ $sql = mysql_query("
 ?>
 <table width="99%" border="0" cellspacing="0" cellpadding="0" style="padding:5px;">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
   <tr>
-    <td align="left" valign="top" bgcolor="#CCCCCC" >
+    <td align="left" valign="top"  >
 <?php
 if(mysql_num_rows($sql)>0){
 	while(list($titulo, $texto, $data, $arquivo) = mysql_fetch_array($sql)) {

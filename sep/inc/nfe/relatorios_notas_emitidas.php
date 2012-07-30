@@ -180,12 +180,12 @@ if(mysql_num_rows($sql)>0){	//mostra se os resultados existem
 		<td>
 			<table width="700" style="font-size:14px; font-family:Verdana, Arial, Helvetica, sans-serif">
 				<tr>
-					<td width="50" align="center" bgcolor="#999999"><b>Nº</b></td>
-					<td width="90" align="center" bgcolor="#999999"><b>Cód Verif</b></td>
-					<td width="75" align="center" bgcolor="#999999"><b>D/H Emissão</b></td>
-					<td width="200" align="center" bgcolor="#999999"><b>Nome Emissor</b></td>
-					<td width="200" align="center" bgcolor="#999999"><b>Nome Tomador</b></td>
-					<td align="center" bgcolor="#999999"><b>Estado</b></td>
+					<td width="50" align="center" ><b>Nº</b></td>
+					<td width="90" align="center" ><b>Cód Verif</b></td>
+					<td width="75" align="center" ><b>D/H Emissão</b></td>
+					<td width="200" align="center" ><b>Nome Emissor</b></td>
+					<td width="200" align="center" ><b>Nome Tomador</b></td>
+					<td align="center" ><b>Estado</b></td>
 					<?php if($cmbEstado == "RPS") { echo "<td align=\"center\" bgcolor=\"#666666\"><b>RPS</b></td>"; } ?>
 				</tr>
 			</table>

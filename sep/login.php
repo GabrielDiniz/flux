@@ -49,7 +49,7 @@ if(!(isset($_SESSION["logado"])))
         </tr>
 
       <tr>
-        <td colspan="3" height="25" bgcolor="#CCCCCC">&nbsp;</td>
+        <td colspan="3" height="25" >&nbsp;</td>
         </tr>
       <tr>
         <td colspan="3" align="center" bgcolor="#FFFFFF"><img src="img/logosep.jpg" width="370" height="70"></td>
@@ -82,7 +82,7 @@ if(!(isset($_SESSION["logado"])))
         <td bgcolor="#FFFFFF">&nbsp;</td>
       </tr>	  
       <tr>
-        <td colspan="3" height="25" bgcolor="#CCCCCC"></td>
+        <td colspan="3" height="25" ></td>
       </tr>
       <tr>
         <td colspan="3" height="1" bgcolor="#FFFFFF"></td>

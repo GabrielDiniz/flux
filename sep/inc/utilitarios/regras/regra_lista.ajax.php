@@ -28,7 +28,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	if(mysql_num_rows($sql_lista)){
 ?>
 <table width="100%">
-	<tr bgcolor="#999999">
+	<tr >
 		<td width="10%" align="center">Dias</td>
 		<td width="30%" align="center">Multa %</td>		
 		<td width="16%" align="center">Estado</td>

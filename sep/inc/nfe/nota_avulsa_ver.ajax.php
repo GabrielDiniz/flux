@@ -68,7 +68,7 @@ if (mysql_num_rows($sql) == 0) {
 		$x=1;
 		?>
 		<table width="100%" cellpadding="0" cellspacing="0">
-			<tr bgcolor="#999999">
+			<tr >
 				<td width="10%" align="center">Nro. nota</td>
 				<td width="25%" align="center">Cod. Verifica&ccedil;&atilde;o</td>
 				<td width="25%" align="center">Valor</td>

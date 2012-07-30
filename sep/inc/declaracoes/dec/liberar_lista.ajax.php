@@ -29,7 +29,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 ?>
 <fieldset><legend>Resultados encontrados: <?php echo mysql_num_rows($sql_pedidos);?></legend>
 	<table width="100%">
-		<tr bgcolor="#999999">
+		<tr >
 			<td width="150" align="center">Número do Documento</td>
 			<td width="230" align="center">Nome</td>
 			<td width="150" align="center">Cnpj</td>

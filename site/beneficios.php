@@ -125,13 +125,13 @@ echo "<font color=#FF0000 size=4><strong>$notas_emitidas</strong></font>";
     <!-- quadro da esquerda acima -->
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
       <tr>
-        <td height="120" align="left" valign="top" bgcolor="#CCCCCC" style="padding:5px;"><font class="boxTitulo">Prestador Emissor</font><br />
+        <td height="120" align="left" valign="top"  style="padding:5px;"><font class="boxTitulo">Prestador Emissor</font><br />
           <br />          
           Clique e veja os benef&iacute;cios da NFeletr&ocirc;nica de ISS.<br />
           <br />
@@ -150,13 +150,13 @@ echo "<font color=#FF0000 size=4><strong>$notas_emitidas</strong></font>";
 
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
       <tr>
-        <td height="120" align="left" valign="top" bgcolor="#CCCCCC" style="padding:5px;"><font class="boxTitulo">Tomador de Servi&ccedil;os</font><br />
+        <td height="120" align="left" valign="top"  style="padding:5px;"><font class="boxTitulo">Tomador de Servi&ccedil;os</font><br />
           <br />
           Veja o v&iacute;deo da campanha da NFeletr&ocirc;nica de ISS.<br />
           <br />
@@ -174,13 +174,13 @@ echo "<font color=#FF0000 size=4><strong>$notas_emitidas</strong></font>";
 	<!-- quadro direita acima -->
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
       <tr>
-        <td height="120" align="left" valign="top" bgcolor="#CCCCCC" style="padding:5px;"><font class="boxTitulo"> Prefeitura Municipal</font>
+        <td height="120" align="left" valign="top"  style="padding:5px;"><font class="boxTitulo"> Prefeitura Municipal</font>
           <br />
           <br />
           Acesse e compare os n&uacute;meros de aprova&ccedil;&atilde;o da NFe de ISS.<br />

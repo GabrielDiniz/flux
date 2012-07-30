@@ -41,7 +41,7 @@ if (mysql_num_rows($sql) == 0) {
 } else {
 ?>
 
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
 	<tr>
     	<td width="19" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
         <td width="700" background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho">&nbsp;Relat&oacute;rios - Devedores </td>
@@ -57,9 +57,9 @@ if (mysql_num_rows($sql) == 0) {
                 <legend>Maiores Devedores do ISSQN</legend>
                 	<table width="100%" border="0" cellspacing="2" cellpadding="2">
                         <tr>
-                            <td width="70%" bgcolor="#999999" align="center">Nome</td>
-                            <td width="15%" bgcolor="#999999" align="center">Total</td>
-                            <td width="15%" bgcolor="#999999" align="center">N&deg; Meses</td></tr>
+                            <td width="70%"  align="center">Nome</td>
+                            <td width="15%"  align="center">Total</td>
+                            <td width="15%"  align="center">N&deg; Meses</td></tr>
                     </table>
                 </fieldset>
             </form>

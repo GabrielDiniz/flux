@@ -145,7 +145,7 @@ $sql=Paginacao($query,'frmNfe','divResultado');
 		<td width="75">&nbsp;</td>
 	  </tr>
 	  <tr>
-		<td colspan="8" height="1" bgcolor="#999999"></td>
+		<td colspan="8" height="1" ></td>
 	  </tr>
 	<?php
 	while(list($codigo, $numero, $codverificacao, $datahoraemissao, $codempresa, $tomador_nome, $tomador_cnpjcpf, $estado, $emissor_nome,$emissor_cnpj,$gp_cod_nota) = mysql_fetch_array($sql)) {

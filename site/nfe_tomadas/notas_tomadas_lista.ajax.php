@@ -79,25 +79,25 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td height="1" bgcolor="#CCCCCC"></td>
-		<td bgcolor="#CCCCCC"></td>
+		<td height="1" ></td>
+		<td ></td>
 	</tr>
 	<tr>
 		<td height="10" bgcolor="#FFFFFF"></td>
 		<td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
 			
 			<?php
 			$sql_lista = Paginacao($query,'frmPesquisaNotaTomada','divPesquisaNotaTomada',10);
 			if(mysql_num_rows($sql_lista)){
 			?>
 			<table width="100%">
-				<tr bgcolor="#999999">
+				<tr >
 					<td width="12%" align="center"><strong>Número</strong></td>
 					<td width="22%" align="center"><strong>Cód. Verificacao</strong></td>
 					<td width="49%" align="center"><strong>CNPJ/CPF</strong></td>
@@ -134,7 +134,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 						</td>
 					</tr>
 					<tr>
-						<td colspan="6" id="<?php echo"tdNFTomadas".$cont; ?>" height="1" bgcolor="#999999"></td>
+						<td colspan="6" id="<?php echo"tdNFTomadas".$cont; ?>" height="1" ></td>
 					</tr>
 				<?php
 					$cont++;
@@ -150,6 +150,6 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</td>
 	</tr>
 	<tr>
-		<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+		<td height="1" colspan="3" ></td>
 	</tr>
 </table>

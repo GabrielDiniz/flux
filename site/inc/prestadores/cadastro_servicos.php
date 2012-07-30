@@ -30,7 +30,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<td height="0"></td>
   </tr>
   <tr id="camposservico<?php echo $contservico; ?>" style="display:none">	    
-    <td align="left" bgcolor="#999999">
+    <td align="left" >
 	 <?php
 	  $sql_maxcodcat=mysql_query("SELECT MAX(codigo) FROM servicos_categorias");
 	  list($maxcodcat)=mysql_fetch_array($sql_maxcodcat);

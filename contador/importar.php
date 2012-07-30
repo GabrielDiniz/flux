@@ -60,15 +60,15 @@ if(!(isset($_SESSION["empresa"])))
       <td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC">
+		<td colspan="3" height="1" >
 		  <?php // $sql_lista_empresas = mysql_query("SELECT codigo, razaosocial, cnpj, cpf FROM cadastro WHERE codcontador = '$CODIGO_DA_EMPRESA' AND contadorrps = 'S'");			
 			$sql_logado = mysql_query("
 				SELECT 
@@ -97,7 +97,7 @@ if(!(isset($_SESSION["empresa"])))
         </select></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
 			
 			
 				<table width="100%">
@@ -121,7 +121,7 @@ if(!(isset($_SESSION["empresa"])))
 			</form>		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>
 	<?php 

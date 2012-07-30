@@ -25,7 +25,7 @@ if ($_POST['btConfirmar']) {
 	}
 }
 ?>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
 
 	<tr>
 		

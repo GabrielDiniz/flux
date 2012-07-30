@@ -37,7 +37,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 			<input name="btServico" type="button" value="Serviços" class="botao" 
 			onclick="mostraDivServicos();" /></label>
 			<div id="divServicosNota" class="divServicosNota">
-				<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" height="100%">
+				<table border="0" cellspacing="0" cellpadding="0"  height="100%">
 					<tr>
 						<td width="18" align="left" background="../img/form/cabecalho_fundo.jpg"></td>
 						<td width="95%" background="../img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho"></td>  
@@ -56,7 +56,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 					<!--<tr>
 						<td>
 							<table width="100%">
-								<tr align="center" bgcolor="#999999">
+								<tr align="center" >
 									<td width="23%" align="center"><b>Seleciona o Serviço</b></td>
 									<td width="10%" align="center"><b>Base Calc.(R$)</b></td>
 									<td width="10%" align="center"><b>Aliquota(%)</b></td>

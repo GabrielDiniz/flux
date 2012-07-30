@@ -52,7 +52,7 @@ if($_POST["btSalvar"] == "Salvar"){
 		list($codigo,$codtipo,$nome,$cnpjcpf,$inscrmunicipal,$inscrestadual,$logradouro,$complemento,$bairro,$numero,$cep,$municipio,$uf,$email) = mysql_fetch_array($sql_tomador);
 	}//fim if
 ?>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
 
   <tr>
 

@@ -71,24 +71,24 @@ Fith Floor, Boston, MA 02110-1301, USA
       <td width="420" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
 
 <table border="0" width="100%" cellpadding="2" cellspacing="2">
 <?php
 if(mysql_num_rows($sql)>0){
 ?>
- <tr bgcolor="#999999">
+ <tr >
    <td width="217" align="center">
       <b>Vencimento</b>   </td>
    <td width="85" align="center">
@@ -131,7 +131,7 @@ if(mysql_num_rows($sql)>0){
 	  </td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>
 </form>

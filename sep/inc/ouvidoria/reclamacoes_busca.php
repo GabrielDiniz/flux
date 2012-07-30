@@ -42,7 +42,7 @@ LIMIT 0,10");
 	<input type="hidden" name="btEditar" id="btEditar">
 	<input type="hidden" name="CODIGO" id="CODIGOlista">	
   <table width="730" border="0">
-    <tr bgcolor="#999999">
+    <tr >
       <td width="230" align="center">Especificação</td>
       <td width="150" align="center">Tomador</td>
       <td width="150" align="center">Data Reclamação</td>
@@ -86,7 +86,7 @@ LIMIT 0,10");
 	<input type="hidden" name="btEditar" id="btEditar">
 	<input type="hidden" name="CODIGO" id="CODIGObusca">	
   <table width="730" border="0">
-    <tr bgcolor="#999999">
+    <tr >
       <td width="230" align="center">Especificação</td>
       <td width="150" align="center">Tomador</td>
       <td width="150" align="center">Data Atendimento</td>

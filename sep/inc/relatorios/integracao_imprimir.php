@@ -99,10 +99,10 @@ div.pagina {
 		if(mysql_num_rows($query)>0){
 		?>
         <table width="45%" border="2" cellspacing="0" class="tabela" align="center">
-          <tr bgcolor="#999999">
+          <tr >
           	<td colspan="9" align="center">Informa&ccedil;&otilde;es</td>
           </tr>
-          <tr bgcolor="#CCCCCC">
+          <tr >
             <td width="16%" align="center">Data</td>
             <td width="17%" align="center">Hor&aacute;rio</td>
             <td width="17%" align="center">Dados Inseridos</td>
@@ -117,10 +117,10 @@ div.pagina {
         </table>
         <br />
         <table width="75%" border="2" cellspacing="0" class="tabela" align="center">
-          <tr bgcolor="#999999">
+          <tr >
           	<td colspan="9" align="center">Prestadores</td>
           </tr>
-          <tr bgcolor="#CCCCCC">
+          <tr >
             <td width="16%" align="center">Inseridos</td>
             <td width="17%" align="center">N&atilde;o Inseridos</td>
             <td width="17%" align="center">S&oacute;cios</td>
@@ -139,10 +139,10 @@ div.pagina {
         </table>
         <br />
         <table width="45%" border="2" cellspacing="0" class="tabela" align="center">
-          <tr bgcolor="#999999">
+          <tr >
           	<td colspan="9" align="center">Contadores</td>
           </tr>
-          <tr bgcolor="#CCCCCC">
+          <tr >
             <td width="16%" align="center">Inseridos</td>
             <td width="17%" align="center">N&atilde;o Inseridos</td>
             <td width="17%" align="center">S&oacute;cios</td>
@@ -157,10 +157,10 @@ div.pagina {
         </table>
         <br />
         <table width="40%" border="2" cellspacing="0" class="tabela" align="center">
-          <tr bgcolor="#999999">
+          <tr >
           	<td colspan="9" align="center">Recibos</td>
           </tr>
-          <tr bgcolor="#CCCCCC">
+          <tr >
             <td width="16%" align="center">Inseridos</td>
             <td width="17%" align="center">N&atilde;o Inseridos</td>
             <td width="17%" align="center">Pagos</td>
@@ -176,10 +176,10 @@ div.pagina {
 
         <br />
         <table width="30%" border="2" cellspacing="0" class="tabela" align="center">
-          <tr bgcolor="#999999">
+          <tr >
           	<td colspan="9" align="center">Servi&ccedil;os</td>
           </tr>
-          <tr bgcolor="#CCCCCC">
+          <tr >
             <td width="16%" align="center">Inseridos</td>
             <td width="17%" align="center">N&atilde;o inseridos</td>
           </tr>
@@ -190,10 +190,10 @@ div.pagina {
         </table>
         <br />
         <table width="30%" border="2" cellspacing="0" class="tabela" align="center">
-          <tr bgcolor="#999999">
+          <tr >
           	<td colspan="9" align="center">Cadastros e-Nota/e-Cidade</td>
           </tr>
-          <tr bgcolor="#CCCCCC">
+          <tr >
             <td width="16%" align="center">Inseridos</td>
             <td width="17%" align="center">N&atilde;o Inseridos</td>
           </tr>

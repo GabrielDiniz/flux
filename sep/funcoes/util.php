@@ -865,7 +865,7 @@ function include_janela($arquivo,$titulo='SEPISS',$estilo=1){
 	if($estilo==1){
 	?>
 	<div id="janela" style="width: 500px">
-	<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+	<table border="0" cellspacing="0" cellpadding="0" >
 	  <tr>
 	    <td width="18" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
 	    <td background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho" id="td1">

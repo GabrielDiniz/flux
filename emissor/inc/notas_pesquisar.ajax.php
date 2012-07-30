@@ -60,18 +60,18 @@ WHERE
 		<td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td height="1" bgcolor="#CCCCCC"></td>
-		<td bgcolor="#CCCCCC"></td>
+		<td height="1" ></td>
+		<td ></td>
 	</tr>
 	<tr>
 		<td height="10" bgcolor="#FFFFFF"></td>
 		<td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
 			<?php $sql = Paginacao($query,'frmPesquisar','Container',10);?>
 			<table width="100%" border="0" cellspacing="2" cellpadding="2">
 				<?php
@@ -88,7 +88,7 @@ WHERE
                     </td>
 				</tr>
 				<tr>
-					<td colspan="7" height="1" bgcolor="#999999"></td>
+					<td colspan="7" height="1" ></td>
 				</tr>
 				<?php	
 					$x = 0;
@@ -152,7 +152,7 @@ WHERE
 					</td>
 				</tr>
 				<tr>
-					<td colspan="7" id="<?php echo"tdnfe".$x; ?>" height="1" bgcolor="#999999"></td>
+					<td colspan="7" id="<?php echo"tdnfe".$x; ?>" height="1" ></td>
 				</tr>
 				<?php
 					$x++;
@@ -170,6 +170,6 @@ WHERE
 		</td>
 	</tr>
 	<tr>
-		<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+		<td height="1" colspan="3" ></td>
 	</tr>
 </table>

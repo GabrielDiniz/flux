@@ -84,7 +84,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 if(mysql_num_rows($sql_pesquisa)){
 ?>
 <table width="100%">
-	<tr bgcolor="#999999">
+	<tr >
     	<td width="7%" align="center">N&deg; Dec</td>
         <td width="38%" align="center">Nome</td>
         <td width="15%" align="center">Data</td>

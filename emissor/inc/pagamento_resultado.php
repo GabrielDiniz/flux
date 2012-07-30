@@ -46,13 +46,13 @@ WHERE SUBSTRING(datahoraemissao,1,4) = '$cmbAno' AND SUBSTRING(datahoraemissao,6
 				<td><input type="checkbox" name="ckTodos" id="ckTodos" onclick="GuiaPagamento_TotalISS()"></td>
 			</tr>
 			<tr >    	
-				<td bgcolor="#999999">
+				<td >
 				  <b>Tomador</b>
 				</td>
-				<td bgcolor="#999999">
+				<td >
 				  <b>ISS</b>
 				</td>
-				<td bgcolor="#999999">
+				<td >
 				  
 				</td>
 			</tr>

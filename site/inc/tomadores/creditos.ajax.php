@@ -29,8 +29,8 @@ $txtTomCpfCnpj = $_GET['txtTomCpfCnpj'];
 			$nrocreditos=mysql_num_rows($sql);
 				?>
                 	
-					<table bgcolor="#CCCCCC" width="100%" border="0" align="center" cellpadding="2" cellspacing="2">
-						<tr bgcolor="#999999">
+					<table  width="100%" border="0" align="center" cellpadding="2" cellspacing="2">
+						<tr >
 							<td align="center">N° da Nota</td>
 							<td align="center">CPF/CNPJ</td>
 							<td align="center">Créditos</td>

@@ -18,7 +18,7 @@ www.softwarepublico.gov.br, ou escreva para a Fundacao do Software Livre Inc., 5
 Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
 	<tr>
 		<td width="18" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
 		<td width="800" background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho">&nbsp;Escritura&ccedil;&otilde;es - Relat&oacute;rios </td>  
@@ -27,7 +27,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<tr>
 		<td width="18" background="img/form/lateralesq.jpg"></td>
 		<td align="center">
-			<table width="800" bgcolor="#CCCCCC">
+			<table width="800" >
 				<tr>
 					<td>
 						<form method="post" id="frmRelatorio" name="frmRelatorio" onsubmit="return false">						

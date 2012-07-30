@@ -28,7 +28,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 			?>
 				<fieldset><legend><?php echo mysql_num_rows($sql); ?> Prestadores desta categoria encontrados</legend>	
 					<table width="100%">
-						<tr bgcolor="#999999" align="center">
+						<tr  align="center">
 							<td width="33%">Emissor</td>
 							<td width="33%">Endere&ccedil;o</td>
 							<td width="33%">Email</td>

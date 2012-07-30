@@ -28,7 +28,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	}
 	
 ?>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
   <tr>
     <td width="18" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
     <td width="800" background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho">&nbsp;Tomadores - Cr&eacute;ditos</td>  
@@ -73,7 +73,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 							list($credito_nfe, $tomador) = mysql_fetch_array($sql_credito_nfe);
 							if(mysql_num_rows($sql_credito_nfe)>0){?>
                                 <table align="center" width="100%">
-									<tr align="center" bgcolor="#999999">
+									<tr align="center" >
 										<td>CNPJ/CPF</td>
 										<td>Nome do tomador</td>
 										<td>Cr&eacute;dito</td>

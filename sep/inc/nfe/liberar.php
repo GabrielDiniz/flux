@@ -27,7 +27,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	}
 </style>
 <div id="divDetalhes"></div>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" width="890">
+<table border="0" cellspacing="0" cellpadding="0"  width="890">
 	
 	<tr>
 		

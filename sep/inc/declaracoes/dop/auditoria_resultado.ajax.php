@@ -61,7 +61,7 @@ if($str_where){
 	$sql=Paginacao($query,'frmDOP','divResultado',10);
 	if(mysql_num_rows($sql)){?>
 		<table width="100%">
-			<tr bgcolor="#999999">
+			<tr >
 				<td width="50px" align="right">cod</td>
 				<td width="320px" align="center">Razão</td>
 				<td width="80px" align="center">Data Gerado</td>

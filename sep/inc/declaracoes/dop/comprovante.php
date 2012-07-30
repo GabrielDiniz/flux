@@ -46,15 +46,15 @@ Fith Floor, Boston, MA 02110-1301, USA
     </table></td>
   </tr>
   <tr>
-    <td align="center" width="50%" bgcolor="#CCCCCC" colspan="2"><strong>N&Uacute;MERO DO DOCUMENTO</strong></td>
-    <td align="center" bgcolor="#CCCCCC" colspan="2"><strong>DATA DE EMISS&Atilde;O </strong></td>
+    <td align="center" width="50%"  colspan="2"><strong>N&Uacute;MERO DO DOCUMENTO</strong></td>
+    <td align="center"  colspan="2"><strong>DATA DE EMISS&Atilde;O </strong></td>
   </tr>
   <tr>
     <td align="center" colspan="2" width="50%"><font class="prefeitura"><?php echo $codigo ?></font></td>
     <td align="center" colspan="2"><font class="prefeitura"><?php echo DataPtExt(); ?></font></td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>IDENTIFICA&Ccedil;&Atilde;O DO &Oacute;RG&Atilde;O P&Uacute;BLICO </strong></td>
+    <td height="30" colspan="4" align="center" ><strong>IDENTIFICA&Ccedil;&Atilde;O DO &Oacute;RG&Atilde;O P&Uacute;BLICO </strong></td>
   </tr>
   </table>
   <table align="center" width="800" border="0" cellspacing="0" cellpadding="5" style="border: 0px;">
@@ -75,13 +75,13 @@ Fith Floor, Boston, MA 02110-1301, USA
     <font class="prefeitura"><?php echo $endereco; ?></font></td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>CERTIFICA&Ccedil;&Atilde;O</strong></td>
+    <td height="30" colspan="4" align="center" ><strong>CERTIFICA&Ccedil;&Atilde;O</strong></td>
   </tr>
   <tr>
     <td height="200" colspan="4" align="center" valign="middle"><span class="style1">A Prefeitura Municipal de <font class="prefeitura"><?php echo $CIDADE; ?></font> certifica que o &Oacute;rg&atilde;o P&uacute;blico citado acima foi devidamente cadastrado no sistema de ISSDigital do município<font class="prefeitura"><?php e ?></font>.</span>   </td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>OBSERVA&Ccedil;&Otilde;ES</strong></td>
+    <td height="30" colspan="4" align="center" ><strong>OBSERVA&Ccedil;&Otilde;ES</strong></td>
   </tr>
   <tr>
     <td colspan="4"><p>- A senha de acesso do &Oacute;rg&atilde;o P&uacute;blico ao sistema de ISSDigital do município é de uso exclusivo e intransferível do &Oacute;rg&atilde;o P&uacute;blico, bem como a responsabilidade sobre o uso indevido da mesma.

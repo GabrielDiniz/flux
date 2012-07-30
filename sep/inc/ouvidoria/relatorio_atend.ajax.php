@@ -24,12 +24,12 @@ Fith Floor, Boston, MA 02110-1301, USA
 	$sql=mysql_query("SELECT assunto, especificacao, tomador_cnpj, tomador_email, datareclamacao, estado, responsavel FROM reclamacoes WHERE estado='atendida'");
 ?>
 
-<table width="800" bgcolor="#CCCCCC" cellpadding="0" cellspacing="0">
+<table width="800"  cellpadding="0" cellspacing="0">
 	<tr>
 		<td>			
 			<fieldset style="width:800px"><legend>Busca de Escriturações Pagas</legend>
 				<table width="100%">
-					<tr bgcolor="#999999">
+					<tr >
 						<td align="center" width="200">Assunto</td>
 						<td align="center" width="160">Especificação</td>
 						<td align="center" width="100">Tomador</td>

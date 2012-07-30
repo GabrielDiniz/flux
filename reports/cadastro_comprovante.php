@@ -52,15 +52,15 @@ Fith Floor, Boston, MA 02110-1301, USA
     </table></td>
   </tr>
   <tr>
-    <td align="center" width="50%" bgcolor="#CCCCCC" colspan="2"><strong>N&Uacute;MERO DO DOCUMENTO</strong></td>
-    <td align="center" bgcolor="#CCCCCC" colspan="2"><strong>DATA DE EMISS&Atilde;O </strong></td>
+    <td align="center" width="50%"  colspan="2"><strong>N&Uacute;MERO DO DOCUMENTO</strong></td>
+    <td align="center"  colspan="2"><strong>DATA DE EMISS&Atilde;O </strong></td>
   </tr>
   <tr>
     <td align="center" colspan="2" width="50%"><font class="prefeitura"><?php echo $codigo ?></font></td>
     <td align="center" colspan="2"><font class="prefeitura"><?php echo DataPtExt(); ?></font></td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>IDENTIFICA&Ccedil;&Atilde;O DO SUJEITO PASSIVO </strong></td>
+    <td height="30" colspan="4" align="center" ><strong>IDENTIFICA&Ccedil;&Atilde;O DO SUJEITO PASSIVO </strong></td>
   </tr>
   <tr>
     <td height="50" colspan="3" valign="top">Razão Social:<br>
@@ -73,7 +73,7 @@ Fith Floor, Boston, MA 02110-1301, USA
     <font class="prefeitura"><?php echo "$logradouro, $numero, $municipio, $uf"; ?></font></td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>CERTIFICA&Ccedil;&Atilde;O</strong></td>
+    <td height="30" colspan="4" align="center" ><strong>CERTIFICA&Ccedil;&Atilde;O</strong></td>
   </tr>
   <tr>
     <td height="200" colspan="4" align="center" valign="middle"><div class="style1">
@@ -81,7 +81,7 @@ Fith Floor, Boston, MA 02110-1301, USA
     </div>   </td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>OBSERVA&Ccedil;&Otilde;ES</strong></td>
+    <td height="30" colspan="4" align="center" ><strong>OBSERVA&Ccedil;&Otilde;ES</strong></td>
   </tr>
   <tr>
     <td colspan="4"><p>- A senha de acesso da Empresa ao sistema de NF-e do município é de uso exclusivo e intransferível da Empresa, bem como a responsabilidade sobre o uso indevido da mesma.

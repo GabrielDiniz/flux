@@ -56,7 +56,7 @@ WHERE
 	<input type="hidden" name="btEditar" id="btEditar">
 	<input type="hidden" name="CODIGO" id="CODIGOresult">	
   <table width="100%" border="0" cellspacing="2" cellpadding="2">
-    <tr bgcolor="#999999">
+    <tr >
       <td width="230" align="center">Especificação</td>
       <td width="150" align="center">Tomador</td>
       <td width="150" align="center">Data Reclamação</td>

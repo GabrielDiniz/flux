@@ -108,7 +108,7 @@ switch($estado){
 <fieldset>
 <legend>Notas declaradas</legend>
 	<table>
-		<tr bgcolor="#999999">
+		<tr >
 			<td>N° da nota</td>
 			<td>Valor da nota</td>
 			<td>Emissor</td>

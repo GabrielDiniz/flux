@@ -71,7 +71,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	$ativar_creditos = mysql_result(mysql_query("SELECT ativar_creditos FROM configuracoes"),0);
 
 ?>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
 	
 	<tr>
 		

@@ -94,7 +94,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<!-- cabeçalho da pesquisa --> 
 	<fieldset><legend>Usuários Cadastrados: <?php echo $result; ?></legend>
 		<table width="100%">  
-			<tr bgcolor="#999999">
+			<tr >
 				<td width="136" align="center">Nome</td>
 				<td width="138" align="center">Login</td>
 				<td width="49" align="center">Nível</td>

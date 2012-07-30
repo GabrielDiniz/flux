@@ -38,18 +38,18 @@ Fith Floor, Boston, MA 02110-1301, USA
       <td width="470" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
     <form method="post">
          <input type="hidden" name="btOp" value="Gerar Guia"/>
         <table align="center">
@@ -122,7 +122,7 @@ if($_POST["btBuscar"] == "Buscar")
                         <tr>
                             <td>
 						<table border="0" align="center" cellpadding="2" cellspacing="2">
-<tr bgcolor="#999999">
+<tr >
                             <td colspan="3" align="right">Selecionar tudo</td>
                             <td align="center">
                                 <input type="checkbox" name="ckTodos" id="ckTodos" onclick="GuiaPagamento_TotalISS()">
@@ -265,7 +265,7 @@ if($_POST["btBuscar"] == "Buscar")
 		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>       
 

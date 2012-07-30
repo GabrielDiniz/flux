@@ -26,7 +26,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	}
 ?>
 
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+<table border="0" cellspacing="0" cellpadding="0" >
   <tr>
     <td width="18" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
     <td width="800" background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho">&nbsp;&Oacute;rg&atilde;os P&uacute;blicos - Liberar </td>  
@@ -43,7 +43,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 					$sql_pedidos = mysql_query("SELECT codigo, nome, cnpj, razaosocial, nivel FROM orgaospublicos WHERE estado = 'NL' ORDER BY codigo");
 					if(mysql_num_rows($sql_pedidos)>0){
 				?>
-					<tr bgcolor="#999999">
+					<tr >
 						<td width="180" align="center">Nome</td>
 						<td width="130" align="center">Cnpj</td>
 						<td width="200" align="center">Razão Social</td>

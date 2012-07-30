@@ -79,15 +79,15 @@ if (mysql_num_rows($sql) == 0) {
 	?>
 	<table width="100%" border="0" cellspacing="2" cellpadding="2">
 		<tr>
-			<td bgcolor="#999999" align="center">C&oacute;digo</td>
-			<td bgcolor="#999999" align="center">Per&iacute;odo</td>
-            <td bgcolor="#999999" align="center">Estado</td>
-			<td bgcolor="#999999" align="center">CNPJ prestador</td>
-			<td bgcolor="#999999" align="center">Base de calculo</td>
-			<td bgcolor="#999999" align="center">Iss</td>
-			<td bgcolor="#999999" align="center">Iss retido</td>
-			<td bgcolor="#999999" align="center">Iss total</td>
-			<td bgcolor="#999999" align="center">A&ccedil;&atilde;o</td>
+			<td  align="center">C&oacute;digo</td>
+			<td  align="center">Per&iacute;odo</td>
+            <td  align="center">Estado</td>
+			<td  align="center">CNPJ prestador</td>
+			<td  align="center">Base de calculo</td>
+			<td  align="center">Iss</td>
+			<td  align="center">Iss retido</td>
+			<td  align="center">Iss total</td>
+			<td  align="center">A&ccedil;&atilde;o</td>
 		</tr>
 		<?php
 		while ($dados = mysql_fetch_array($sql)) {

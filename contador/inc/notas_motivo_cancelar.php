@@ -25,7 +25,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 ?>
 <input type="hidden" name="CODIGO_DA_EMPRESA" value="<?php echo "$CODIGO_DA_EMPRESA"?>" />
 
-	<table width="100%" bgcolor="#CCCCCC">
+	<table width="100%" >
 		<tr>
 			<td align="center">Informe o motivo do canelamento da nota</td>
 		</tr>

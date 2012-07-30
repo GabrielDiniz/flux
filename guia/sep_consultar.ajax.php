@@ -81,16 +81,16 @@ if (mysql_num_rows($sql) == 0) {
 	?>
 	<table width="100%" border="0" cellspacing="2" cellpadding="2">
 		<tr>
-			<td bgcolor="#999999" align="center">C&oacute;digo</td>
-			<td bgcolor="#999999" align="center">Data Emiss&atilde;o</td>
-            <td bgcolor="#999999" align="center">Data do vencimento</td>
-			<td bgcolor="#999999" align="center">CNPJ / CPF</td>
-			<td bgcolor="#999999" align="center">Valor Guia</td>
-			<td bgcolor="#999999" align="center">Valor Multa</td>
-			<td bgcolor="#999999" align="center">Pago</td>
-			<td bgcolor="#999999" align="center">Estado</td>
-            <td bgcolor="#999999" align="center">Nosso N&deg;</td>
-            <td bgcolor="#999999" align="center">A&ccedil;&atilde;o</td>
+			<td  align="center">C&oacute;digo</td>
+			<td  align="center">Data Emiss&atilde;o</td>
+            <td  align="center">Data do vencimento</td>
+			<td  align="center">CNPJ / CPF</td>
+			<td  align="center">Valor Guia</td>
+			<td  align="center">Valor Multa</td>
+			<td  align="center">Pago</td>
+			<td  align="center">Estado</td>
+            <td  align="center">Nosso N&deg;</td>
+            <td  align="center">A&ccedil;&atilde;o</td>
 			
 		</tr>
 		<?php

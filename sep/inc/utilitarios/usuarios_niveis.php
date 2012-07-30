@@ -74,7 +74,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				</td>
 			</tr>
 			<tr id="conteudoTd<?php echo $cont;?>">
-				<td id="tdMenus<?php echo $cont;?>" colspan="2" bgcolor="#999999"></td>
+				<td id="tdMenus<?php echo $cont;?>" colspan="2" ></td>
 			</tr>
 			<?php
 			$cont++;

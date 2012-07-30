@@ -76,7 +76,7 @@
 <input type="hidden" name="hdAliqServico<?php echo $quantidade;?>" id="hdAliqServico<?php echo $quantidade;?>" />
 <table width="100%" id="tbl<?php echo $quantidade;?>">
 
-    <tr align="center" bgcolor="#999999" <?php echo $style; ?>>
+    <tr align="center"  <?php echo $style; ?>>
         <td width="23%"><b>Seleciona o Serviço</b></td>
         <td width="10%"><b>Base Calc.(R$)</b></td>
         <td width="10%"><b>Aliquota(%)</b></td>

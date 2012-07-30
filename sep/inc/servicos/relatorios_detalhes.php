@@ -35,7 +35,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 			?>
 				<fieldset><legend><?php echo $qtd; ?> Presta&ccedil;&otilde;es do servi&ccedil;o durante o per&iacute;odo</legend>	
 					<table width="100%">
-						<tr bgcolor="#999999">
+						<tr >
 							<td width="25%">Data</td>
 							<td width="25%">Prestador</td>
 							<td width="25%">Tomador</td>

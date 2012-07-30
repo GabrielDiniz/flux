@@ -31,7 +31,7 @@ function GeraGuia($codguia){
     <input type="hidden" name="cmbMes" id="cmbMes" value="<?php echo $mes; ?>" />
     <input type="hidden" name="txtEmissor" value="<?php echo $codcadastro;?>" />
 			<table border="0" width="100%">
-				<tr bgcolor="#999999">
+				<tr >
 					<td align="center">Data Declara&ccedil;&atilde;o</td>
 					<td align="center">Compet&ecirc;cia</td>
                     <td align="center">Vencimento</td>
@@ -66,7 +66,7 @@ function GeraGuia($codguia){
 		</td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>    
 </table>
 <?php

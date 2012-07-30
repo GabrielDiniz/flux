@@ -112,13 +112,13 @@ echo "<font color=#FF0000 size=4><strong>$notas_emitidas</strong></font>";
     <td align="center" valign="top">
     <table width="99%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
       <tr>
-        <td align="center" bgcolor="#CCCCCC" valign="top">
+        <td align="center"  valign="top">
         <table width="98%" border="0" cellspacing="2" cellpadding="0">
             <tr>
               <td>&nbsp;</td>

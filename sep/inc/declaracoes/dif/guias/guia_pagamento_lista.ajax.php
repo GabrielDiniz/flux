@@ -54,7 +54,7 @@ if(mysql_num_rows($sql) > 0)
 				<input type="hidden" name="cmbMes" id="cmbMes" value="<?php echo $mes; ?>" />
 				<input type="hidden" name="txtEmissor" value="<?php echo $codemissor;?>" />
 				<table width="70%">
-					<tr bgcolor="#999999">
+					<tr >
 						<td colspan="4" align="right">Selecionar tudo</td>
 						<td align="center">
 							<input type="checkbox" name="ckTodos" id="ckTodos" onclick="GuiaPagamento_TotalISS()">

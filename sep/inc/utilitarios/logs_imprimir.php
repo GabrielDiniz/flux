@@ -74,9 +74,9 @@ if($result>0){
 		<td align="center">
 			<table width="885" border="0" cellpadding="4" cellspacing="2" style="border:dotted thin">
 				<tr>
-					<td height="25" colspan="5" align="center" valign="middle" bgcolor="#CCCCCC" class="tblTitulo">REGISTRO DE A&Ccedil;&Otilde;ES</td>
+					<td height="25" colspan="5" align="center" valign="middle"  class="tblTitulo">REGISTRO DE A&Ccedil;&Otilde;ES</td>
 				</tr>
-				<tr bgcolor="#999999"> 
+				<tr > 
 					<td width="156" align="center">Usuário</td>
 					<td width="130" align="center">IP</td>
 					<td width="155" align="center">Data e Hora</td>

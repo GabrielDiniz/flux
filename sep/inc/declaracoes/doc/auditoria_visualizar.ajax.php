@@ -102,7 +102,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 </fieldset>
 <fieldset><legend>Nota</legend>
 	<table width="100%">
-    	<tr bgcolor="#999999">
+    	<tr >
         	<td align="center">Número</td>
             <td align="center">Valor</td>
             <td align="center">Emissor</td>

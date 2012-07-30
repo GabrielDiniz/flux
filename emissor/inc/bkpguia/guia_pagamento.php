@@ -41,18 +41,18 @@ Fith Floor, Boston, MA 02110-1301, USA
       <td width="450" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
      <input type="hidden" name="btOp" value="Gerar Guia"/>
     <table align="center">
         <tr>
@@ -124,7 +124,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 								<tr>
 									<td align="center">
 							<table width="100%" align="center">
-								<tr bgcolor="#999999">
+								<tr >
 									<td colspan="3" align="right">Selecionar tudo</td>
 									<td align="center">
 										<input type="checkbox" name="ckTodos" id="ckTodos" onclick="GuiaPagamento_TotalISS()">
@@ -267,7 +267,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>
 </form>

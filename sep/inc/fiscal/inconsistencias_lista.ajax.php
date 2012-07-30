@@ -97,7 +97,7 @@
 					cancelaAction('frmInconsistencias','inc/fiscal/imprimir_inconsistencias.php','_blank');" />
 				</td>
 			</tr>
-			<tr bgcolor="#999999">
+			<tr >
 				<td width="12%" align="center">CNPJ</td>
 				<td width="49%" align="center">Emissor</td>
 				<?php 

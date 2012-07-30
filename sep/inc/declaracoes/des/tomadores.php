@@ -105,11 +105,11 @@ if(mysql_num_rows($sql_tomador)<=0){
 			<td colspan="2" align="center" valign="top">
 				<table width="100%" border="0" align="center" cellpadding="2" cellspacing="1" bordercolor="#CCCCCC" bgcolor="#FFFFFF">
 					<tr>
-						<td width="20%" align="center" bgcolor="#CCCCCC">N&ordm; do Documento</td>
-						<td width="16%" align="center" bgcolor="#CCCCCC">Data Emissão</td>
-						<td width="30%" align="center" bgcolor="#CCCCCC">Prestador (CNPJ/CPF)</td>
-						<td width="15%" align="center" bgcolor="#CCCCCC">Valor</td>
-						<td width="19%" align="center" bgcolor="#CCCCCC" style="display: none">Crédito</td>
+						<td width="20%" align="center" >N&ordm; do Documento</td>
+						<td width="16%" align="center" >Data Emissão</td>
+						<td width="30%" align="center" >Prestador (CNPJ/CPF)</td>
+						<td width="15%" align="center" >Valor</td>
+						<td width="19%" align="center"  style="display: none">Crédito</td>
 					</tr>
 					<?php 
 	                 	campoHidden("hdTomadorCNPJCPF",$tomador_CNPJ);

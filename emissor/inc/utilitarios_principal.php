@@ -25,18 +25,18 @@ Fith Floor, Boston, MA 02110-1301, USA
       <td width="470" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC" style="padding:5px;">
+		<td height="60" colspan="3"  style="padding:5px;">
 Este software lhe permite gerar documentos em PDF a partir de qualquer programa que lhe disponibilize a função de impressão.
 Efetue o download clicando <a href="http://www.cutepdf.com/" target="_blank">aqui</a>.<br>
 <Br>
@@ -45,7 +45,7 @@ Efetue o download clicando <a href="http://www.cutepdf.com/" target="_blank">aqu
   <a href="http://www.cutepdf.com/" target="_blank"><img src="../img/cutepdf.jpg" border="0" /></a>	  </td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>    
 <table border="0" align="center" cellpadding="0" cellspacing="1">
@@ -55,18 +55,18 @@ Efetue o download clicando <a href="http://www.cutepdf.com/" target="_blank">aqu
       <td width="470" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC" style="padding:5px;">
+		<td height="60" colspan="3"  style="padding:5px;">
 Este software lhe permite visualizar documentos em PDF.
 Efetue o download clicando <a href="http://get.adobe.com/br/reader/" target="_blank">aqui</a>.<br>
 <Br>
@@ -75,7 +75,7 @@ Efetue o download clicando <a href="http://get.adobe.com/br/reader/" target="_bl
   <a href="http://get.adobe.com/br/reader/" target="_blank"><img src="../img/adobereader.jpg" border="0" /></a>	  </td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>    
 
@@ -86,18 +86,18 @@ Efetue o download clicando <a href="http://get.adobe.com/br/reader/" target="_bl
       <td width="470" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC" style="padding:5px;">
+		<td height="60" colspan="3"  style="padding:5px;">
 Este software lhe permite acessar todos os recursos deste sistema.
 Efetue o download clicando <a href="http://www.mozilla.com/pt-BR/" target="_blank">aqui</a>.<br>
 <Br>
@@ -106,6 +106,6 @@ Efetue o download clicando <a href="http://www.mozilla.com/pt-BR/" target="_blan
   <a href="http://www.mozilla.com/pt-BR/" target="_blank"><img src="../img/firefox.jpg" border="0" /></a>	  </td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>

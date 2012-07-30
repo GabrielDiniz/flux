@@ -42,18 +42,18 @@ if(mysql_num_rows($sql_listaPendentes)>0){
       <td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
         
         
     <table width="100%" border="0" cellspacing="2" cellpadding="2">
@@ -65,7 +65,7 @@ if(mysql_num_rows($sql_listaPendentes)>0){
       <td width="5%"></td>
     </tr>
     <tr>
-      <td colspan="5" height="1" bgcolor="#999999"></td>
+      <td colspan="5" height="1" ></td>
     </tr>
     <?php
     // lista o resultado do sql
@@ -87,7 +87,7 @@ if(mysql_num_rows($sql_listaPendentes)>0){
             }
     ?>
     <tr>
-      <td colspan="5" height="1" bgcolor="#999999"></td>
+      <td colspan="5" height="1" ></td>
     </tr>
     <?php
     } // fecha while
@@ -98,7 +98,7 @@ if(mysql_num_rows($sql_listaPendentes)>0){
 		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>      
 </form>
@@ -133,18 +133,18 @@ if(mysql_num_rows($sql_listaAtendidas)>0){
       <td width="400" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-      <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+      <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
       <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
   <table width="99%" border="0" cellspacing="2" cellpadding="2">
     <tr>
       <td width="30%">Especifica&ccedil;&atilde;o</td>
@@ -154,7 +154,7 @@ if(mysql_num_rows($sql_listaAtendidas)>0){
       <td width="5%"></td>
     </tr>
     <tr>
-      <td colspan="5" height="1" bgcolor="#999999"></td>
+      <td colspan="5" height="1" ></td>
     </tr>
   <?php
   // lista o resultado do sql
@@ -176,7 +176,7 @@ if(mysql_num_rows($sql_listaAtendidas)>0){
 			}
 	?>
     <tr>
-      <td colspan="5" height="1" bgcolor="#999999"></td>
+      <td colspan="5" height="1" ></td>
     </tr>
 	<?php
 	} // fecha while
@@ -185,7 +185,7 @@ if(mysql_num_rows($sql_listaAtendidas)>0){
 		</td>
 	</tr>
 	<tr>
-    	<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+    	<td height="1" colspan="3" ></td>
 	</tr>
 </table>     
 </form>

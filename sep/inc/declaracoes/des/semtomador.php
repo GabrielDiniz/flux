@@ -147,11 +147,11 @@ $num_servicos = mysql_num_rows($sql_servicos);
 ?>
 			    <table border="0" align="center" cellpadding="2" cellspacing="1" bordercolor="#CCCCCC" bgcolor="#FFFFFF">
                 <tr>
-                  <td width="200" align="center" bgcolor="#CCCCCC">Servi&ccedil;o</td>
-                  <td width="70" align="center" bgcolor="#CCCCCC">Al&iacute;q (%)</td>
-                  <td width="150" align="center" bgcolor="#CCCCCC">Base de C&aacute;lculo (R$)</td>
-				  <td align="center" bgcolor="#CCCCCC">ISS Retido (R$)</td>
-                  <td width="150" align="center" bgcolor="#CCCCCC">Imposto (R$)</td>
+                  <td width="200" align="center" >Servi&ccedil;o</td>
+                  <td width="70" align="center" >Al&iacute;q (%)</td>
+                  <td width="150" align="center" >Base de C&aacute;lculo (R$)</td>
+				  <td align="center" >ISS Retido (R$)</td>
+                  <td width="150" align="center" >Imposto (R$)</td>
                 </tr>
 <?php
 

@@ -30,31 +30,31 @@ if(!$imoveis->CarregaNumCad()){
 ?>
 <table width="100%" cellspacing="1" cellpadding="1">
 	<tr>
-    	<td width="220" bgcolor="#999999"><strong>LOGRADOURO:</strong></td><td bgcolor="#FFFFFF">&nbsp;<?php echo $imoveis->getEndCor(); ?></td>
+    	<td width="220" ><strong>LOGRADOURO:</strong></td><td bgcolor="#FFFFFF">&nbsp;<?php echo $imoveis->getEndCor(); ?></td>
     </tr>
     <tr>
-    	<td bgcolor="#999999"><strong>CIDADE:</strong></td><td bgcolor="#FFFFFF">&nbsp;<?php echo $imoveis->getCidCor(); ?></td>
+    	<td ><strong>CIDADE:</strong></td><td bgcolor="#FFFFFF">&nbsp;<?php echo $imoveis->getCidCor(); ?></td>
     </tr>
     <tr>
-    	<td bgcolor="#999999"><strong>UF:</strong></td><td bgcolor="#FFFFFF">&nbsp;<?php echo $imoveis->getEstCor(); ?>
+    	<td ><strong>UF:</strong></td><td bgcolor="#FFFFFF">&nbsp;<?php echo $imoveis->getEstCor(); ?>
     </tr>
     <tr>
-    	<td bgcolor="#999999"><strong>BAIRRO:</strong></td><td bgcolor="#FFFFFF">&nbsp;<?php echo $imoveis->getBaiCor(); ?></td>
+    	<td ><strong>BAIRRO:</strong></td><td bgcolor="#FFFFFF">&nbsp;<?php echo $imoveis->getBaiCor(); ?></td>
     </tr>
     <!--<tr>
-    	<td bgcolor="#999999"><strong>VALOR IPTU:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<?php /* echo DecToMoeda($imoveis->getVlrDesc()); */ ?></td>
+    	<td ><strong>VALOR IPTU:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<?php /* echo DecToMoeda($imoveis->getVlrDesc()); */ ?></td>
     </tr>
     <tr>
-    	<td bgcolor="#999999"><strong>CR&Eacute;DITO:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<input onkeyup="MaskMoeda(this);atualizacreditos(<?php /*echo $valormaximo;*/ ?>,<?php /*echo $imoveis->getVlrDesc()*/; ?>);return NumbersOnly(event);" type="text" onkeydown="atualizacreditos(<?php /*echo $valormaximo;*/ ?>,<?php /*echo $imoveis->getVlrDesc();*/ ?>);return NumbersOnly(event);" name="txtCredito" id="txtCredito" value="<?php /*echo DecToMoeda($credito);*/ ?>" class="texto" size="20" /></td>
+    	<td ><strong>CR&Eacute;DITO:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<input onkeyup="MaskMoeda(this);atualizacreditos(<?php /*echo $valormaximo;*/ ?>,<?php /*echo $imoveis->getVlrDesc()*/; ?>);return NumbersOnly(event);" type="text" onkeydown="atualizacreditos(<?php /*echo $valormaximo;*/ ?>,<?php /*echo $imoveis->getVlrDesc();*/ ?>);return NumbersOnly(event);" name="txtCredito" id="txtCredito" value="<?php /*echo DecToMoeda($credito);*/ ?>" class="texto" size="20" /></td>
     </tr>
     <tr>
-    	<td bgcolor="#999999"><strong>VALOR M&Aacute;XIMO DE ABATIMENTO:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<?php /*echo DecToMoeda($valormaximo);*/ ?></td>
+    	<td ><strong>VALOR M&Aacute;XIMO DE ABATIMENTO:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<?php /*echo DecToMoeda($valormaximo);*/ ?></td>
     </tr>
     <tr>
-    	<td bgcolor="#999999"><strong>CR&Eacute;DITO ACUMULADO:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<?php /*echo DecToMoeda($acumulado);*/ ?></td>
+    	<td ><strong>CR&Eacute;DITO ACUMULADO:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<?php /*echo DecToMoeda($acumulado);*/ ?></td>
     </tr>
     <tr>
-    	<td bgcolor="#999999"><strong>VALOR COM DESCONTO:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<input type="text" disabled="disabled" readonly="readonly" name="txtValorDesconto" id="txtValorDesconto" value="<?php /*echo DecToMoeda($valordesconto);*/ ?>" onkeyup="MaskMoeda(this);"  class="texto" size="20" /></td>
+    	<td ><strong>VALOR COM DESCONTO:</strong></td><td bgcolor="#FFFFFF">&nbsp;R$&nbsp;<input type="text" disabled="disabled" readonly="readonly" name="txtValorDesconto" id="txtValorDesconto" value="<?php /*echo DecToMoeda($valordesconto);*/ ?>" onkeyup="MaskMoeda(this);"  class="texto" size="20" /></td>
     </tr>-->
 </table>
 <?php

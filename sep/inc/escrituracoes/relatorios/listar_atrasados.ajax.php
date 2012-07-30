@@ -31,7 +31,7 @@ $dia = date("d");
 $mes = date("m");
 $ano = date("Y");
 ?>
-	<table width="800" bgcolor="#CCCCCC" cellpadding="0" cellspacing="0">
+	<table width="800"  cellpadding="0" cellspacing="0">
 		<tr>
 			<td>
 				<fieldset style="width:800px"><legend>Busca de Escriturações Atrasadas</legend>
@@ -41,7 +41,7 @@ $ano = date("Y");
                     if(mysql_num_rows($sql)>0){
                     ?>
 					<table width="800">
-							<tr bgcolor="#999999">
+							<tr >
 								<td width="210" align="center">Nome</td>
 								<td width="200" align="center">Nosso Número</td>
 								<td width="80" align="center">Valor</td>

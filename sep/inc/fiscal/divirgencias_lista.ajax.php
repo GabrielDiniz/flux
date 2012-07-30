@@ -44,12 +44,12 @@
 		?>
 				  <table width="100%" border="0" align="center" cellpadding="2" cellspacing="1" bordercolor="#CCCCCC" bgcolor="#FFFFFF">
 	                <tr>
-	                  <td align="center" bgcolor="#CCCCCC">Código</td>
-	                  <td align="center" bgcolor="#CCCCCC">Prestador</td>
-	                  <td align="center" bgcolor="#CCCCCC">Data</td>
-	                  <td align="center" bgcolor="#CCCCCC">Número nota</td>
-	                  <td align="center" bgcolor="#CCCCCC">Valor (R$)</td>
-	                  <td align="center" bgcolor="#CCCCCC">Imprimir</td>
+	                  <td align="center" >Código</td>
+	                  <td align="center" >Prestador</td>
+	                  <td align="center" >Data</td>
+	                  <td align="center" >Número nota</td>
+	                  <td align="center" >Valor (R$)</td>
+	                  <td align="center" >Imprimir</td>
 	                 </tr>
 		<?php
 		$cont=1;

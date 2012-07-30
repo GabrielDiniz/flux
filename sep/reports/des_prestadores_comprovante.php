@@ -97,10 +97,10 @@ Fith Floor, Boston, MA 02110-1301, USA
     </table></td>
   </tr>
   <tr>
-    <td width="25%" height="30" align="center" bgcolor="#CCCCCC"><strong>Documento N&ordm;.</strong></td>
-    <td width="25%" align="center" bgcolor="#CCCCCC"><strong>C&oacute;digo de Verifica&ccedil;&atilde;o</strong></td>
-    <td align="center" bgcolor="#CCCCCC"><strong>Data de Emiss&atilde;o </strong></td>
-    <td align="center" bgcolor="#CCCCCC"><strong>Per&iacute;odo</strong></td>
+    <td width="25%" height="30" align="center" ><strong>Documento N&ordm;.</strong></td>
+    <td width="25%" align="center" ><strong>C&oacute;digo de Verifica&ccedil;&atilde;o</strong></td>
+    <td align="center" ><strong>Data de Emiss&atilde;o </strong></td>
+    <td align="center" ><strong>Per&iacute;odo</strong></td>
   </tr>
   <tr>
     <td height="30" align="center"><font class="prefeitura"><?php echo $codigo; ?></font></td>
@@ -109,7 +109,7 @@ Fith Floor, Boston, MA 02110-1301, USA
     <td align="center"><font class="prefeitura"><?php echo $competencia; ?></font></td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>IDENTIFICA&Ccedil;&Atilde;O DO SUJEITO PASSIVO </strong></td>
+    <td height="30" colspan="4" align="center" ><strong>IDENTIFICA&Ccedil;&Atilde;O DO SUJEITO PASSIVO </strong></td>
   </tr>
   <tr>
     <td height="50" colspan="3" valign="top">Nome<br>
@@ -122,13 +122,13 @@ Fith Floor, Boston, MA 02110-1301, USA
     <font class="prefeitura"><?php echo $endereco; ?></font></td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>CERTIFICA&Ccedil;&Atilde;O</strong></td>
+    <td height="30" colspan="4" align="center" ><strong>CERTIFICA&Ccedil;&Atilde;O</strong></td>
   </tr>
   <tr>
     <td height="200" colspan="4" align="center" valign="middle"><span class="style1">A Prefeitura Municipal de <font class="prefeitura"><?php echo $CONF_CIDADE; ?></font> certifica que a empresa citada acima concluiu o processo de Desclara&ccedil;&atilde;o Eletr&ocirc;nica de Servi&ccedil;os de ISS, referente ao per&iacute;odo <font class="prefeitura"><?php echo DataPt($competencia); ?></font>.</span>   </td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>OBSERVA&Ccedil;&Otilde;ES</strong></td>
+    <td height="30" colspan="4" align="center" ><strong>OBSERVA&Ccedil;&Otilde;ES</strong></td>
   </tr>
   <tr>
     <td colspan="4"><p>- Fica assegurado ao Munic&iacute;pio a cobran&ccedil;a de qualquer d&eacute;bito que possa ser verificado posteriormente; </p>

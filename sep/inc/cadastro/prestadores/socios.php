@@ -38,7 +38,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<td height="0"></td>
   </tr>
   <tr id="campossocio<?php echo $cont; ?>" style="display:<?php echo $display; ?>; width:500px;">
-      <td align="left" bgcolor="#999999">
+      <td align="left" >
           <table>
               <tr>
                   <td><?php echo $nome; ?></td>

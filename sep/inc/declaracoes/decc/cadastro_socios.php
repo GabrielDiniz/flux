@@ -30,7 +30,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<td height="0"></td>
   </tr>
   <tr id="campossocio<?php echo $cont; ?>" style="display:none">	    
-    <td align="left" bgcolor="#999999">&nbsp;Nome 
+    <td align="left" >&nbsp;Nome 
 	 <input type="text" size="40" maxlength="100" name="txtNomeSocio<?php echo $cont; ?>" id="txtNomeSocio<?php echo $cont; ?>" class="texto" /> CPF 
 	 
 	 <input type="text" size="14" maxlength="14" name="txtCpfSocio<?php echo $cont; ?>" id="txtCpfSocio<?php echo $cont; ?>" class="texto" onkeypress="formatar(this,'000.000.000-00')"/>

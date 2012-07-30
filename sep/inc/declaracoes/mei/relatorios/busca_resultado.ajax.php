@@ -50,7 +50,7 @@ if(mysql_num_rows($sql_empreiteiras)>0)
         	onclick="cancelaAction('frmRelatorio','inc/empreiteiras/relatorios/imprimir_empreiteiras.php','_blank')" />
         </td>
     </tr>
-    <tr bgcolor="#999999">
+    <tr >
         <td align="center" width="170">Nome</td>
         <td align="center" width="110">CNPJ</td>
         <td align="center" width="130">Município</td>

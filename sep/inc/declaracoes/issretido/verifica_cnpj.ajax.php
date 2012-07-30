@@ -31,7 +31,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 <form method="post" name="frmDesSemTomador" onsubmit="document.getElementById('hdTotalInputs').value=totalemissores_des;">	
 	<input type="hidden" name="hdTotalInputs" id="hdTotalInputs" />
 	<input type="hidden" name="include" id="include" value="<?php echo $_GET['include'];?>" />
-	<table width="100%" height="100%" bgcolor="#CCCCCC" border="0" align="center" cellpadding="5" cellspacing="0">
+	<table width="100%" height="100%"  border="0" align="center" cellpadding="5" cellspacing="0">
 		<tr>
 			<td width="15%" align="left" valign="middle">CNPJ:</td>
 			<td width="10%" align="left" valign="middle">

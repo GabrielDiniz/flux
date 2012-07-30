@@ -30,18 +30,18 @@ if(!$_POST['txtCNPJ']){
 			<td width="385" bgcolor="#FFFFFF"></td>
 		</tr>
 		<tr>
-			<td height="1" bgcolor="#CCCCCC"></td>
-			<td bgcolor="#CCCCCC"></td>
+			<td height="1" ></td>
+			<td ></td>
 		</tr>
 		<tr>
 			<td height="10" bgcolor="#FFFFFF"></td>
 			<td bgcolor="#FFFFFF"></td>
 		</tr>
 		<tr>
-			<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+			<td colspan="3" height="1" ></td>
 		</tr>
 		<tr>
-			<td height="60" colspan="3" bgcolor="#CCCCCC"><table width="98%" height="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+			<td height="60" colspan="3" ><table width="98%" height="100%" border="0" align="center" cellpadding="5" cellspacing="0">
 					<tr>
 						<td width="19%" align="left">CNPJ/CPF</td>
 						<td width="81%" align="left" valign="middle"><em>
@@ -57,7 +57,7 @@ if(!$_POST['txtCNPJ']){
 				</table></td>
 		</tr>
 		<tr>
-			<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+			<td height="1" colspan="3" ></td>
 		</tr>
 	</table>
 </form>

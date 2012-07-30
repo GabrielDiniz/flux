@@ -116,13 +116,13 @@ if(mysql_num_rows($sql_tomador)<=0) {
 				  
 				    <table border="0" align="center" cellpadding="2" cellspacing="1" bordercolor="#CCCCCC" bgcolor="#FFFFFF">
 	                <tr>
-	                  <td align="center" bgcolor="#CCCCCC"> Tomador (CPF/CNPJ)</td>
-	                  <td align="center" bgcolor="#CCCCCC">Servi&ccedil;o / Atividade</td>
-	                  <td align="center" bgcolor="#CCCCCC"><?php echo $tipopessoa=='cpf'?'RPA':'Al&iacute;q (%)'; ?></td>
-	                  <td align="center" bgcolor="#CCCCCC">Base de C&aacute;lculo (R$)</td>
-	                  <td align="center" bgcolor="#CCCCCC">ISS Retido (R$)</td>
-	                  <td align="center" bgcolor="#CCCCCC">ISS (R$)</td>
-	                  <td align="center" bgcolor="#CCCCCC">N&ordm;. Documento</td>
+	                  <td align="center" > Tomador (CPF/CNPJ)</td>
+	                  <td align="center" >Servi&ccedil;o / Atividade</td>
+	                  <td align="center" ><?php echo $tipopessoa=='cpf'?'RPA':'Al&iacute;q (%)'; ?></td>
+	                  <td align="center" >Base de C&aacute;lculo (R$)</td>
+	                  <td align="center" >ISS Retido (R$)</td>
+	                  <td align="center" >ISS (R$)</td>
+	                  <td align="center" >N&ordm;. Documento</td>
 	                </tr>
                     <tr>
 	<?php

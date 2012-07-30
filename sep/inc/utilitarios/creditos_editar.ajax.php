@@ -29,7 +29,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 <input type="hidden" name="hdCodCredito" value="<?php echo $codigo;?>">
 <table width="100%">
 	<tr bgcolor="#FFFFFF">
-		<td width="3%" bgcolor="#CCCCCC">&nbsp;</td>
+		<td width="3%" >&nbsp;</td>
 		<td width="13%" align="center">
 			<select name="cmbTipoPessoaEdit" class="combo">
 				<option value="PF"<?php if($tipopessoa == "PF"){ echo "selected=selected";}?>>Pessoa Fisica</option>

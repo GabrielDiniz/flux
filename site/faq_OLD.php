@@ -118,13 +118,13 @@ echo "<font color=#FF0000 size=4><strong>$notas_emitidas</strong></font>";
     <!-- quadro da esquerda acima -->
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
       <tr>
-        <td height="120" align="left" valign="top" bgcolor="#CCCCCC" style="padding:5px;">
+        <td height="120" align="left" valign="top"  style="padding:5px;">
         <table width="500" border="0" cellspacing="0" cellpadding="5">
           <tr>
             <td align="left" background="../img/index/index_comofunciona_fundo.jpg"><p><span class="style2">01 - CONCEITOS</span><br />
@@ -336,13 +336,13 @@ echo "<font color=#FF0000 size=4><strong>$notas_emitidas</strong></font>";
   <tr>
     <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td height="3" bgcolor="#CCCCCC"></td>
+        <td height="3" ></td>
       </tr>
       <tr>
-        <td height="10" bgcolor="#999999"></td>
+        <td height="10" ></td>
       </tr>
       <tr>
-        <td height="120" align="left" valign="top" bgcolor="#CCCCCC" style="padding:5px;"><table width="500" border="0" cellspacing="0" cellpadding="5">
+        <td height="120" align="left" valign="top"  style="padding:5px;"><table width="500" border="0" cellspacing="0" cellpadding="5">
           <tr>
             <td align="left" background="img/index_oquee_fundo.jpg"><span class="style2">01 - CONCEITOS </span><br />
                 <br />

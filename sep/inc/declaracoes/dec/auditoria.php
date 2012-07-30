@@ -19,7 +19,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
 
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" width="750">
+<table border="0" cellspacing="0" cellpadding="0"  width="750">
   <tr>
     <td width="18" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
     <td width="700" background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho">&nbsp;Cartórios - Auditoria </td>  

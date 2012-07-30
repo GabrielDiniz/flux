@@ -46,7 +46,7 @@ Fith Floor, Boston, MA 02110-1301, USA
     if(mysql_num_rows($sql_operadora)){
     ?>
 <table width="100%">
-    <tr bgcolor="#999999">
+    <tr >
         <td width="688" align="center">Cod. de verificação</td>
         <td width="197" align="center">Data Gerado</td>
         <td width="143" align="center">Competencia</td>

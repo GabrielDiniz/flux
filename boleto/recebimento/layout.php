@@ -121,7 +121,7 @@
       <tr>
         <td></td>
         <td class="cab02" align="right">VALOR A PAGAR&nbsp;&nbsp;</td>
-        <td class="cab02" height="40" align="right" bgcolor="#CCCCCC" style="border:1px solid;">R$ <?php echo DecToMoeda($valorbl); ?></td>
+        <td class="cab02" height="40" align="right"  style="border:1px solid;">R$ <?php echo DecToMoeda($valorbl); ?></td>
       </tr>
     </table>    
     </td>
@@ -187,7 +187,7 @@
             <tr>
               <td>Vencimento: <?php echo $vencimento;?></td>
               <td class="cab02" align="right">VALOR A PAGAR&nbsp;&nbsp;</td>
-              <td class="cab02" align="right" style="border:1px solid;" bgcolor="#CCCCCC">R$ <?php echo DecToMoeda($valorbl); ?></td>
+              <td class="cab02" align="right" style="border:1px solid;" >R$ <?php echo DecToMoeda($valorbl); ?></td>
             </tr>
           </table></td>
       </tr>

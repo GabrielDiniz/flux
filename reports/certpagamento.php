@@ -162,10 +162,10 @@ if ($resultado){
     </table></td>
   </tr>
   <tr>
-    <td width="25%" height="30" align="center" bgcolor="#CCCCCC"><strong>Documento N&ordm;.</strong></td>
-    <td width="25%" align="center" bgcolor="#CCCCCC"><strong>C&oacute;digo de Verifica&ccedil;&atilde;o </strong></td>
-    <td width="25%" align="center" bgcolor="#CCCCCC"><strong>Data de Emiss&atilde;o </strong></td>
-    <td width="25%" align="center" bgcolor="#CCCCCC"><strong>Data de Validade</strong></td>
+    <td width="25%" height="30" align="center" ><strong>Documento N&ordm;.</strong></td>
+    <td width="25%" align="center" ><strong>C&oacute;digo de Verifica&ccedil;&atilde;o </strong></td>
+    <td width="25%" align="center" ><strong>Data de Emiss&atilde;o </strong></td>
+    <td width="25%" align="center" ><strong>Data de Validade</strong></td>
   </tr>
   <tr>
     <td height="30" align="center"><font class="prefeitura"><?php echo $nrodoc; ?></font></td>
@@ -174,7 +174,7 @@ if ($resultado){
     <td align="center"><font class="prefeitura"><?php echo DataPt($certvalidade); ?></font></td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>IDENTIFICA&Ccedil;&Atilde;O DO SUJEITO PASSIVO </strong></td>
+    <td height="30" colspan="4" align="center" ><strong>IDENTIFICA&Ccedil;&Atilde;O DO SUJEITO PASSIVO </strong></td>
   </tr>
   <tr>
     <td height="50" colspan="3" valign="top">Nome<br>
@@ -187,7 +187,7 @@ if ($resultado){
     <font class="prefeitura"><?php echo $endereco; ?></font></td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>PAGAMENTOS EFETUADOS </strong></td>
+    <td height="30" colspan="4" align="center" ><strong>PAGAMENTOS EFETUADOS </strong></td>
   </tr>
   <tr>
     <td height="20" align="center" valign="middle"><strong>Guia</strong></td>
@@ -216,7 +216,7 @@ if ($resultado){
     <td height="100" colspan="4" align="center" valign="middle">&nbsp;</td>
   </tr>
   <tr>
-    <td height="30" colspan="4" align="center" bgcolor="#CCCCCC"><strong>OBSERVA&Ccedil;&Otilde;ES</strong></td>
+    <td height="30" colspan="4" align="center" ><strong>OBSERVA&Ccedil;&Otilde;ES</strong></td>
   </tr>
   <tr>
     <td colspan="4"><p>- O presente documento somente tem validade:<br>

@@ -18,7 +18,7 @@ www.softwarepublico.gov.br, ou escreva para a Fundacao do Software Livre Inc., 5
 Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
-	<table width="100%" height="100%" bgcolor="#CCCCCC" border="0" align="center" cellpadding="5" cellspacing="0">
+	<table width="100%" height="100%"  border="0" align="center" cellpadding="5" cellspacing="0">
 		<tr height="10">&nbsp;</tr>
 		<tr>
 			<td colspan="2" align="center" valign="top">
@@ -74,7 +74,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 			for($c=1;$c<$num_serv_max;$c++){
 		?>
 		<!--TR QUE VAI CONTER ID-->
-		<tr id="trServ<?php echo $c;?>" style="<?php echo $trServStyle;?>" bgcolor="#999999">
+		<tr id="trServ<?php echo $c;?>" style="<?php echo $trServStyle;?>" >
 			<td colspan="7">
 				<table border="0" align="center" cellspacing="0" bordercolor="#FFFFFF" width="100%">
 					<tr>

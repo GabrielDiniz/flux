@@ -26,7 +26,7 @@ include("../../../funcoes/util.php");
 // SELECIONA NO BANCO AS GUIAS PAGAS A SEREM MOSTRADAS
 $sqlpago = ("SELECT guias_declaracoes.relacionamento, guia_pagamento.codigo FROM guia_pagamento INNER JOIN guias_declaracoes ON guia_pagamento.codigo=guias_declaracoes.codguia WHERE guia_pagamento.pago = 'S' GROUP BY guia_pagamento.codigo");
 	?>
-		<table width="800" bgcolor="#CCCCCC" cellpadding="0" cellspacing="0">
+		<table width="800"  cellpadding="0" cellspacing="0">
 			<tr>
 				<td>
                 <fieldset style="width:800px"><legend>Busca de Escriturações Pagas</legend>
@@ -36,7 +36,7 @@ $sqlpago = ("SELECT guias_declaracoes.relacionamento, guia_pagamento.codigo FROM
                 if(mysql_num_rows($sql)>0){
                 ?>					
 					<table width="800">
-							<tr bgcolor="#999999">
+							<tr >
 								<td width="210" align="center">Nome</td>
 								<td width="200" align="center">Nosso Número</td>
 								<td width="80" align="center">Valor</td>

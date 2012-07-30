@@ -42,18 +42,18 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<td width="30%" bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-	  <td height="1" bgcolor="#CCCCCC"></td>
-	  <td bgcolor="#CCCCCC"></td>
+	  <td height="1" ></td>
+	  <td ></td>
 	</tr>
 	<tr>
 	  <td height="10" bgcolor="#FFFFFF"></td>
 	  <td bgcolor="#FFFFFF"></td>
 	</tr>
 	<tr>
-		<td colspan="3" height="1" bgcolor="#CCCCCC"></td>
+		<td colspan="3" height="1" ></td>
 	</tr>
 	<tr>
-		<td height="60" colspan="3" bgcolor="#CCCCCC">
+		<td height="60" colspan="3" >
 
 		<table width="100%" height="100%" border="0" align="center" cellpadding="3" cellspacing="2">
 <tr>
@@ -115,12 +115,12 @@ Fith Floor, Boston, MA 02110-1301, USA
 			  
 				<table width="100%" border="0" align="center" cellpadding="2" cellspacing="1" bordercolor="#CCCCCC" bgcolor="#FFFFFF">
 				<tr>
-				  <td align="center" bgcolor="#CCCCCC"> Tomador (CPF/CNPJ)</td>
-				  <td align="center" bgcolor="#CCCCCC">Servi&ccedil;o / Atividade</td>
-				  <td style="display: none;" align="center" bgcolor="#CCCCCC">Al&iacute;q (%)</td>
-				  <td align="center" bgcolor="#CCCCCC">Base de C&aacute;lculo (R$)</td>
-				  <td style="display: none" align="center" bgcolor="#CCCCCC">ISS (R$)</td>
-				  <td align="center" bgcolor="#CCCCCC">N&ordm;. Documento</td>
+				  <td align="center" > Tomador (CPF/CNPJ)</td>
+				  <td align="center" >Servi&ccedil;o / Atividade</td>
+				  <td style="display: none;" align="center" >Al&iacute;q (%)</td>
+				  <td align="center" >Base de C&aacute;lculo (R$)</td>
+				  <td style="display: none" align="center" >ISS (R$)</td>
+				  <td align="center" >N&ordm;. Documento</td>
 				</tr>
 				<tr>
 <?php
@@ -217,7 +217,7 @@ for($c=1;$c<$num_serv_max;$c++){
 	  </td>
 	</tr>
 	<tr>
-		<td height="1" colspan="3" bgcolor="#CCCCCC"></td>
+		<td height="1" colspan="3" ></td>
 	</tr>
 </table>    
 	

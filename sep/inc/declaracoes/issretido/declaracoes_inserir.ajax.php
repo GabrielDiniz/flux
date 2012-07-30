@@ -111,22 +111,22 @@ if (!mysql_num_rows($sql_emissor)){
 			 <br/>
 			 <table width="100%" border="0" cellspacing="1">
 			 	<tr>
-				  <td colspan="4" align="center" bgcolor="#999999">
+				  <td colspan="4" align="center" >
 				    Dados dos Emissores:
 				  </td>
 				</tr> 				
 				<tr>
-				  <td width="24%" align="center" bgcolor="#999999">	
+				  <td width="24%" align="center" >	
 				    Cnpj/Cpf				  
 				  </td>		
-				  <td width="22%" align="center" bgcolor="#999999">		
+				  <td width="22%" align="center" >		
    				    Número Nota				  
 				  </td>									
-				  <td width="29%" align="center" bgcolor="#999999">		
+				  <td width="29%" align="center" >		
 	
 					Valor Nota			  
 				  </td>											  
-				  <td width="25%" align="center" bgcolor="#999999">					    
+				  <td width="25%" align="center" >					    
 				    ISS Retido				  
 				  </td>											  
 				</tr>

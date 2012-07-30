@@ -60,12 +60,12 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<td colspan="2" align="center" valign="top">
 			<table border="0" align="center" cellpadding="2" cellspacing="1" bordercolor="#CCCCCC" bgcolor="#FFFFFF">
 				<tr>
-					<td align="center" bgcolor="#CCCCCC">Prestador(CPF/CNPJ)</td>
-					<td align="center" bgcolor="#CCCCCC">Servi&ccedil;o / Atividade</td>
-					<td align="center" bgcolor="#CCCCCC">Al&iacute;q (%)</td>
-					<td align="center" bgcolor="#CCCCCC">Base de C&aacute;lculo (R$)</td>
-					<td align="center" bgcolor="#CCCCCC">ISS (R$)</td>
-					<td align="center" bgcolor="#CCCCCC">N&ordm;. Documento</td>
+					<td align="center" >Prestador(CPF/CNPJ)</td>
+					<td align="center" >Servi&ccedil;o / Atividade</td>
+					<td align="center" >Al&iacute;q (%)</td>
+					<td align="center" >Base de C&aacute;lculo (R$)</td>
+					<td align="center" >ISS (R$)</td>
+					<td align="center" >N&ordm;. Documento</td>
 				</tr>
 				<?php
 					

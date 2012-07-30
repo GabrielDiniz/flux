@@ -90,7 +90,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 					echo $sql['botoes'];
 						?>
 						<table width="725px">
-							<tr bgcolor="#999999">
+							<tr >
 								<td width="45px" align="center">cod</td>
 								<td width="360px" align="center">Razão</td>
 								<td width="60px" align="center">Estado</td>

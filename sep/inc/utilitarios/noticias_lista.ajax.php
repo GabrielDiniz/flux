@@ -30,7 +30,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	if(mysql_num_rows($sql)>0){
 ?>
     <table width="100%">
-        <tr bgcolor="#999999">
+        <tr >
             <td width="32%" align="center">
                 <b>Título</b>
 			</td>

@@ -55,7 +55,7 @@ $result = mysql_num_rows($sql_logs);
 if($result>0){
 ?>
 	<table width="100%">
-		<tr bgcolor="#999999"> 
+		<tr > 
 			<td width="180" align="center">Usuário</td>
 			<td width="80" align="center">IP</td>
 			<td width="140" align="center">Data e hora</td>
