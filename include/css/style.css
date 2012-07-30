@@ -1,5 +1,9 @@
-@import"../css/reset.css";@import"../css/skeleton.css";@import"../css/superfish.css";@import"../css/forms.css";@import"../css/flexslider.css";@import"../css/prettyPhoto.css";
+@import"../css/reset.css";@import"../css/skeleton.css";@import"../css/superfish.css";@import"../css/flexslider.css";@import"../css/prettyPhoto.css";
 @import url(http://fonts.googleapis.com/css?family=Arimo);
+
+
+
+
 body{background:#fff url(../images/bg-body.jpg) 50% 0 repeat;font:13px/20px Arial, Helvetica, sans-serif;color:#9b9b9b;position:relative;min-width:320px; -webkit-text-size-adjust: none;}
 html,body{height:100%;}
 p{padding-bottom:20px}
