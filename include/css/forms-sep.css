@@ -12,6 +12,8 @@ color: #666666;
     font-size: 13px;
 height: 25px;}
 
+textarea{
+height: 100%;}
 select{height: 32px;}
 
 input.botao{
@@ -57,8 +59,14 @@ td b{    float: left;
     margin-bottom: 10px;
     text-transform: uppercase;}
 
+legend strong{
+   
+    font-weight: normal;
+  
+}
 
 legend {
+    float: left;
     color: #2C9BB6;
     font-size: 16px;
     font-weight: normal;
