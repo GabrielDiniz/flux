@@ -154,7 +154,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 							</td>
 						</tr>
 						<tr>
-							<td colspan="2"><hr size="1" color="#000000"></td>
+							<td colspan="2"><hr size="1" color="#ccc"></td>
 						</tr>
 						<tr>
 							<td align="left" colspan="2"><b>Informa&ccedil;&otilde;es do Contador</b></td>

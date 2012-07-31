@@ -47,7 +47,7 @@ $valor     = $_POST["cmbValor"];
 					<td align="center" width="33%">Valor</td>
 				</tr>
 				<tr>
-					<td colspan="4"><hr size="1" color="#000000"></td>
+					<td colspan="4"><hr size="1" color="#ccc"></td>
 				</tr>
 				<?php
 						while(list($credito,$tipopessoa,$issretido,$valor) = mysql_fetch_array($sql)){

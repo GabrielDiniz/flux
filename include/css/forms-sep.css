@@ -46,11 +46,13 @@ input.botao:hover {
 table, table td {
     border: medium none;
     padding: 5px 0;
+border-collapse: inherit;
 }
 
 td {
     color: #444;
     font-size: 100%;
+    cursor: default;
 }
 
 
