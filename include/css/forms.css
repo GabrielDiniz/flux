@@ -1,5 +1,89 @@
-input[type="text"],input[type=password],textarea{font-family: Arial, Helvetica, sans-serif;color:#9b9b9b;font-size:13px;vertical-align:middle;font-weight:normal;padding:10px 10px 10px 14px;margin:0;background:#fff;outline:none;border:1px solid #d2d2d4; border-radius:7px;}
+
+
+
+
+
+*{ font-family: 'Arimo',sans-serif !important;}
+
+input[type="text"],input[type=password],textarea,select{border-radius: 2px 2px 2px 2px;
+    cursor: text;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-transform: uppercase;
+border: 1px solid #BEBEBE;
+box-shadow: 0 3px 0 0 #F0F0F0 inset;
+padding: 6px 10px;
+color: #666666;
+    font-size: 13px;
+height: 10px;}
+
+textarea{
+height: 100%;}
+select{height: 32px;}
+
+input.botao{
+border:none;
+    -moz-transition: all 0.5s ease 0s;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 5px solid #2C9BB6;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 1px 1px 1px lightGrey;
+    color: #444444;
+    display: block;
+    font-size: 13px;
+    padding: 7px ;
+ cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+margin-bottom: 15px;
+    margin-right: 20px;
+float: left;
+
+}
+
+input.botao:hover {
+    background: none repeat scroll 0 0 #2C9BB6;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+table, table td {
+    border: medium none;
+    padding: 5px 0;
+border-collapse: inherit;
+}
+
+td {
+    color: #444;
+    font-size: 100%;
+    cursor: default;
+}
+
+
+td b{    float: left;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform: uppercase;}
+
+legend strong{
+   
+    font-weight: normal;
+  
+}
+
+legend {
+    float: left;
+    color: #2C9BB6;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 15px !important;
+    text-transform: uppercase;
+}
+
 /* Contact form */
+
+
 #contact-form{position:relative; padding:6px 0 0 0;}
 	#contact-form fieldset{border:none;padding:0}
 	#contact-form label {display:block;min-height:46px; position:relative;}
@@ -30,4 +114,10 @@ input[type="text"],input[type=password],textarea{font-family: Arial, Helvetica, 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#search input{width:255px;}
 	#contact-form input,#contact-form textarea{ width:394px;}
+}
+
+
+
+
+
 }
