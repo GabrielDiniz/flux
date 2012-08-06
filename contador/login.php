@@ -59,7 +59,7 @@ if(!(isset($_SESSION["empresa"])))
 				<p>
 					<input type="password" name="txtSenha" id="txtSenha" size="30" class="texto" />
 				</p>
-				<h4> CÃ³digo de verificaÃ§Ã£o</h4>
+				<h4> Código de verificação</h4>
 				<p>
 					<input type="text" name="codseguranca" id="codseguranca" size="6" class="texto" />  &nbsp;
 	   	   <?php include("inc/cod_verificacao.php"); ?>

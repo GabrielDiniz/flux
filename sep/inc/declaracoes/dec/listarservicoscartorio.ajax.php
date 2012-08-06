@@ -19,7 +19,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
 <?php 
-	/* NÃ£o gravar em cache */
+	/* Não gravar em cache */
 	$gmtDate = gmdate("D, d M Y H:i:s");
 	header("Expires: {$gmtDate} GMT");
 	header("Last-Modified: {$gmtDate} GMT");

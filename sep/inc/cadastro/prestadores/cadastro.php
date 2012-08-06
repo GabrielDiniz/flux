@@ -117,7 +117,7 @@ input[type*="text"]{
 						");
 		list($codigo,$codtipo,$codtipodec,$nome,$razaosocial,$cnpjcpf,$inscrmunicipal,$inscricaoestadual, $logradouro,$numero,$complemento,$bairro,$fone,$celular,$cep,$municipio,$uf,$logo,$email,$ultima,$notalimite,$estado,$codcontador,$nfe,$pispasep,$datafim,$datainicio,$isentoiss)= mysql_fetch_array($sql);
 		
-		// verifica se o prestador Ã© simples nacional
+		// verifica se o prestador é simples nacional
 		$simples = coddeclaracao("Simples Nacional");
 		if($simples == $codtipodec){
 			$simples = true;

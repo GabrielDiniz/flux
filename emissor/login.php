@@ -54,7 +54,7 @@ if(!(isset($_SESSION["empresa"])))
 					<input type="text" name="txtLogin" id="txtLogin" size="30" class="texto" onkeyup="CNPJCPFMsk( this )"  onkeydown="return NumbersOnly(event); "/>
 				</p>
 				ou
-				<h4> CÃ³digo</h4>
+				<h4> Código</h4>
 				<p>
 					<input type="text" name="txtCodigo" id="txtCodigo" size="30" class="texto" onkeydown="return NumbersOnly(event);" />
 				</p>
@@ -63,7 +63,7 @@ if(!(isset($_SESSION["empresa"])))
 				<p>
 					<input type="password" name="txtSenha" id="txtSenha" size="30" class="texto" />
 				</p>
-				<h4> CÃ³digo de verificaÃ§Ã£o</h4>
+				<h4> Código de verificação</h4>
 				<p>
 					<input type="text" name="codseguranca" id="codseguranca" size="6" class="texto" />  &nbsp;
 	   	   <?php include("inc/cod_verificacao.php"); ?>

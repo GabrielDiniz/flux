@@ -160,7 +160,7 @@ div.pagina {
 			}
 					}//fim while
 			}else{
-			//caso n√£o encontre resultados, a mensagem 'N√£o h√° resultados!' ser√° mostrada na tela
+			//caso n„o encontre resultados, a mensagem 'N„o h· resultados!' ser· mostrada na tela
             	echo "<tr style=\"background-color:#999999\"><td colspan=\"3\"><center><b><font class=\"fonte\">N&atilde;o h&aacute; resultados!</font></center></td></b></tr>";
         	}
         	?>

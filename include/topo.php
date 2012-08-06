@@ -20,7 +20,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 //rawurlencode($CONF_BRASAO);
 ?>
 <?    session_start();	
-  // arquivo de conexÃ£o com o banco
+  // arquivo de conexão com o banco
   include_once("conect.php"); 
   
   // arquivo com funcoes uteis
@@ -44,10 +44,10 @@ Fith Floor, Boston, MA 02110-1301, USA
 				<li><a href="../site/prestadores.php">Prestadores</a></li>
 				<li><a href="../site/tomadores.php">Tomadores</a></li>
 				<li><a href="../site/contadores.php">Contadores</a></li>
-				<li><a href="../sep/">FiscalizaÃ§Ã£o</a></li>
+				<li><a href="../sep/">Fiscalização</a></li>
 			</ul>
 			</li>
-			<li><a href="#"><span>legislaÃ§Ã£o</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
+			<li><a href="#"><span>legislação</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
 			<li><a href="#"><span>Ouvidoria</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
 			<li><a href="#"><span>suporte</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
 		</ul>

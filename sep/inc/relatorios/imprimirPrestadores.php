@@ -24,7 +24,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	include("../../funcoes/util.php");
 ?>
 
-<?php //Pega o bras√£o e o estado
+<?php //Pega o bras„o e o estado
 	$sql_brasao = mysql_query("SELECT brasao_nfe FROM configuracoes");
 	list($BRASAO) = mysql_fetch_array($sql_brasao);
 	
@@ -32,7 +32,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	list($ESTADO) = mysql_fetch_array($sql_estado);
 ?>
 
-<?php //Define o t√≠tulo do relat√≥rio de acordo com o que vem do rdbServicos
+<?php //Define o t√≠tulo do relatÛrio de acordo com o que vem do rdbServicos
 	if ($_POST['rdbPrestadores'] == 'NE')
 		$titulo = 'DEZ MAIORES PRESTADORES POR NOTAS EMITIDAS';
 	
@@ -43,11 +43,11 @@ Fith Floor, Boston, MA 02110-1301, USA
 		$titulo = 'FICHA FINANCEIRA POR CONTRIBUINTE';
 ?>
 
-<?php //Pega o m√™s que veio por post
+<?php //Pega o mÍs que veio por post
 	$mes = $_POST['cmbMes'];
 ?>
 
-<!-- In√≠cio do css da visualiza√ß√£o da p√°gina -->
+<!-- In√≠cio do css da visualizaÁ„o da p·gina -->
 	<style type="text/css" media="screen">
 	.style1 {
 		font-family: Georgia, "Times New Roman", Times, serif;
@@ -72,25 +72,25 @@ Fith Floor, Boston, MA 02110-1301, USA
 		height: 100%;
 	}
 	</style>
-<!-- Fim do css da visualiza√ß√£o da p√°gina -->
+<!-- Fim do css da visualizaÁ„o da p·gina -->
 
 
-<!-- In√≠cio do css da Impress√£o da p√°gina -->
+<!-- In√≠cio do css da Impress„o da p·gina -->
 	<style type="text/css" media="print">
 	#DivImprimir{
-		display: none; /*Tira a div imprimir na hora da impress√£o*/
+		display: none; /*Tira a div imprimir na hora da impress„o*/
 	}
 	</style>
-<!-- Fim do css da Impress√£o da p√°gina -->
+<!-- Fim do css da Impress„o da p·gina -->
 
 <title>Relat&oacute;rio de Prestadores</title>
 
-<div class="pagina"> <!-- In√≠cio div p√°gina -->
+<div class="pagina"> <!-- In√≠cio div p·gina -->
 	<div id="DivImprimir">
 		<input type="button" onClick="print();" value="Imprimir" /><br />
 	</div>
 	
-	<!-- In√≠cio do topo com as informa√ß√µes -->
+	<!-- In√≠cio do topo com as informaÁıes -->
 	<div id="DivTopo">
 		<table width="95%" height="120" border="2" cellspacing="0" class="tabela" align="center">
 			<tr>
@@ -111,11 +111,11 @@ Fith Floor, Boston, MA 02110-1301, USA
 			</tr>
 		</table>
 	</div>
-	<!-- Fim do topo com as informa√ß√µes -->
+	<!-- Fim do topo com as informaÁıes -->
 	
 	<br>
 	
-<?php //Verifica a op√ß√£o marcada e chama o arquivo que vai gerar o relar√≥rio
+<?php //Verifica a opÁ„o marcada e chama o arquivo que vai gerar o relarÛrio
 	if ($_POST['rdbPrestadores'] == 'NE')
 		include("imprimirPrestadoresNE.php");
 		
@@ -125,4 +125,4 @@ Fith Floor, Boston, MA 02110-1301, USA
 	else
 		include("imprimirPrestadoresFF.php");
 ?>
-</div> <!-- Fim div p√°gina -->
+</div> <!-- Fim div p·gina -->

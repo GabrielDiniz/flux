@@ -110,7 +110,7 @@ if($_POST['btConfirma']){
 		if($credito>0){
 			$procura = mysql_query("SELECT * FROM creditos_imoveis WHERE codcadastro = '$cod' AND estado = 'A'");
 			if(mysql_num_rows($procura)>0){
-				Mensagem("Esse CNPJ j√° fez solicita&ccedil;&atilde;o e aguarda libera&ccedil;&atilde;o da prefeitura.");
+				Mensagem("Esse CNPJ j· fez solicita&ccedil;&atilde;o e aguarda libera&ccedil;&atilde;o da prefeitura.");
 			}else{
 				if(mysql_query("INSERT INTO creditos_imoveis (codcadastro, codimovel) VALUES ('$cod','$imovel')")){
 					Mensagem('Solicita&ccedil;&atilde;o enviada &agrave; prefeitura');	

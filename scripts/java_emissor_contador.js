@@ -444,7 +444,7 @@ function validaAliquota(number){
     var aliquota = document.getElementById('txtAliqServico'+number).value;
     aliquota = number_format(parseFloat(aliquota),'2','.','');
     if(aliquota < 2 || aliquota > 5){
-        alert(utf8_decode('A al√≠quota n√£o deve ser maior que 5,00% nem menor que 2,00%'));
+        alert(utf8_decode('A al√≠quota n„o deve ser maior que 5,00% nem menor que 2,00%'));
         document.getElementById('txtAliqServico'+number).focus();
         document.getElementById('txtAliqServico'+number).value = '';
     }
@@ -662,7 +662,7 @@ function ValidaCkbDec(campo){
 	if(total>0){
 		return true;
 	}else{
-		alert(utf8_decode('√â necess√°rio que escolha ao menos uma declara√ß√£o'));
+		alert(utf8_decode('√â necess·rio que escolha ao menos uma declaraÁ„o'));
 		return false;
 	}
 }//teste se tem pelo penos uma declaracao selecionada para gerar a guia
@@ -887,7 +887,7 @@ function baseCalcPct(tributo){
 		}
 		
 	}else{
-		alert(utf8_decode('Insira a base de c√°lculo'));
+		alert(utf8_decode('Insira a base de c·lculo'));
 		document.getElementById(aliqTributo).value = 0;
 		document.getElementById(campoPctBC).value = 0;
 		base_calculo.focus();
@@ -1088,7 +1088,7 @@ function ValorIss(regras_de_credito)
 			
 			}//fim if
 	}else{
-		//alert(utf8_decode("CPF/CNPJ inv√°lido!"));
+		//alert(utf8_decode("CPF/CNPJ inv·lido!"));
 	}//fim else
 }//fim da funcao
 
@@ -1097,7 +1097,7 @@ function ValorIssRPA(cred_pf_n,val_pf_n,cred_pf_s,val_pf_s,cred_pj_n,val_pj_n,cr
 	
 	if(document.getElementById('txtPissretido').value>100){ 
 	 	document.getElementById('txtPissretido').value = 100; 
-		alert(utf8_decode('N√£o √© poss√≠vel reter mais de 100% de ISS'));
+		alert(utf8_decode('N„o È poss√≠vel reter mais de 100% de ISS'));
 	}
 	 else{
 	 var credito_final;	
@@ -1347,12 +1347,12 @@ function ValorIssRPA(cred_pf_n,val_pf_n,cred_pf_s,val_pf_s,cred_pj_n,val_pj_n,cr
 	 }//fim if aliquota
 		 else
 			 {
-			  alert(utf8_decode("Selecione o servi√ßo!"));
+			  alert(utf8_decode("Selecione o serviÁo!"));
 			 }//fim else
 	 }//fim if cpf/cnpj
 	 else
 	 {
-	  alert(utf8_decode("CPF/CNPJ inv√°lido!"));
+	  alert(utf8_decode("CPF/CNPJ inv·lido!"));
 	 }//fim else
 	}//fim if issretido
 }//fim da funcao
@@ -1363,7 +1363,7 @@ function ValidarInserirNota()
 	{
 		if((document.frmInserir.txtTomadorNome.value=="")||(document.frmInserir.txtTomadorCNPJ.value==""))
 			{
-				alert(utf8_decode("Preencha corretamente o Nome/Raz√£o Social e o CNPJ/CPF do tomador"));
+				alert(utf8_decode("Preencha corretamente o Nome/Raz„o Social e o CNPJ/CPF do tomador"));
 				return false;
 			}
 	}
@@ -1402,7 +1402,7 @@ function ConfirmaForm()
 						document.getElementById('txtBaseCalculo').value = DecToMoeda(base);
 						document.getElementById('txtBaseCalculo').onblur();
 					}
-				else{alert(utf8_decode('N√£o √© poss√≠vel reter um valor de INSS maior que 100%'));}	
+				else{alert(utf8_decode('N„o È poss√≠vel reter um valor de INSS maior que 100%'));}	
 			}
 	}*/
 	
@@ -1431,7 +1431,7 @@ function CalculaISS(){
 			
 			//document.getElementById('txtBaseCalculo').onblur();
 		}else{
-			alert(utf8_decode('N√£o √© poss√≠vel reter um valor de ISS maior que 100%'));
+			alert(utf8_decode('N„o È poss√≠vel reter um valor de ISS maior que 100%'));
 		}	
 	}else{
 		document.getElementById('txtBaseCalculo').value = DecToMoeda(base);	
@@ -1463,7 +1463,7 @@ function CalculaIR(){
 			document.getElementById('txtValTotal').value = DecToMoeda(base);
 			//document.getElementById('txtBaseCalculo').onblur();
 		}else{
-			alert(utf8_decode('N√£o √© poss√≠vel reter um valor de IR maior que 100%'));
+			alert(utf8_decode('N„o È poss√≠vel reter um valor de IR maior que 100%'));
 		}	
 	}else{
 		document.getElementById('txtBaseCalculo').value = DecToMoeda(base);	
@@ -1495,7 +1495,7 @@ function CalculaINSS(){
 			document.getElementById('txtValTotal').value = DecToMoeda(base);
 			//document.getElementById('txtBaseCalculo').onblur();
 		}else{
-			alert(utf8_decode('N√£o √© possivel reter um valor de INSS maior que 100%'));
+			alert(utf8_decode('N„o È possivel reter um valor de INSS maior que 100%'));
 		}	
 	}else{
 		document.getElementById('txtBaseCalculo').value = DecToMoeda(base);	

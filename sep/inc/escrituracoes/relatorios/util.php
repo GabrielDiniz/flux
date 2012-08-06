@@ -552,8 +552,8 @@ function UltDiaUtil($mes,$ano){
   	$dia_semana = date("w", $ultimo);
   
   	// domingo = 0;
-  	// s√°bado = 6;
-  	// verifica s√°bado e domingo
+  	// s·bado = 6;
+  	// verifica s·bado e domingo
   
   	if($dia_semana == 0){
     	$dia--;
@@ -569,11 +569,11 @@ function UltDiaUtil($mes,$ano){
 	switch($dia_semana){  
 		case"0": $dia_semana = "Domingo";       break;  
 		case"1": $dia_semana = "Segunda-Feira"; break;  
-		case"2": $dia_semana = "Ter√ßa-Feira";   break;  
+		case"2": $dia_semana = "TerÁa-Feira";   break;  
 		case"3": $dia_semana = "Quarta-Feira";  break;  
 		case"4": $dia_semana = "Quinta-Feira";  break;  
 		case"5": $dia_semana = "Sexta-Feira";   break;  
-		case"6": $dia_semana = "S√°bado";        break;  
+		case"6": $dia_semana = "S·bado";        break;  
 	}
 	*/
 

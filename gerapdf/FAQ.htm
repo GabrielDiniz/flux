@@ -19,7 +19,7 @@ ul#answers li {margin-top:1.8em}
 <li><b>4.</b> <a href='#q4'>I can't make line breaks work. I put \n in the string printed by MultiCell but it doesn't work.</a></li>
 <li><b>5.</b> <a href='#q5'>I try to display a variable in the Header method but nothing prints.</a></li>
 <li><b>6.</b> <a href='#q6'>I defined the Header and Footer methods in my PDF class but nothing appears.</a></li>
-<li><b>7.</b> <a href='#q7'>Accented characters are replaced by some strange characters like Ã©.</a></li>
+<li><b>7.</b> <a href='#q7'>Accented characters are replaced by some strange characters like é.</a></li>
 <li><b>8.</b> <a href='#q8'>I try to display the Euro symbol but it doesn't work.</a></li>
 <li><b>9.</b> <a href='#q9'>I get the following error when I try to generate a PDF: Some data has already been output, can't send PDF file</a></li>
 <li><b>10.</b> <a href='#q10'>I draw a frame with very precise dimensions, but when printed I notice some differences.</a></li>
@@ -151,7 +151,7 @@ You have to create an object from the PDF class, not FPDF:
 </li>
 
 <li id='q7'>
-<p><b>7.</b> <span class='question'>Accented characters are replaced by some strange characters like Ã©.</span></p>
+<p><b>7.</b> <span class='question'>Accented characters are replaced by some strange characters like é.</span></p>
 Don't use UTF-8 encoding. Standard FPDF fonts use ISO-8859-1 or Windows-1252.
 It is possible to perform a conversion to ISO-8859-1 with utf8_decode():
 <div class="doc-source">

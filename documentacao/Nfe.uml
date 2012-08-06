@@ -72,7 +72,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="2mUPUqg1LkSOJdgsdUUmcAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="TtdmGFNuVkKzqiobbuZUAgAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">GerÃªncia UsuÃ¡rios</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Gerência Usuários</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="E6TPWyR+4k6aUc6HWD8S/gAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -105,7 +105,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="7oNfH5sEA0+O9b6f2sV2DwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="7cWNya5MK0urrhSRszQ3ggAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">UsuÃ¡rios Empresa</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Usuários Empresa</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="ZUkAjtVYhUqicHNPATpNiQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -138,7 +138,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="5K2DVxCPCk29d2LzjjYpTQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="2c4UoGmB8kmvNe/iZI67zAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">UsuÃ¡rios Prefeitura</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Usuários Prefeitura</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="bOkToJCfzEOtD+UfjEe+nAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -171,7 +171,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="3WJLxOi/PUq4bRbbCSF2AQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="zKFt6UrAuUeMzEI8T9xxYAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">GerÃªncia Empresas</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Gerência Empresas</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="vno1xhVwZUOR98fYF2b+mwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -456,7 +456,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="VHf7s849bka6bx8N/bCn/gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="OWYA00TZBUiJuK707PnnEgAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">GerÃªncia Atividades</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Gerência Atividades</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="y8cHuvtga0CM9WkTSvC3LgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1125,7 +1125,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="JLfOQ/GZi0eAItDI3sXwjwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="RNrYOWy0502aViEZmYYe/AAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">GerÃªncia Notas</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Gerência Notas</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="+0APuZG6m0mpZZ5FCrcCiQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1359,7 +1359,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="oLfx1WOf5EavtILCsBrV/AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="Vb505puS5UW8dA3PdflyUQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">GerÃªncia ReclamaÃ§Ãµes</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Gerência Reclamações</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="CYsxia7fmEa0cZttsjKWEgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1739,7 +1739,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="PNyoLB4i1kiUIFaoA9WUlAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="dESsEnjGZ0SfpQAlF39oewAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">GerÃªncia NFE</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Gerência NFE</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="YZwxDzOopEyqqtKe9TwfxwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1772,7 +1772,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="9XkCAl9pb0G8KiFWD6IR9AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="8YArqypVw02Rm/jxlBchVAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">GerÃªncia UsuÃ¡rios Emissor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Gerência Usuários Emissor</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="n8kWaCEN50OJsFCXmD79/QAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -2002,7 +2002,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="lDCf75/OkEWFvmI/MenIswAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="8tHLGMbBhk6KZGxeTdt0xAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Consultar EmissÃ£o NFE</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Consultar Emissão NFE</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="jkmP1lGadUGmLIDqr2i11AAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -2035,7 +2035,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="PQCrpACVJEmMVvZdsVIMIQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="iNNeDbzjOEWRborD2IrRVQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">ReclamaÃ§Ãµes</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Reclamações</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="xK5GiYlEgkGnWSf35DhktgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -2246,7 +2246,7 @@
 <XPD:REF name="Associations[7]">n+Ew4d2sGUqrGMSGSV8HqgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[1]" type="UMLUseCase" guid="Ks6Ahn5Ur0+/+NMYAHkBhgAA">
-<XPD:ATTR name="Name" type="string">GerÃªncia UsuÃ¡rios</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Gerência Usuários</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">tvftP5np60CT18dH3yMvGQAA</XPD:REF>
@@ -2260,7 +2260,7 @@
 <XPD:REF name="Associations[3]">dvEp2mf+4UW+7bPZOgncTAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[2]" type="UMLUseCase" guid="/0Ocw5ixaUWNA4p8yUY7OQAA">
-<XPD:ATTR name="Name" type="string">UsuÃ¡rios Empresa</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Usuários Empresa</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">SZmsYARIEE2tmqtNnf5BqwAA</XPD:REF>
@@ -2279,7 +2279,7 @@
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[5]" type="UMLUseCase" guid="Jt1N/vixq0yKWsokkcO6/gAA">
-<XPD:ATTR name="Name" type="string">UsuÃ¡rios Prefeitura</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Usuários Prefeitura</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">5DtuHTzPZkGJbDIQSeFi8QAA</XPD:REF>
@@ -2290,7 +2290,7 @@
 <XPD:REF name="Associations[0]">jebexqEMkkOfJ7dnnf6d8QAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[6]" type="UMLUseCase" guid="28wQe0DcdkeBTRGUCg1XQAAA">
-<XPD:ATTR name="Name" type="string">GerÃªncia Empresas</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Gerência Empresas</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">L0H4KjCBG0Kwsa+j9XQzUAAA</XPD:REF>
@@ -2412,7 +2412,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[13]" type="UMLUseCase" guid="kedXUPWWEUu2piNO0RSl6wAA">
-<XPD:ATTR name="Name" type="string">GerÃªncia Atividades</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Gerência Atividades</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">48cqh6Y10EKTyQi7GYZJjgAA</XPD:REF>
@@ -2619,7 +2619,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[22]" type="UMLUseCase" guid="wjbi0YIDcEuXp1YimN0jQgAA">
-<XPD:ATTR name="Name" type="string">GerÃªncia Notas</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Gerência Notas</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">w8ViVe+3M0WjHvVbF5NclgAA</XPD:REF>
@@ -2701,7 +2701,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[26]" type="UMLUseCase" guid="WeeaHHkDA0iGP5it7j4nTgAA">
-<XPD:ATTR name="Name" type="string">GerÃªncia ReclamaÃ§Ãµes</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Gerência Reclamações</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">ROwssJ1Wq0aBiWe2k5Wn2QAA</XPD:REF>
@@ -2825,7 +2825,7 @@
 <XPD:REF name="Associations[1]">JH1HiCk0Ik6j7YVo/tWLvAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[34]" type="UMLUseCase" guid="GUteaWu0IUqKlcqN0DIV5QAA">
-<XPD:ATTR name="Name" type="string">GerÃªncia NFE</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Gerência NFE</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">w8HAVfLl70Gnj+5RkjWlPgAA</XPD:REF>
@@ -2836,7 +2836,7 @@
 <XPD:REF name="Associations[0]">UGSg9OuKGkSPKvCEHhyV8gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[35]" type="UMLUseCase" guid="7cCw2tZ5zkCrqHn2WdV4DAAA">
-<XPD:ATTR name="Name" type="string">GerÃªncia UsuÃ¡rios Emissor</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Gerência Usuários Emissor</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">6j/BFqm8M02bidQxxrSrlAAA</XPD:REF>
@@ -2912,7 +2912,7 @@
 <XPD:REF name="Associations[1]">J/dAATPpWEiEky3QjUp1dQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[39]" type="UMLUseCase" guid="BjwZ73yy6keFnTce5nfWZQAA">
-<XPD:ATTR name="Name" type="string">Consultar EmissÃ£o NFE</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Consultar Emissão NFE</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">j9w6bz3Ycky59NMQmMyPkQAA</XPD:REF>
@@ -2923,7 +2923,7 @@
 <XPD:REF name="Associations[0]">jrK7Kh9wBE2brSuFq6/YMwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[40]" type="UMLUseCase" guid="IwDOavrlhU+8EOL89iRD1QAA">
-<XPD:ATTR name="Name" type="string">ReclamaÃ§Ãµes</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Reclamações</XPD:ATTR>
 <XPD:REF name="Namespace">HxW5Zv4Zok2e5C43XqepVgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">dqL3luVfz0aus5TSvxaf6AAA</XPD:REF>

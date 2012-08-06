@@ -18,7 +18,7 @@ www.softwarepublico.gov.br, ou escreva para a Fundacao do Software Livre Inc., 5
 Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
-<!-- box de conteÃºdos -->
+<!-- box de conteúdos -->
 <form name="frmTomadoresBox" method="post" action="tomadores.php" id="frmTomadoresBox">
 	<input type="hidden" name="txtMenu" id="txtMenu" />
 	<input type="hidden" name="txtCNPJ" id="txtCNPJ" />

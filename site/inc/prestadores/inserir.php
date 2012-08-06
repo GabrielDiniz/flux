@@ -107,7 +107,7 @@ $uf                 = $_POST['txtInsUfEmpresa'];
 		$msg = "J&aacute; existe um prestador de servi&ccedil;os com este CPF/CNPJ";
 		$erro = 2;
 	}elseif(mysql_num_rows($teste_razaosocial)>0){
-		$msg = "J&aacute; existe um prestador de servi&ccedil;os com esta raz√£o social";
+		$msg = "J&aacute; existe um prestador de servi&ccedil;os com esta raz„o social";
 		$erro = 1;
 	}elseif(mysql_num_rows($teste_nome)>0){
 		$msg = "J&aacute; existe um prestador de servi&ccedil;os  com este nome";
@@ -205,10 +205,10 @@ $uf                 = $_POST['txtInsUfEmpresa'];
 		<a href=\"$LINK_ACESSO\" style=\"text-decoration:none\" ><img src=\"$imagemTratada\" alt=\"Bras&atilde;o Prefeitura\" title=\"Bras&atilde;o\" border=\"0\" width=\"100\" height=\"100\" /></a><br><br>
 		O cadastro da empresa $nome foi efetuado com sucesso.<br>
 		Dados da empresa:<br><br>
-		Raz√£o Social: $razaosocial<br>
+		Raz„o Social: $razaosocial<br>
 		CPF/CNPJ: $cpfcnpj<br>
 		Munic√≠pio: $municipio<br>
-		Endere√ßo: $logradouro, $numero<br><br>
+		EndereÁo: $logradouro, $numero<br><br>
 		  
 		Veja passo a passo como acessar o sistema:	<br><br>
 		1- Acesse o site <a href=\"$LINK_ACESSO\"><b>NF-e</b></a><br>
@@ -299,7 +299,7 @@ $uf                 = $_POST['txtInsUfEmpresa'];
 		$CodEmp = base64_encode($CODEMPRESA);
 		Mensagem('Empresa cadastrada! N&atilde;o esque&ccedil;a de Imprimir o comprovante de cadastro que abrir&aacute; em uma nova janela!');
 		print "
-			<script language='javascript' type='text/javascript' charset=\"utf-8\">
+			<script language='javascript' type='text/javascript' charset=\"iso-8859-1\">
 				window.open('../../../reports/cadastro_comprovante.php?COD=$CodEmp');
 				window.location='../../prestadores.php';
 			</script>

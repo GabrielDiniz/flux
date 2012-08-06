@@ -4,22 +4,22 @@ function modulo_11($num, $base=9, $r=0)  {
      *   Autor:
      *           Pablo Costa <pablo@users.sourceforge.net>
      *
-     *   Fun√ß√£o:
+     *   FunÁ„o:
      *    Calculo do Modulo 11 para geracao do digito verificador 
      *    de boletos bancarios conforme documentos obtidos 
      *    da Febraban - www.febraban.org.br 
      *
      *   Entrada:
-     *     $num: string num√©rica para a qual se deseja calcularo digito verificador;
+     *     $num: string numÈrica para a qual se deseja calcularo digito verificador;
      *     $base: valor maximo de multiplicacao [2-$base]
      *     $r: quando especificado um devolve somente o resto
      *
      *   Sa√≠da:
      *     Retorna o Digito verificador.
      *
-     *   Observa√ß√µes:
-     *     - Script desenvolvido sem nenhum reaproveitamento de c√≥digo pr√© existente.
-     *     - Assume-se que a verifica√ß√£o do formato das vari√°veis de entrada √© feita antes da execu√ß√£o deste script.
+     *   ObservaÁıes:
+     *     - Script desenvolvido sem nenhum reaproveitamento de cÛdigo prÈ existente.
+     *     - Assume-se que a verificaÁ„o do formato das vari·veis de entrada È feita antes da execuÁ„o deste script.
      */                                        
 
     $soma = 0;

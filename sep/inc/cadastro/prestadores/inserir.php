@@ -194,7 +194,7 @@ $include=$_POST['include'];
 		
 		$msg = "O cadastro da empresa $nome foi efetuado com sucesso.<br>
 		Dados da empresa:<br><br>
-		Raz√£o Social: $razaosocial<br>
+		Raz„o Social: $razaosocial<br>
 		CPF/CNPJ: $cpfcnpj<br>
 		Munic√≠pio: $municipio<br>
 		Endereco: $logradouro, $numero<br><br>
@@ -205,8 +205,8 @@ $include=$_POST['include'];
 		3- Clique no link Prestador<br>
 		4- Entre em acessar o sistema<br>
 		5- Em login insira o cpf/cnpf da empresa<br>
-		6- Sua senha √© <b><font color=\"RED\">$senha</font></b><br>
-		7- Insira o c√≥digo de verifica√ß√£o que aparece ao lado<br>";
+		6- Sua senha È <b><font color=\"RED\">$senha</font></b><br>
+		7- Insira o cÛdigo de verificaÁ„o que aparece ao lado<br>";
 		
         $assunto = "Acesso ao Sistema NF-e ($CONF_CIDADE).";
 	

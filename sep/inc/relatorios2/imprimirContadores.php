@@ -161,7 +161,7 @@ div.pagina {
 						}elseif($dados['estado'] == 'I'){
 							$estadocont = "Inativo";
 						}elseif($dados['estado'] == 'NL'){
-							$estadocont = "NÃ£o Liberado";
+							$estadocont = "Não Liberado";
 						}else{
 							$estadocont = " ";
 						}
@@ -198,7 +198,7 @@ div.pagina {
         	<?php
 					}//fim while
 			}else{
-			//caso nÃ£o encontre resultados, a mensagem 'NÃ£o hÃ¡ resultados!' serÃ¡ mostrada na tela
+			//caso não encontre resultados, a mensagem 'Não há resultados!' será mostrada na tela
             	echo "<tr style=\"background-color:#999999\"><td colspan=\"3\"><center><b><font class=\"fonte\">N&atilde;o h&aacute; resultados!</font></center></td></b></tr>";
         	}
         	?>

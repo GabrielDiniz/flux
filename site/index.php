@@ -42,8 +42,8 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<div class="grid_4">
 			<div class="box1">
 				<div class="imgs">
-					<img src="../include/images/1page_img2.png" alt="" class="img-1">
-					<img src="../include/images/1page_img2-hover.png" alt="" class="img-2">
+					<img src="../include/images/prestador.png" alt="" class="img-1">
+					<img src="../include/images/prestador-hover.png" alt="" class="img-2">
 				</div>
 				<h3>Prestadores</h3>
 				<p>
@@ -55,8 +55,8 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<div class="grid_4">
 			<div class="box1">
 				<div class="imgs">
-					<img src="../include/images/1page_img1.png" alt="" class="img-1">
-					<img src="../include/images/1page_img1-hover.png" alt="" class="img-2">
+					<img src="../include/images/tomador.png" alt="" class="img-1">
+					<img src="../include/images/tomador-hover.png" alt="" class="img-2">
 				</div>
 				<h3>Tomadores</h3>
 				<p>
@@ -68,8 +68,8 @@ Fith Floor, Boston, MA 02110-1301, USA
 		<div class="grid_4">
 			<div class="box1">
 				<div class="imgs">
-					<img src="../include/images/1page_img2.png" alt="" class="img-1">
-					<img src="../include/images/1page_img2-hover.png" alt="" class="img-2">
+					<img src="../include/images/contador.png" alt="" class="img-1">
+					<img src="../include/images/contador-hover.png" alt="" class="img-2">
 				</div>
 				<h3>Contadores</h3>
 				<p>
@@ -94,9 +94,9 @@ Fith Floor, Boston, MA 02110-1301, USA
 				1
 			</div>
 			<div class="extra-wrap">
-				<a href="#" class="link2">PeÃ§a a Nota</a>
+				<a href="#" class="link2">Peça a Nota</a>
 				<div class="padtop3">
-					Natoqe penatus magnis parturient montes. Ridius nula fusegin alesda. Morb nuncodio, gravida cursus ...
+					Ao pagar um serviço solicite a emissão da NFe. Informe sempre o prestador de servições o seu CPF/CNPJ. Esta é a sua garantia para obter os beneficios da NF-e.
 				</div>
 			</div>
 		</div>
@@ -107,7 +107,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 			<div class="extra-wrap">
 				<a href="#" class="link2">Acesse o Sistema</a>
 				<div class="padtop3">
-					Natoqe penatus magnis parturient montes. Ridius nula fusegin alesda. Morb nuncodio, gravida cursus ...
+					O prestador por meio da senha acessa o sistema e emite a NF-e. Obs.: Caso não seja possivel a emissão da NFe deverá ser entregue ao cliente um Recibo Provisório de Serviços - RPS.
 				</div>
 			</div>
 		</div>
@@ -118,11 +118,40 @@ Fith Floor, Boston, MA 02110-1301, USA
 			<div class="extra-wrap">
 				<a href="#" class="link2">Emita sua NF-e</a>
 				<div class="padtop3">
-					Natoqe penatus magnis parturient montes. Ridius nula fusegin alesda. Morb nuncodio, gravida cursus ...
+					O sistema efetuará o cálculo do ISS devido pelo prestador e o valor do tributo será impresso na NF-e. Parte do ISS recolhido pertence ao cliente.
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<div class="wrapper">
+
+		<div class="grid_4 padtop2">
+			<div class="dropcap">
+				4
+			</div>
+			<div class="extra-wrap">
+				<a href="#" class="link2">Pagamento do ISS</a>
+				<div class="padtop3">
+				 O prestador deverá gerar no sistema o documento de arrecadação relativo às NFe emitidas.
 				</div>
 			</div>
 		</div>
-	</div>
+<div class="grid_4 padtop2">
+			<div class="dropcap">
+				5
+			</div>
+			<div class="extra-wrap">
+				<a href="#" class="link2">Crédito do ISS</a>
+				<div class="padtop3">
+				Após o recolhimento será creditado automaticamente aos clientes a parcela do imposto constante na NF-e.
+				</div>
+			</div>
+		</div>
+
 </div>
 </section>
 <div class=" container_12">

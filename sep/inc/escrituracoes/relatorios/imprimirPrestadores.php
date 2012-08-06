@@ -142,7 +142,7 @@ div.pagina {
 					<table  border="0" >
 						<tr>
 							<?php
-							//Comando sql que selecionarÃ¡ do banco a quantidade de prestadores por estado
+							//Comando sql que selecionará do banco a quantidade de prestadores por estado
 							$sql = mysql_query ("
 								SELECT
 									uf ,
@@ -351,7 +351,7 @@ div.pagina {
         	<table width="95%" class="tabela">
         	<?php
         	}else{
-         //caso nÃ£o encontre resultados, a mensagem 'NÃ£o hÃ¡ resultados!' serÃ¡ mostrada na tela
+         //caso não encontre resultados, a mensagem 'Não há resultados!' será mostrada na tela
             	echo "<tr style=\"background-color:#999999\"><td colspan=\"3\"><center><b><font class=\"fonte\">N&atilde;o h&aacute; resultados!</font></center></td></b></tr>";
         	}
         	?>

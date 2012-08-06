@@ -29,9 +29,9 @@ if($codtipodeclaracao == $codtipodec){
 	$menu = array
 	(
 		"Cadastro",
-		"AIDF Eletr么nico",
-		"Notas Eletr么nicas"/*,"NF-e Tomadas"*/,
-		"Relat贸rio",
+		"AIDF Eletr鬾ico",
+		"Notas Eletr鬾icas"/*,"NF-e Tomadas"*/,
+		"Relat髍io",
 		"Livro Digital",
 		"RPS",
 		"Contador",
@@ -42,9 +42,9 @@ if($codtipodeclaracao == $codtipodec){
 	$title = array
 	(
 		"Cadastro",
-		"AIDF Eletr么nico",
-		"Notas Eletr么nicas"/*,"NF-e Tomadas"*/,
-		"Relat贸rio",
+		"AIDF Eletr鬾ico",
+		"Notas Eletr鬾icas"/*,"NF-e Tomadas"*/,
+		"Relat髍io",
 		"Livro Digital",
 		"RPS",
 		"Contador",

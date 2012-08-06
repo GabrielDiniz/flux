@@ -18,16 +18,16 @@ www.softwarepublico.gov.br, ou escreva para a Fundacao do Software Livre Inc., 5
 Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
-<!-- box de conteÃºdos -->
+<!-- box de conteúdos -->
 <form name="frmPrestadoresBox" method="post" id="frmPrestadoresBox">
 	<input type="hidden" name="txtMenu" id="txtMenu" />
 	<input type="hidden" name="txtCNPJ" id="txtCNPJ" />
 	<div class="grid_3 suffix_1">
 			<h2></h2>
 			<ul class="list1">
-				<li><a title="Contador emissor de NFe, ou prestador de serviÃ§o, acesse todas as funcionalidades do sistema." href="../emissor/index.php">Acessar Sistema</a></li>
-				<li><a title="Se vocÃª nÃ£o possui acesso ao sistema, Ã© necessÃ¡rio realizar o seu cadastramento." onclick="document.getElementById('txtMenu').value='cadastro';frmPrestadoresBox.submit();" href="#">Cadastro</a></li>
-				<li><a title="Consulte se o seu cadastro jÃ¡ foi liberado pela Prefeitura Municipal." onclick="document.getElementById('txtMenu').value='consulta';frmPrestadoresBox.submit();" href="#">Consulta</a></li>
+				<li><a title="Contador emissor de NFe, ou prestador de serviço, acesse todas as funcionalidades do sistema." href="../emissor/index.php">Acessar Sistema</a></li>
+				<li><a title="Se você não possui acesso ao sistema, é necessário realizar o seu cadastramento." onclick="document.getElementById('txtMenu').value='cadastro';frmPrestadoresBox.submit();" href="#">Cadastro</a></li>
+				<li><a title="Consulte se o seu cadastro já foi liberado pela Prefeitura Municipal." onclick="document.getElementById('txtMenu').value='consulta';frmPrestadoresBox.submit();" href="#">Consulta</a></li>
 			</ul>
 	</div>
 </form>

@@ -46,9 +46,9 @@
 	$taxa_boleto =0;	
 	
 	//DEFINE OS 3 PRIMEIROS CARACTERES DA LINHA DIGITAVEL
-	$tipoProduto="8"; // para definir como arrecadaÃ§Ã£o
+	$tipoProduto="8"; // para definir como arrecadação
 	$tipoSegmento="1"; //para definir como prefeitura
-	$tipoValor="6"; // Define o modulo de geraÃ§Ã£o do digito verificador
+	$tipoValor="6"; // Define o modulo de geração do digito verificador
 		
 	
 	//$CONF_CNPJ

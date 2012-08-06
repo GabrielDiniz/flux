@@ -101,7 +101,7 @@ if((strlen($cpfcnpj)!=14)&&(strlen($cpfcnpj)!=18)){
 		$msg = "J&aacute; existe um contador com este CPF/CNPJ";
 		$erro = 2;
 	}elseif(mysql_num_rows($teste_razaosocial)>0){
-		$msg = "J&aacute; existe um contador com esta raz√£o social";
+		$msg = "J&aacute; existe um contador com esta raz„o social";
 		$erro = 1;
 	}elseif(mysql_num_rows($teste_nome)>0){
 		$msg = "J&aacute; existe um contador com este nome";
@@ -196,10 +196,10 @@ if((strlen($cpfcnpj)!=14)&&(strlen($cpfcnpj)!=18)){
 		<a href=\"$LINK_ACESSO\" style=\"text-decoration:none\" ><img src=\"$imagemTratada\" alt=\"BrasÔøΩo Prefeitura\" title=\"BrasÔøΩo\" border=\"0\" width=\"100\" height=\"100\" /></a><br><br>
 		O cadastro da empresa $nome foi efetuado com sucesso.<br>
 		Dados da empresa:<br><br>
-		Raz√£o Social: $razaosocial<br>
+		Raz„o Social: $razaosocial<br>
 		CPF/CNPJ: $cpfcnpj<br>
 		Munic√≠pio: $municipio<br>
-		Endere√ßo: $logradouro, $numero<br><br>
+		EndereÁo: $logradouro, $numero<br><br>
 		  
 		Veja passo a passo como acessar o sistema:	<br><br>
 		1- Acesse o site <a href=\"$LINK_ACESSO\"><b>NF-e</b></a><br>
@@ -207,8 +207,8 @@ if((strlen($cpfcnpj)!=14)&&(strlen($cpfcnpj)!=18)){
 		3- Clique no link Contador<br>
 		4- Entre em acessar o sistema<br>
 		5- Em login insira o cpf/cnpf da empresa<br>
-		6- Sua senha √© <b><font color=\"RED\">$senha</font></b><br>
-		7- Insira o c√≥digo de verifica√ß√£o que aparece ao lado<br>";
+		6- Sua senha È <b><font color=\"RED\">$senha</font></b><br>
+		7- Insira o cÛdigo de verificaÁ„o que aparece ao lado<br>";
 		
 		$assunto = "Acesso ao Sistema NF-e ($CONF_CIDADE).";
 	

@@ -19,7 +19,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
 
-<title>NFSe - Nota Fiscal de ServiÃ§o EletrÃ´nica</title>
+<title>NFSe - Nota Fiscal de Serviço Eletrônica</title>
 <meta name="viewport" content="width=device-width; initial-scale=1.0">
 <link rel="stylesheet" href="../include/css/style.css" type="text/css" media="screen">
 <link rel="stylesheet" href="../include/css/forms.css" type="text/css" media="screen">

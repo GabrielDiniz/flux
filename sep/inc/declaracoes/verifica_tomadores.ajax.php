@@ -32,6 +32,6 @@ Fith Floor, Boston, MA 02110-1301, USA
 		echo "Tomador n&atilde;o cadastrado!";
 	}
 	
-	// AcentuaÃ§Ã£o
+	// Acentuação
 	header("Content-Type: text/html; charset=ISO-8859-1",true);
 ?>

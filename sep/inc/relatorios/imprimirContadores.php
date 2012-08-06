@@ -24,7 +24,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	include("../../funcoes/util.php");
 ?>
 
-<?php //Pega o bras√£o
+<?php //Pega o bras„o
 	$sql_brasao = mysql_query("SELECT brasao_nfe FROM configuracoes");
 	list($BRASAO) = mysql_fetch_array($sql_brasao);
 ?>
@@ -33,7 +33,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	$estado = $_POST['rdbContador'];
 ?>
 
-<!-- In√≠cio do css da visualiza√ß√£o da p√°gina -->
+<!-- In√≠cio do css da visualizaÁ„o da p·gina -->
 	<style type="text/css" media="screen">
 	.style1 {
 		font-family: Georgia, "Times New Roman", Times, serif;
@@ -57,25 +57,25 @@ Fith Floor, Boston, MA 02110-1301, USA
 		height: 100%;
 	}
 	</style>
-<!-- Fim do css da visualiza√ß√£o da p√°gina -->
+<!-- Fim do css da visualizaÁ„o da p·gina -->
 
 
-<!-- In√≠cio do css da Impress√£o da p√°gina -->
+<!-- In√≠cio do css da Impress„o da p·gina -->
 	<style type="text/css" media="print">
 	#DivImprimir{
-		display: none; /*Tira a div imprimir na hora da impress√£o*/
+		display: none; /*Tira a div imprimir na hora da impress„o*/
 	}
 	</style>
-<!-- Fim do css da Impress√£o da p√°gina -->
+<!-- Fim do css da Impress„o da p·gina -->
 
 <title>Imprimir Relat&oacute;rio</title>
-<div class="pagina"> <!-- In√≠cio div p√°gina -->
+<div class="pagina"> <!-- In√≠cio div p·gina -->
 	<div id="DivImprimir">
 		<input type="button" onClick="print();" value="Imprimir" /><br />
 		<i><b>Este relat&oacute;rio &eacute; melhor visualizado em formato de impress&atilde;o em paisagem.</b></i>
 	</div>
 	
-	<!-- In√≠cio do topo com as informa√ß√µes -->
+	<!-- In√≠cio do topo com as informaÁıes -->
 	<div id="DivTopo">
 		<table width="95%" height="120" border="2" cellspacing="0" class="tabela" align="center">
 			<tr>
@@ -96,7 +96,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 			</tr>
 		</table>
 	</div>
-	<!-- Fim do topo com as informa√ß√µes -->
+	<!-- Fim do topo com as informaÁıes -->
 	
 	<br>
         
@@ -144,7 +144,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				}elseif($dados['estado'] == 'I'){
 					$estadocont = "Inativo";
 				}elseif($dados['estado'] == 'NL'){
-					$estadocont = "N√£o Liberado";
+					$estadocont = "N„o Liberado";
 				}else{
 					$estadocont = " ";
 				}

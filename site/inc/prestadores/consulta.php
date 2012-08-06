@@ -53,7 +53,7 @@ Fith Floor, Boston, MA 02110-1301, USA
                 	<tr>
                   		<td align="center">&nbsp;</td>
                   		<td align="left" valign="middle">
-                  		<input name="btAvancar" type="submit" value="AvanÃ§ar" class="botao" onclick="return verificaCnpjCpfIm();" />&nbsp;<input type="button" name="btVoltar" value="Voltar" class="botao" onClick="window.location='prestadores.php'">
+                  		<input name="btAvancar" type="submit" value="Avançar" class="botao" onclick="return verificaCnpjCpfIm();" />&nbsp;<input type="button" name="btVoltar" value="Voltar" class="botao" onClick="window.location='prestadores.php'">
                 		</td>
             		</tr>
         		</table>

@@ -43,7 +43,7 @@ if(!(isset($_SESSION["empresa"]))){
 		$sql=mysql_query("SELECT codigo FROM cadastro WHERE codigo = '$CODIGO_DA_EMPRESA'"); 
 		list($codigoEmpresa)=mysql_fetch_array($sql);  
 		
-		$xml = simplexml_load_file("importar/$arquivo_xml"); // l√™ o arquivo XML 
+		$xml = simplexml_load_file("importar/$arquivo_xml"); // lÍ o arquivo XML 
 		$cont = 0; 
 		$inserir_tomador = "N";
 		foreach($xml->children() as $elemento => $valor){   
@@ -147,7 +147,7 @@ if(!(isset($_SESSION["empresa"]))){
 			
 			$sql_verifica_rps = mysql_query("SELECT codigo FROM notas WHERE rps_numero = '$rps_numero' AND codemissor = '$CODIGO_DA_EMPRESA'");
 			if(mysql_num_rows($sql_verifica_rps)){
-				Mensagem("A nota com o n√∫mero de RPS $rps_numero, j√° foi emitida!");
+				Mensagem("A nota com o n˙mero de RPS $rps_numero, j· foi emitida!");
 				exit;
 			}
 			
@@ -166,7 +166,7 @@ if(!(isset($_SESSION["empresa"]))){
 				  break;
 			}
 			
-			//GERA O C√ìDIGO DE VERIFICA√á√ÉO
+			//GERA O C”DIGO DE VERIFICA√á√ÉO
 			$CaracteresAceitos = 'ABCDEFGHIJKLMNOPQRXTUVWXYZ';	
 			$max = strlen($CaracteresAceitos)-1;
 			$password = null;
@@ -365,7 +365,7 @@ if(!(isset($_SESSION["empresa"]))){
 		}// foreach
 		unlink("importar/$arquivo_xml");
 		add_logs('Importou Arquivo');
-		print("<script language=JavaScript>alert('Importa√ß√£o efetuada com sucesso !');window.close();</script>");
+		print("<script language=JavaScript>alert('ImportaÁ„o efetuada com sucesso !');window.close();</script>");
 	}else{
 		print("Acesso Negado!!");
 	}	

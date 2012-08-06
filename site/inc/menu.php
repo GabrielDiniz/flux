@@ -27,9 +27,9 @@ $menus = array(
 	'RPS' 					=> 'rps.php',
 	'BenefÃ­cios' 			=> 'beneficios.php',
 	'Perguntas e Respostas' => 'faq.php',
-	'ReclamaÃ§Ãµes' 			=> 'ouvidoria.php',
+	'Reclamações' 			=> 'ouvidoria.php',
 	'NotÃ­cias'				=> 'noticias.php',
-	'LegislaÃ§Ã£o'			=> 'legislacao.php'
+	'Legislação'			=> 'legislacao.php'
 );
 
 ?>
