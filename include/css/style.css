@@ -27,6 +27,10 @@ h3{font-size:18px; text-transform:uppercase; letter-spacing:2px;}
     top: 20%;
     visibility: hidden;
 }
+p.textoInicial{
+	text-align: justify;
+	margin-left: 10px;
+}
 
 
 

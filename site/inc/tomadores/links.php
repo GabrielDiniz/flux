@@ -40,11 +40,6 @@ Fith Floor, Boston, MA 02110-1301, USA
 					onclick="document.getElementById('txtMenu').value='issretido';frmTomadoresBox.submit();" 
 					href="#">Gerar guia</a>
 				</li>
-				<li>
-					<a title="Gerar guia de declara&ccedil;&otilde;es com ISS retido." 
-					onclick="document.getElementById('txtMenu').value='issretido';frmTomadoresBox.submit();" 
-					href="#">Gerar guia</a>
-				</li>
 			</ul>
 	</div>
 </form>

@@ -43,7 +43,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 <!-- box de conteudos -->
     <?php  include("inc/prestadores/links.php"); ?>
   		<div class="boxbase">
-			<div class="grid_3 padRT2">
+			<div class="grid_8 padRT2">
 				<h2 class="padbot"></h2>
 				
 				 <?php
@@ -51,6 +51,8 @@ Fith Floor, Boston, MA 02110-1301, USA
 				 	if($_POST["txtMenu"])
 						{
 							include("inc/prestadores/".$_POST["txtMenu"].".php");
+						}else {
+							echo("<p class='textoInicial'>Olá, seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, prestador de serviço, poderá cadastrar-se no sistema, consultar a liberação de seu cadastro e após sua aprovação pela prefeitura você já poderá emitir notas fiscais de serviço via internet agregando ao seu trabalho modernidade e comodidade.</p>");
 						}
 				 ?>   
 				

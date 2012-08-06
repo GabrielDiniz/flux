@@ -60,7 +60,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 <!-- box de conteudos -->
   	<?php  include("inc/tomadores/links.php"); ?>
 		<div class="boxbase">
-			<div class="grid_3 padRT2">
+			<div class="grid_8 padRT2">
 				<h2 class="padbot"></h2>
 				
 					<?php
@@ -68,6 +68,9 @@ Fith Floor, Boston, MA 02110-1301, USA
 							if($_POST["txtMenu"])
 								{
 									include("inc/tomadores/".$_POST["txtMenu"].".php");
+								}else {
+									echo("<p class='textoInicial'> Olá seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, tomador, poderá fazer consultas a RPS (recibo provisório de serviço), poderá também consultar a autenticidade das notas a você emitidas e ainda gerar guias de declarações com ISS retido agregando ao seu trabalho modernidade, comodidade,  agilidade e segurança.</p>");
+									
 								}
 						}else{
 							include("inc/tomadores/creditos.php");
