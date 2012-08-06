@@ -60,7 +60,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				</div>
 				<h3>Tomadores</h3>
 				<p>
-					√Årea destinada aos tomadores de servi√ßos para consulta
+					¡rea destinada aos tomadores de serviÁos para consulta
 				</p>
 				<a href="tomadores.php"></a>
 			</div>
