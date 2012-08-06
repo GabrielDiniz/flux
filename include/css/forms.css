@@ -9,7 +9,6 @@ input[type="text"],input[type=password],textarea,select{border-radius: 2px 2px 2
     cursor: text;
     margin-bottom: 10px;
     margin-left: 5px;
-    text-transform: uppercase;
 border: 1px solid #BEBEBE;
 box-shadow: 0 3px 0 0 #F0F0F0 inset;
 padding: 6px 10px;

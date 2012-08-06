@@ -49,7 +49,7 @@ if(!(isset($_SESSION["empresa"])))
 	<div class="wrapper">
 		<div class="grid_6 prefix_3">
 			<div class="box3">
-				
+				<span>Acesso à área dos contadores</span> <br><br>
 				<h4>CPF/CNPJ</h4>
 				<p>
 					<input type="text" name="txtLogin" id="txtLogin" size="30" class="texto" onkeyup="CNPJCPFMsk( this )"  onkeydown="return NumbersOnly(event); "/>

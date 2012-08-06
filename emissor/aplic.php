@@ -35,7 +35,7 @@ if(!(isset($_SESSION["empresa"])))
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>e-Nota</title><script src="../scripts/padrao.js" language="javascript" type="text/javascript"></script>
 <link href="../css/padrao_emissor.css" rel="stylesheet" type="text/css" />
 <? include '../include/site-head.php'; ?>
@@ -48,7 +48,11 @@ if(!(isset($_SESSION["empresa"])))
     	<div class="wrapper">
 			<?php include("inc/menu.php"); ?>
 			<div class="boxbase">
-			
+				<p class='textoInicial'>
+					Olá, seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, prestador de serviço, poderá 
+					cadastrar-se no sistema, consultar a liberação de seu cadastro e após sua aprovação pela prefeitura você já poderá emitir notas 
+					fiscais de serviço via internet agregando ao seu trabalho modernidade e comodidade.
+				</p>
 			</div>
 		</div>
 	</div>	

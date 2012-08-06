@@ -29,90 +29,62 @@ if(!(isset($_SESSION["logado"])))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>SEP-ISS</title>
-<link href="css/padrao.css" rel="stylesheet" type="text/css" >
+
 <script src="scripts/jquery.js" type="text/javascript"></script>
 <script src="../scripts/padrao.js" type="text/javascript"></script>
 
+	<? include ("../include/site-head.php"); ?>
+ 	<script src=""></script>
 </head>
+<body>
+ <?php include("../include/topo.php"); ?> 
+ 
+<!-- formulario de login --> 
+<form action="inc/verifica.php" method="post" name="frmLogin">
 
-<body class="principal" onLoad="window.toolbar.visible='false';">
-<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" align="center" valign="middle">
-  <tr>
-  	<td height="30%">&nbsp</td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" height="40%">
-<form name="frmLogin" action="inc/verifica.php" method="post">
-<table border="0" cellspacing="0" cellpadding="1">
-      <tr>
-        <td colspan="3" height="1" bgcolor="#FFFFFF"></td>
-        </tr>
+	  <!-- content -->
+<section>
+<div class=" container_12">
+	<div class="wrapper">
+		<div class="grid_6 prefix_3">
+			<div class="box3">
+				<span>Acesso à área dos fiscais</span> <br><br>
+				<h4>Login</h4>
+				<p>
+					<input type="text" name="txtLogin" id="txtLogin" size="30" class="texto"/>
+				</p>
+				
+				<h4> Senha</h4>
+				<p>
+					<input type="password" name="txtSenha" id="txtSenha" size="30" class="texto" />
+				</p>
+				<h4> Código de verificação</h4>
+				<p>
+					<input type="text" name="codseguranca" id="codseguranca" size="6" class="texto" />  &nbsp;
+	   	   <?php include("inc/cod_verificacao.php"); ?>
+				</p>
+				<p><input type="submit" name="btEntrar" size="30" value="Entrar" class="botao" /></p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
 
-      <tr>
-        <td colspan="3" height="25" >&nbsp;</td>
-        </tr>
-      <tr>
-        <td colspan="3" align="center" bgcolor="#FFFFFF"><img src="img/logosep.jpg" width="370" height="70"></td>
-        </tr>
-      <tr>
-        <td width="118" bgcolor="#FFFFFF">&nbsp;</td>
-        <td width="182" bgcolor="#FFFFFF">&nbsp;</td>
-        <td width="100" bgcolor="#FFFFFF">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="28" align="right" bgcolor="#FFFFFF"><strong>Usu&aacute;rio</strong></td>
-        <td align="center" bgcolor="#FFFFFF"><input name="txtLogin" type="text" id="txtLogin" class="texto" tabindex="1"></td>
-        <td rowspan="3" bgcolor="#FFFFFF"><input type="image" name="imageField" src="img/chave.jpg" tabindex="4"></td>
-      </tr>
-      <tr>
-        <td height="29" align="right" bgcolor="#FFFFFF"><strong>Senha</strong></td>
-        <td align="center" bgcolor="#FFFFFF"><input name="txtSenha" type="password" id="txtSenha" class="texto" tabindex="2"></td>
-      </tr>
-	  <tr>
-        <td height="29" align="right" bgcolor="#FFFFFF"><strong>C&oacute;d Verifica&ccedil;&atilde;o</strong></td>
-        <td align="center" valign="middle" bgcolor="#FFFFFF">
-        	<input name="codseguranca" type="text" id="codseguranca" class="texto" size="5" maxlength="5" tabindex="3"> 
-        	<img style="cursor: pointer;" onClick="mostrar_teclado();" src="img/botoes/num_key.jpg" title="Teclado Virtual" >&nbsp; 
-        	<?php include("inc/cod_verificacao.php");?>
-        </td>		
-      </tr>	
-      <tr>	  
-        <td bgcolor="#FFFFFF">&nbsp;</td>
-        <td bgcolor="#FFFFFF">&nbsp;</td>
-        <td bgcolor="#FFFFFF">&nbsp;</td>
-      </tr>	  
-      <tr>
-        <td colspan="3" height="25" ></td>
-      </tr>
-      <tr>
-        <td colspan="3" height="1" bgcolor="#FFFFFF"></td>
-      </tr>
-      <tr>
-        <td colspan="3" height="25" align="center"><font size="1" color="#FFFFFF">&copy; Portal P&uacute;blico Inform&aacute;tica - 2009</font></td>
-      </tr>
-      <tr>
-        <td colspan="3" height="1" bgcolor="#FFFFFF"></td>
-      </tr>
-    </table>
-	</form>
-	
-	
-  
-	</td>
-  </tr>
-  <tr>
-  	<td height="30%">&nbsp</td>
-  </tr>
-</table>
+</form>  
 
 
-<?php include 'inc/teclado.php';?>
+<?php include("../include/rodape.php"); ?>
+
 </body>
 </html>
 
+
 <?php 
+
 }else {
-print("<script language=JavaScript>parent.location='principal.php';</script>"); 
+
+print("<script language=JavaScript>parent.location='principal.php';</script>");
+ 
 } 
 
-?>
+?>  

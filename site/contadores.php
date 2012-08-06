@@ -58,7 +58,12 @@ Fith Floor, Boston, MA 02110-1301, USA
 						{
 							include("inc/contadores/".$_POST["txtMenu"].".php");
 						}else {
-							echo "<p class='textoInicial'>Olá, seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, contador,  poderá cadastrar-se  no sistema, consultar a liberação de seu cadastro e após sua aprovação pela prefeitura você já poderá emitir notas fiscais de serviço via internet e ainda poderá visualizar as notas de seus clientes agregando ao seu trabalho modernidade, comodidade,  agilidade e segurança.</p>";
+							echo "<p class='textoInicial'>
+								Olá, seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, contador, 
+								poderá cadastrar-se  no sistema, consultar a liberação de seu cadastro e após sua aprovação 
+								pela prefeitura você já poderá emitir notas fiscais de serviço via internet e ainda poderá visualizar as notas 
+								de seus clientes agregando ao seu trabalho modernidade, comodidade,  agilidade e segurança.
+							</p>";
 						}
 				 ?>   
 				
