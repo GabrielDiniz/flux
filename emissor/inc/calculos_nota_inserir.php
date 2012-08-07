@@ -36,22 +36,21 @@ Fith Floor, Boston, MA 02110-1301, USA
 			<label><strong>Clique para informar os servi&ccedil;os<br /><br /></strong>
 			<input name="btServico" type="button" value="Serviços" class="botao" 
 			onclick="mostraDivServicos();" /></label>
-			<div id="divServicosNota" class="divServicosNota">
+            
+               </td>
+	</tr>
+</table>
+            
+         
+			<div id="divServicosNota" style="display:none;" >
+            <div id="draggable" class="box2">
+            <a id="close-bot" onclick="document.getElementById('divServicosNota').style.display='none'" " ></a>
 				<table border="0" cellspacing="0" cellpadding="0"  height="100%">
+				
 					<tr>
-						<td width="18" align="left" background="../img/form/cabecalho_fundo.jpg"></td>
-						<td width="95%" background="../img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho"></td>  
-						<td width="19" align="right" valign="top" background="../img/form/cabecalho_fundo.jpg">
-							<a href="#" onclick="escondeMostraDiv('divServicosNota');return false">
-								<img src="../img/form/cabecalho_btfechar.jpg" width="19" height="21" border="0" />
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td width="18" background="../img/form/lateralesq.jpg"></td>
-						<td align="left" width="100%" height="100%" valign="top">
 						
-				<div style="overflow:auto; height:250px;">		
+						
+				<div>		
 				<table id="retornoDivLinha" width="100%">
 					<!--<tr>
 						<td>
@@ -91,19 +90,13 @@ Fith Floor, Boston, MA 02110-1301, USA
 				
 				
 					</td>
-						<td width="19" background="../img/form/lateraldir.jpg"></td>
-					</tr>
-					<tr>
-						<td align="left" background="../img/form/rodape_fundo.jpg"><img src="../img/form/rodape_cantoesq.jpg" /></td>
-						<td background="../img/form/rodape_fundo.jpg"></td>
-						<td align="right" background="../img/form/rodape_fundo.jpg"><img src="../img/form/rodape_cantodir.jpg" /></td>
+					
 					</tr>
 				</table>
 
 			</div>
-		</td>
-	</tr>
-</table>
+		</div>
+     
 <table width="100%">
 	<tr>
 		<td>

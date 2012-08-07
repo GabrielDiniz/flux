@@ -27,6 +27,13 @@ Fith Floor, Boston, MA 02110-1301, USA
 <script src="../include/js/script.js"></script>
 <script src="../include/js/superfish.js"></script>
 <script src="../include/js/jquery.easing.1.3.js"></script>
+<script src="../include/js/jquery-ui-1.8.22.custom.min.js"></script>
+
+	<script>
+	$(function() {
+		$( "#draggable" ).draggable();
+	});
+	</script>
 <!--[if lt IE 8]>
    <div style=' clear: both; text-align:center; position: relative;'>
      <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">

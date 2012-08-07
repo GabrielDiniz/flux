@@ -41,10 +41,11 @@ Fith Floor, Boston, MA 02110-1301, USA
 	  include("pagamento_emitidas.php");
 	}
 	
-	print_r($_POST);
+	
 	//codigo para impressao do boleto
     if($_POST['btEnviaBoleto'] =="Boleto")
     {
+    	
       include("pagamento_boleto.php");
     } 
 

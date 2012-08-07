@@ -20,7 +20,7 @@ h3{font-size:18px; text-transform:uppercase; letter-spacing:2px;}
 
 #draggable { box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25), 0 0 3px white inset;
     padding: 25px 20px;
-    z-index: 2000;}
+    z-index: 2000; position:fixed; left:280px; top:60px;}
 #divBuscaPrestador {
     left: 40%;
     position: fixed;
@@ -40,9 +40,15 @@ p.textoInicial{
 
 #txtSenha{ text-transform:none !important;}
 
+#close-bot{ background: url("../images/close_icon_1.png") no-repeat scroll 0 0 transparent;
+    color: #2C9BB6;
+    cursor: pointer;
+    float: right;
+    height: 15px;
+    width: 15px;
+	opacity:1;}
 
-
-
+#close-bot:hover{opacity:0.8;}
 /* Global Structure---------------------------------------- */
 img{ max-width:100%; height:auto;}
 /*----- txt,links,lines,titles -----*/

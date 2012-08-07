@@ -20,7 +20,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 ?>
 <?php $login=$_SESSION['login']; ?>
 
-   <!-- Formulario de pesquisa de pagamento  --->   
+  <!--  Formulario de pesquisa de pagamento  -->   
 <table width="500" align="center" cellpadding="0" cellspacing="0">
 <tr>
  <td>

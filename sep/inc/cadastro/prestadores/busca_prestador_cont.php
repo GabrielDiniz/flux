@@ -19,7 +19,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 */
 ?>
 <div id="draggable" class="box2">
-			<a onclick="document.getElementById('divBuscaPrestador').style.visibility='hidden'" >X</a>
+			<a id="close-bot" onclick="document.getElementById('divBuscaPrestador').style.visibility='hidden'" ></a>
 <table  border="0" cellspacing="0" cellpadding="0">
 	<tr>
 
