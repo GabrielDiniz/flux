@@ -25,6 +25,7 @@ function GeraGuia($codguia){
 </script>
 
 <form method="post" id="frmGuia" name="frmGuia">	
+	<input type="hidden" name="btEnviaBoleto" value="Boleto"/>
     <input type="hidden" name="btBuscar" value="Buscar" />
     <input type="hidden" name="cmbAno" id="cmbAno" value="<?php echo $ano; ?>" />
     <input type="hidden" name="cmbMes" id="cmbMes" value="<?php echo $mes; ?>" />
@@ -57,7 +58,7 @@ function GeraGuia($codguia){
 							<td align="center"><?php echo DecToMoeda($total); ?></td>
 							<td align="center">
                                 <input type="hidden" class="texto" name="txtMultaJuros<?php echo $codigo ?>" id="txtMultaJuros<?php echo $codigo ?>" value="0" readonly="readonly" >
-                                <input type="submit" class="botao" value="Gerar Boleto" name="btBoleto" id="btBoleto" onClick="return GeraGuia(<?php echo $codigo; ?>);"/>
+                                <input type="submit" class="botao" value="Gerar Boleto" name="btEnviaBoleto" id="btBoleto" onClick="return GeraGuia(<?php echo $codigo; ?>);"/>
                             </td>
 						</tr>
 					<?php

@@ -26,7 +26,7 @@ function GeraGuia($codguia){
 </script>
 
 <form method="post" id="frmGuia">	
-    <input type="hidden" name="btBuscar" value="Buscar" />
+    <input type="hidden" name="btEnviaBoleto" value="Boleto"  />
     <input type="hidden" name="cmbAno" id="cmbAno" value="<?php echo $ano; ?>" />
     <input type="hidden" name="cmbMes" id="cmbMes" value="<?php echo $mes; ?>" />
     <input type="hidden" name="txtEmissor" value="<?php echo $codcadastro;?>" />
@@ -56,7 +56,10 @@ function GeraGuia($codguia){
                             <td align="center"><?php echo DataPt($vencimento); ?></td>
                             <td align="center"><?php echo DecToMoeda($multa); ?></td>
 							<td align="center"><?php echo DecToMoeda($total); ?></td>
-							<td align="center"><input type="hidden" class="texto" name="txtMultaJuros<?php echo $codigo ?>" id="txtMultaJuros<?php echo $codigo ?>" value="0" readonly="readonly" ><input type="submit" class="botao" value="Gerar Boleto" name="btBoleto" id="btBoleto" onClick="return GeraGuia(<?php echo $codigo; ?>);"/></td>
+							<td align="center">
+								<input type="hidden" class="texto" name="txtMultaJuros<?php echo $codigo ?>" id="txtMultaJuros<?php echo $codigo ?>" value="0" readonly="readonly" >
+								<input type="button" class="botao"  id="btBoleto" onClick="return GeraGuia(<?php echo $codigo; ?>);"/>
+							</td>
 						</tr>
 					<?php
 				}//fim while

@@ -39,12 +39,11 @@ Fith Floor, Boston, MA 02110-1301, USA
 	elseif($_POST['btOp'] == "Guias Emitidas")
 	{
 	  include("pagamento_emitidas.php");
-	
 	}
 	
-	
+	print_r($_POST);
 	//codigo para impressao do boleto
-    if($btEnviaBoleto =="Boleto")
+    if($_POST['btEnviaBoleto'] =="Boleto")
     {
       include("pagamento_boleto.php");
     } 

@@ -47,7 +47,7 @@ if(!(isset($_SESSION["empresa"])))
     	<div class="wrapper">
 			<?php include("inc/menu.php"); ?>
 			<div class="boxbase">
-				<p class='textoInicial'>Olá, seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, contador,  poderá cadastrar-se  no sistema, consultar a liberação de seu cadastro e após sua aprovação pela prefeitura você já poderá emitir notas fiscais de serviço via internet e ainda poderá visualizar as notas de seus clientes agregando ao seu trabalho modernidade, comodidade,  agilidade e segurança.</p>
+				<img style="float: left; padding-right: 20px; padding-top: 15px;" src="../include/images/contador.png"><p class='textoInicial'>Olá, seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, contador,  poderá cadastrar-se  no sistema, consultar a liberação de seu cadastro e após sua aprovação pela prefeitura você já poderá emitir notas fiscais de serviço via internet e ainda poderá visualizar as notas de seus clientes agregando ao seu trabalho modernidade, comodidade,  agilidade e segurança.</p>
 			</div>
 		</div>
 	</div>	

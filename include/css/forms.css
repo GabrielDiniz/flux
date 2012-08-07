@@ -2,7 +2,6 @@
 
 
 
-
 *{ font-family: 'Arimo',sans-serif !important;}
 
 input[type="text"],input[type=password],textarea,select{border-radius: 2px 2px 2px 2px;
@@ -14,6 +13,7 @@ box-shadow: 0 3px 0 0 #F0F0F0 inset;
 padding: 6px 10px;
 color: #666666;
     font-size: 13px;
+	 background-color: white;
 }
 
 textarea{

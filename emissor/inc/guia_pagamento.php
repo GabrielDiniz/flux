@@ -38,7 +38,7 @@ listaRegrasMultaDes();
 ?>
 <script type="text/javascript">
 function AbrirGuias(ano, mes){
-//$('#divResultado').html('carregando');	
+	$('#divResultado').html('carregando');	
 	$.ajax({			
 		url: "./inc/guia_pagamento.ajax.php?cmbAno=" + document.getElementById(ano).value + "&cmbMes=" + document.getElementById(mes).value,			
 		success: function(msg){

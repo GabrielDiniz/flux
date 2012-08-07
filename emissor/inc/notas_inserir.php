@@ -176,7 +176,7 @@ if(($ultimanota > $notalimite) && ($notalimite != 0)){
 		<td align="left" colspan="2">
 			<span id="spanRPS" style="display:none">
 				<font color="#FF0000">
-                                <strong>&Eacute; necess&aacute;rio libera&ccedil;&atilde;o de limite de RPS, clique <a href="importar.php">aqui</a> para solicitar.</strong>
+          <strong>&Eacute; necess&aacute;rio libera&ccedil;&atilde;o de limite de RPS, clique <a href="importar.php">aqui</a> para solicitar.</strong>
 				</font>
 			</span>
 		</td>

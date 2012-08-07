@@ -1,8 +1,8 @@
 <?php
     include(autoload);
-    $sql = mysql_query("select * from municipios");
+    $sql = mysql_query("select * from menus_cadastro");
     while($result = mysql_fetch_array($sql)){
-        $result['nome'] = utf8_decode($result['nome']);
-        mysql_query("update municipios set nome='{$result['nome']}' where codigo='{$result['codigo']}'");
+        $result['menu'] = utf8_decode($result['menu']);
+        mysql_query("update menus_cadastro set menu='{$result['menu']}' where codigo='{$result['codigo']}'");
     }
 ?>

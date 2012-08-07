@@ -10,7 +10,7 @@ box-shadow: 0 3px 0 0 #F0F0F0 inset;
 padding: 6px 10px;
 color: #666666;
     font-size: 13px;
-height: 25px;}
+height: 25px; background-color: white;}
 
 textarea{
 height: 100%;}
