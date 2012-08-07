@@ -23,13 +23,13 @@ Fith Floor, Boston, MA 02110-1301, USA
 	#divBuscaPrestador {
 		position:fixed;
 	
-	 visibility:<?php if(isset($btBuscarPrestador)) { echo"visible"; }else { echo"hidden";}?>
+	 visibility:<?php if(isset($_GET['btBuscarPrestador']) || isset($_POST['btBuscarPrestador'])) { echo"visible"; }else { echo"hidden";}?>
 	}
 	
 	#divBuscaContador {
 		position:absolute;
 	
-	 visibility:<?php if(isset($btBuscarContador)) { echo"visible"; }else { echo"hidden"; }?>
+	 visibility:<?php if(isset($_GET['btBuscarContador']) || isset($_POST['btBuscarContador'])) { echo"visible"; }else { echo"hidden"; }?>
 	}
 	
 	
@@ -45,14 +45,14 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<?php include("inc/cadastro/prestadores/busca_contador.php"); ?>
 </div>
 <?php
-	//Testa se o usuario acionou o botao de inserção de novo contador se sim direciona para o cadastro de prestadores
+	//Testa se o usuario acionou o botao de inserï¿½ï¿½o de novo contador se sim direciona para o cadastro de prestadores
 	if($_POST['btNovoContador']){
 		RedirecionaPost("principal.php?include=inc/cadastro/prestadores/cadastro.php");
 		die();
 	}
 
 
-	//Testa se algum dos botões foi acionado
+	//Testa se algum dos botï¿½es foi acionado
 	if(($_POST['btAdcionar'] == "Adcionar Contador") || ($_POST['btAtualizar'] == "Atualizar Contador")){
 		$cod_prest = $_POST['CODPRESTADOR'];
 		$cod_cont  = $_POST['CODCONTADOR'];
@@ -72,7 +72,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		}
 	}
 		
-	//Verifica se foi feita uma busca pelo prestador se sim traz as informações do banco sobre o mesmo
+	//Verifica se foi feita uma busca pelo prestador se sim traz as informaï¿½ï¿½es do banco sobre o mesmo
 	if($_POST['CODPRESTADOR']){
 		$codigo_prestador = $_POST['CODPRESTADOR'];
 		$codigo_contador  = $_POST['CODCONTADOR'];
@@ -98,7 +98,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 			$codigo_contador = $codcontador;
 		}
 		
-		//busca as informações do contador referente ao prestador ou informações referentes ao contador buscado pelo usuario
+		//busca as informaï¿½ï¿½es do contador referente ao prestador ou informaï¿½ï¿½es referentes ao contador buscado pelo usuario
 		$sql_contador = mysql_query("
 			SELECT
 				razaosocial,
@@ -219,7 +219,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 							<td width="23%" align="left">
 								<?php if(!isset($codcontador)){?>
 									<input name="btAdcionar" type="submit" class="botao" value="Adcionar Contador" <?php if(!isset($_POST['CODPRESTADOR'])){ echo "disabled=\"disabled\"";}?>
-									onclick="return ValidaFormulario('txtNomeCont|txtCNPJEmp|txtFoneComercial|txtNfe|txtLivro|txtGuia|txtRps','Você deve buscar algum contador cadastrado no sistema!')">
+									onclick="return ValidaFormulario('txtNomeCont|txtCNPJEmp|txtFoneComercial|txtNfe|txtLivro|txtGuia|txtRps','Vocï¿½ deve buscar algum contador cadastrado no sistema!')">
 								<?php }?>
 								<?php if(isset($codcontador)){?><input name="btAtualizar" type="submit" class="botao" value="Atualizar Contador" /><?php }?>
 							</td>

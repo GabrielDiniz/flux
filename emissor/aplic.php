@@ -48,10 +48,11 @@ if(!(isset($_SESSION["empresa"])))
     	<div class="wrapper">
 			<?php include("inc/menu.php"); ?>
 			<div class="boxbase">
+				<img src='../include/images/prestador.png' style='float: left; padding-right: 20px; padding-top: 15px;'>
 				<p class='textoInicial'>
-					Olá, seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, prestador de serviço, poderá 
-					cadastrar-se no sistema, consultar a liberação de seu cadastro e após sua aprovação pela prefeitura você já poderá emitir notas 
-					fiscais de serviço via internet agregando ao seu trabalho modernidade e comodidade.
+					Olá, seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, prestador de 
+					serviço, poderá cadastrar-se no sistema, consultar a liberação de seu cadastro e após sua aprovação pela prefeitura 
+					você já poderá emitir notas fiscais de serviço via internet agregando ao seu trabalho modernidade e comodidade.
 				</p>
 			</div>
 		</div>

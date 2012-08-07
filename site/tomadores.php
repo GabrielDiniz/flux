@@ -54,6 +54,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 
 <body>
 	<?php include("../include/topo.php"); ?>
+   <section>
     <div class=" container_12">
     <div class="wrapper">
     
@@ -69,7 +70,15 @@ Fith Floor, Boston, MA 02110-1301, USA
 								{
 									include("inc/tomadores/".$_POST["txtMenu"].".php");
 								}else {
-									echo("<p class='textoInicial'> Olá seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, tomador, poderá fazer consultas a RPS (recibo provisório de serviço), poderá também consultar a autenticidade das notas a você emitidas e ainda gerar guias de declarações com ISS retido agregando ao seu trabalho modernidade, comodidade,  agilidade e segurança.</p>");
+									echo("
+										<img src='../include/images/tomador.png' style='float: left; padding-right: 20px; padding-top: 15px;'>
+										<p class='textoInicial'> 
+											Olá seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, tomador, 
+											poderá fazer consultas a RPS (recibo provisório de serviço), poderá também consultar a autenticidade das 
+											notas a você emitidas e ainda gerar guias de declarações com ISS retido agregando ao seu trabalho modernidade,
+											 comodidade,  agilidade e segurança.
+										</p>
+									");
 									
 								}
 						}else{
@@ -81,6 +90,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</div>
 	</div>
 </div>
+</section>
  <?php include("../include/rodape.php"); ?>
 
 </body>

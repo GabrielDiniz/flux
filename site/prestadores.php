@@ -30,13 +30,22 @@ Fith Floor, Boston, MA 02110-1301, USA
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
- 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>e-Nota</title>
+<script src="../scripts/java_site.js" language="javascript" type="text/javascript"></script>
+<script src="../scripts/padrao.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="js/java.js"></script>
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<link href="../css/padrao_site.css" rel="stylesheet" type="text/css" />
  <?  include ("../include/site-head.php");?>
  </head>
 
 
 <body>
     <?php include("../include/topo.php"); ?>
+    <section>
     <div class=" container_12">
     <div class="wrapper">
     
@@ -52,7 +61,9 @@ Fith Floor, Boston, MA 02110-1301, USA
 						{
 							include("inc/prestadores/".$_POST["txtMenu"].".php");
 						}else {
-							echo("<p class='textoInicial'>
+							echo("
+							<img src='../include/images/prestador.png' style='float: left; padding-right: 20px; padding-top: 15px;'>
+							<p class='textoInicial'>
 								Olá, seja bem vindo ao sistema digital de emissão de notas fiscais de serviços. Neste ambiente você, prestador de 
 								serviço, poderá cadastrar-se no sistema, consultar a liberação de seu cadastro e após sua aprovação pela prefeitura 
 								você já poderá emitir notas fiscais de serviço via internet agregando ao seu trabalho modernidade e comodidade.
@@ -65,7 +76,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		</div>
 	</div>
 </div>
-    
+    </section>
 <?php include("../include/rodape.php"); ?>
 
 </body>

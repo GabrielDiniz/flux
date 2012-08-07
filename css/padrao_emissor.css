@@ -43,35 +43,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	overflow: auto;
 }
 
-body {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 8pt;
-	color: #333333;
-	/*background-image: url(../img/fundos/padrao.jpg);*/
-	margin: 0px;
-	padding: 0px;
-	background-repeat: repeat-x;
-	background-color: #FFFFFF;
-}
-.menu {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 8pt;
-	font-weight: bold;
-	color: #FFFFFF;
-}
-img {
-	border: 0px;
-}
-td {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 8pt;
-	color: #333333;
-}
-imprimir {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 8pt;
-	color: #000000;
-}
+
 
 input#btX{
 	border:0;

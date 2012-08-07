@@ -47,9 +47,9 @@ Fith Floor, Boston, MA 02110-1301, USA
 				<li><a href="../sep/">Fiscalização</a></li>
 			</ul>
 			</li>
-			<li><a href="#"><span>legislação</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
-			<li><a href="#"><span>Ouvidoria</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
-			<li><a href="#"><span>suporte</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
+			<li><a  id="block-as" href="#"><span>legislação</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
+			<li ><a id="block-as" href="#"><span>Ouvidoria</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
+			<li ><a id="block-as" href="#"><span>suporte</span><strong class="grad"><em class="gr-left"></em><em class="gr-right"></em></strong><strong class="gr-bot"></strong></a></li>
 		</ul>
 		<div class="clear">
 		</div>

@@ -65,7 +65,7 @@ $dados_municipio=mysql_fetch_array($sql_municipio);
 	width:298px;
 	height:276px;
 	z-index:1;
- visibility:<?php if(isset($btBuscarCliente)) { echo"visible"; }else{ echo"hidden"; }?>
+ visibility:<?php if(isset($_GET['btBuscarCliente']) || isset($_POST['btBuscarCliente'])) { echo"visible"; }else{ echo"hidden"; }?>
 }
 
 /*Faz com que todos os inputs de texto so mostrem letras maiusculas*/
