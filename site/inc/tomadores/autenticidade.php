@@ -23,7 +23,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<table width="580" border="0" cellpadding="0" cellspacing="1">
         <tr>
 			
-	        <legend>Consulta de Autenticidade de NFe</legend><br>
+	        <legend>Consulta de Autenticidade de NFe</legend><br><br><br>
 	    
 		</tr>
 		<tr>

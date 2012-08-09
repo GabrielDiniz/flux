@@ -25,23 +25,10 @@ if(!$_POST['txtCNPJ']){
 	<input type="hidden" value="<?php echo $_POST['txtMenu'];?>" name="txtMenu">
 	<table width="100%" border="0" cellspacing="1" cellpadding="0">
 		<tr>
-			<td width="10" height="10" bgcolor="#FFFFFF"></td>
-			<td width="185" align="center" bgcolor="#FFFFFF" rowspan="3">Contador - Informe seu dados</td>
-			<td width="385" bgcolor="#FFFFFF"></td>
+        <legend>Contador - Informe seu dados</legend><br><br><br>
+			
 		</tr>
-		<tr>
-			<td height="1" ></td>
-			<td ></td>
-		</tr>
-		<tr>
-			<td height="10" bgcolor="#FFFFFF"></td>
-			<td bgcolor="#FFFFFF"></td>
-		</tr>
-		<tr>
-			<td colspan="3" height="1" ></td>
-		</tr>
-		<tr>
-			<td height="60" colspan="3" ><table width="98%" height="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+	
 					<tr>
 						<td width="19%" align="left">CNPJ/CPF</td>
 						<td width="81%" align="left" valign="middle"><em>

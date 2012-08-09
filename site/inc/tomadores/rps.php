@@ -23,7 +23,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 	<table border="0" cellpadding="0" cellspacing="1">
         <tr>
 		
-	        <legend>Consulta Recibo Provis&oacute;rio de Servi&ccedil;os (RPS)</legend><br>
+	        <legend>Consulta Recibo Provis&oacute;rio de Servi&ccedil;os (RPS)</legend><br><br><br>
 	        
 		</tr>
 		<tr>

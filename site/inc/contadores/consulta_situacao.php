@@ -79,24 +79,10 @@ Fith Floor, Boston, MA 02110-1301, USA
 			?>
 	<table width="100%" border="0" cellpadding="0" cellspacing="1">
 		<tr>
-			<td width="5%" height="5" bgcolor="#FFFFFF"></td>
-			<td width="30%" align="center" bgcolor="#FFFFFF" rowspan="3">Consulta ao Cadastro de Contador </td>
-			<td width="30%" bgcolor="#FFFFFF"></td>
-		</tr>
-		<tr>
-			<td height="1" ></td>
-			<td ></td>
-		</tr>
-		<tr>
-			<td height="10" bgcolor="#FFFFFF"></td>
-			<td bgcolor="#FFFFFF"></td>
-		</tr>
-		<tr>
-			<td colspan="3" height="1" ></td>
-		</tr>
-		<tr>
-			<td height="60" colspan="3" >
+	
+            		<legend>Consulta ao Cadastro de Contador</legend><br><br><br>
 			
+			</tr>
 						<table width="98%" height="100%" border="0"  align="center" cellpadding="1" cellspacing="2">
 							<tr>
 								<td colspan="4" height="5"></td>

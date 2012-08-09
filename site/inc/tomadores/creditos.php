@@ -58,20 +58,9 @@ function atualizacreditos(valormaximo,valortotal){
 <input type="hidden" value="<?php echo $_POST['txtMenu'];?>" name="txtMenu">
 	<table width="580" border="0" cellpadding="0" cellspacing="1">
         <tr>
-			<td width="5%" height="10" bgcolor="#FFFFFF"></td>
-	        <td width="25%" align="center" bgcolor="#FFFFFF" rowspan="3">Consulta Cr&eacute;ditos</td>
-	        <td width="70%" bgcolor="#FFFFFF"></td>
-	    </tr>
-		<tr>
-		  <td height="1" ></td>
-	      <td ></td>
-		</tr>
-		<tr>
-		  <td height="10" bgcolor="#FFFFFF"></td>
-	      <td bgcolor="#FFFFFF"></td>
-		</tr>
-		<tr>
-			<td colspan="3" height="1" ></td>
+			
+              <legend>Consulta Cr&eacute;ditos</legend><br><br><br>
+	     
 		</tr>
 		<tr>
 			<td height="60" colspan="3" >

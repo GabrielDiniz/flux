@@ -26,26 +26,12 @@ Fith Floor, Boston, MA 02110-1301, USA
    
 	<table width="580" border="0" cellpadding="0" cellspacing="1">
         <tr>
-			<td width="5%" height="10" bgcolor="#FFFFFF"></td>
-	        <td width="25%" align="center" bgcolor="#FFFFFF" rowspan="3">Cadastro de Contador</td>
-	        <td width="70%" bgcolor="#FFFFFF"></td>
-	    </tr>
-		<tr>
-		  <td height="1" ></td>
-	      <td ></td>
-		</tr>
-		<tr>
-		  <td height="10" bgcolor="#FFFFFF"></td>
-	      <td bgcolor="#FFFFFF"></td>
-		</tr>
-		<tr>
-			<td colspan="3" height="1" ></td>
+		<legend>Cadastro de Contador</legend><br><br><br>
+			
 		</tr>
 		<tr>
 			<td height="60" colspan="3" >
 
-<br />
-<br />
 <strong>Prezado Contador/Escrit&oacute;rio de Contabilidade</strong><br /><br />
 A nossa Prefeitura Municipal vem empreendendo esfor&ccedil;os para aprimorar continuamente a qualidade dos servi&ccedil;os oferecidos aos contribuintes. Neste sentido, a internet apresenta-se como um importante instrumento capaz de atende-los com agilidade e seguran&ccedil;a.
 <br /><br />

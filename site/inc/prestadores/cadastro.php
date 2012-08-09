@@ -26,12 +26,12 @@ Fith Floor, Boston, MA 02110-1301, USA
  <div class="grid_8">
 	<table  border="0" cellpadding="0" cellspacing="1">
         <tr>
-			        <legend>Cadastro de Prestadores</legend><br>
+			        <legend>Cadastro de Prestadores</legend><br><br><br>
 	        
 	    </tr>
 		
 
-<br><br>
+
 <strong>Prezado Contribuinte</strong>
 <br /><br />
 A nossa Prefeitura Municipal vem empreendendo esfor&ccedil;os para aprimorar continuamente a qualidade dos servi&ccedil;os oferecidos aos contribuintes. Neste sentido, a internet apresenta-se como um importante instrumento capaz de atende-los com agilidade e seguran&ccedil;a.
@@ -195,7 +195,7 @@ A senha cadastrada &eacute; intransfer&iacute;vel e configura a assinatura eletr
          <td align="right"></td>
          </tr> 	  
        <tr>
-         <td align="left"><input type="submit" value="Cadastrar" name="btCadastrar" class="botao" onclick="return (ConfereCNPJ(this)) && (ValidaSenha('txtSenha','txtSenhaConf') && (ValidaFormulario('txtInsNomeEmpresa|txtInsRazaoSocial|txtCNPJ|txtLogradouro|txtNumero|txtBairro|txtCEP|txtFoneComercial|txtInsUfEmpresa|txtInsMunicipioEmpresa|txtInsEmailEmpresa|cmbCategoria1|txtNomeSocio1|txtCpfSocio1')))" /></td>
+         <td align="left"><input type="submit" value="Cadastrar" name="btCadastrar" class="botao" onclick="return (ValidaSenha('txtSenha','txtSenhaConf') && (ValidaFormulario('txtInsNomeEmpresa|txtInsRazaoSocial|txtLogradouro|txtNumero|txtBairro|txtCEP|txtFoneComercial|txtInsUfEmpresa|txtInsMunicipioEmpresa|txtInsEmailEmpresa|cmbCategoria1|txtNomeSocio1|txtCpfSocio1')))" /></td>
          <td></td>
          </tr>
          <tr>

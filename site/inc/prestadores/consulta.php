@@ -25,7 +25,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 <table width="100%" border="0" cellspacing="1" cellpadding="0">
 	<tr>
 	
-		 <legend>Consulta ao Cadastro do Prestador </legend><br>
+		 <legend>Consulta ao Cadastro do Prestador </legend><br><br><br>
 	 
 	</tr>
 	
