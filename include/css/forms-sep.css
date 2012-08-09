@@ -1,5 +1,18 @@
 *{ font-family: 'Arimo',sans-serif !important;}
-
+.box2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px 5px 5px 5px;
+    margin: 53px 0 50px;
+    overflow: visible;
+    padding: 20px 0 20px 26px;
+    position: relative;
+}
+section {
+    background: url("../images/shadow.png") repeat-x scroll 50% 0 transparent;
+    padding-bottom: 0px;
+    width: 100%;
+}
 input[type="text"],input[type=password],textarea,select{border-radius: 2px 2px 2px 2px;
     cursor: text;
     margin-bottom: 10px;
@@ -74,6 +87,7 @@ legend {
     font-weight: normal;
     margin-bottom: 15px !important;
     text-transform: uppercase;
+	padding-right: 720px;
 }
 
 /* Contact form */

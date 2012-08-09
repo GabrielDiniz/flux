@@ -78,6 +78,7 @@ legend {
     font-weight: normal;
     margin-bottom: 15px !important;
     text-transform: uppercase;
+	padding-right: 400px;
 }
 
 /* Contact form */

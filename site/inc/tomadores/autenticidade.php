@@ -22,17 +22,9 @@ Fith Floor, Boston, MA 02110-1301, USA
 <input type="hidden" value="<?php echo $_POST['txtMenu'];?>" name="txtMenu">
 	<table width="580" border="0" cellpadding="0" cellspacing="1">
         <tr>
-			<td width="5%" height="10" bgcolor="#FFFFFF"></td>
-	        <td width="35%" align="center" bgcolor="#FFFFFF" rowspan="3">Consulta de Autenticidade de NFe</td>
-	        <td width="60%" bgcolor="#FFFFFF"></td>
-	    </tr>
-		<tr>
-		  <td height="1" ></td>
-	      <td ></td>
-		</tr>
-		<tr>
-		  <td height="10" bgcolor="#FFFFFF"></td>
-	      <td bgcolor="#FFFFFF"></td>
+			
+	        <legend>Consulta de Autenticidade de NFe</legend><br>
+	    
 		</tr>
 		<tr>
 			<td colspan="3" height="1" ></td>

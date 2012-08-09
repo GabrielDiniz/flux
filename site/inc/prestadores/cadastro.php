@@ -23,29 +23,15 @@ Fith Floor, Boston, MA 02110-1301, USA
 	list($CIDADE,$UF)=mysql_fetch_array($sql);
 ?>
  <!-- Formul�rio de inser��o de empresa --> 
- <div class="grid_3">
+ <div class="grid_8">
 	<table  border="0" cellpadding="0" cellspacing="1">
         <tr>
-			<td width="5%" height="10" bgcolor="#FFFFFF"></td>
-	        <td width="30%" align="center" bgcolor="#FFFFFF" rowspan="3">Cadastro de Prestadores</td>
-	        <td width="65%" bgcolor="#FFFFFF"></td>
+			        <legend>Cadastro de Prestadores</legend><br>
+	        
 	    </tr>
-		<tr>
-		  <td height="1" ></td>
-	      <td ></td>
-		</tr>
-		<tr>
-		  <td height="10" bgcolor="#FFFFFF"></td>
-	      <td bgcolor="#FFFFFF"></td>
-		</tr>
-		<tr>
-			<td colspan="3" height="1" ></td>
-		</tr>
-		<tr>
-			<td height="60" colspan="3" >
+		
 
-<br />
-<br />
+<br><br>
 <strong>Prezado Contribuinte</strong>
 <br /><br />
 A nossa Prefeitura Municipal vem empreendendo esfor&ccedil;os para aprimorar continuamente a qualidade dos servi&ccedil;os oferecidos aos contribuintes. Neste sentido, a internet apresenta-se como um importante instrumento capaz de atende-los com agilidade e seguran&ccedil;a.

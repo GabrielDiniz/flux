@@ -24,21 +24,11 @@ Fith Floor, Boston, MA 02110-1301, USA
 ?>
 <table width="100%" border="0" cellspacing="1" cellpadding="0">
 	<tr>
-		<td width="10" height="10" bgcolor="#FFFFFF"></td>
-		<td width="400" align="center" bgcolor="#FFFFFF" rowspan="3">Consulta ao Cadastro do Prestador</td>
-	  	<td width="405" bgcolor="#FFFFFF"></td>
+	
+		 <legend>Consulta ao Cadastro do Prestador </legend><br>
+	 
 	</tr>
-	<tr>
-      <td height="1" ></td>
-      <td ></td>
-	</tr>
-	<tr>
-	  <td height="10" bgcolor="#FFFFFF"></td>
-	  <td bgcolor="#FFFFFF"></td>
-	</tr>
-	<tr>
-		<td colspan="3" height="1" ></td>
-	</tr>
+	
 	<tr>
 		<td height="60" colspan="3" >
         <form method="post" name="frmCNPJ">

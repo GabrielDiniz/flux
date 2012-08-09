@@ -28,6 +28,6 @@ Fith Floor, Boston, MA 02110-1301, USA
 </table>
 </form>
 <?php
-	if($_POST['btInserir'] !=""){include("inc/notas_inserir_empresa.php");}
-	if($_POST['btPesquisar'] !=""){include("inc/notas_pesquisar_empresa.php");}
+	if(isset($_POST['btInserir'])   || isset($_GET['btInserir'])){include("inc/notas_inserir_empresa.php");}
+	if(isset($_POST['btPesquisar']) || isset($_GET['btPesquisar'])){include("inc/notas_pesquisar_empresa.php");}
 ?>

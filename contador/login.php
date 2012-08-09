@@ -29,13 +29,8 @@ if(!(isset($_SESSION["empresa"])))
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<script src="../scripts/padrao.js" language="javascript" type="text/javascript"></script>
-<script src="../scripts/java_site.js" language="javascript" type="text/javascript"></script>
-<link href="../css/padrao_emissor.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" language="javascript" src="../scripts/funcoes_emissor.js"></script>
-	
 	<? include ("../include/site-head.php"); ?>
- 	<script src=""></script>
+ 	<script type="text/javascript" language="javascript" src="../scripts/funcoes_emissor.js"></script>
 </head>
 <body>
  <?php include("../include/topo.php"); ?> 

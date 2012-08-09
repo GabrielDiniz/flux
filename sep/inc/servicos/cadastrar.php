@@ -53,7 +53,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 			</tr>
 			<tr>
 				<td align="left">Tipo de Pessoa <font color="#FF0000">*</font></td>
-				<td align="left"><select name="cmbInsTipoPessoa" id="cmbInsTipoPessoa" class="combo">
+				<td align="left"><select name="cmbInsTipoPessoa" id="cmbInsTipoPessoa" >
                 	<option />
                   <option value="PJ">Pessoa Jur&iacute;dica</option>
                   <option value="PF">Pessoa F&iacute;sica</option>
@@ -78,7 +78,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 			</tr>
 			<tr>
 			  <td align="left">Incid&ecirc;ncia <font color="#FF0000">*</font></td>
-			  <td align="left"><select name="cmbInsIncidencia" id="cmbInsIncidencia" class="combo">
+			  <td align="left"><select name="cmbInsIncidencia" id="cmbInsIncidencia" >
               <option />
 			    <option value="mensal">Mensal</option>
 			    <option value="anual">Anual</option>
@@ -90,7 +90,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 		  </tr>
 			<tr>
 			  <td align="left">Documento Fiscal <font color="#FF0000">*</font></td>
-			  <td align="left"><select name="cmbInsDocFiscal" id="cmbInsDocFiscal" class="combo">
+			  <td align="left"><select name="cmbInsDocFiscal" id="cmbInsDocFiscal" >
               	<option />
 			    <option value="NF">Nota Fiscal</option>
 			    <option value="CF">Cupom Fiscal</option>

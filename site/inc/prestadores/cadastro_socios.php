@@ -31,7 +31,7 @@ Fith Floor, Boston, MA 02110-1301, USA
   </tr>
   <tr id="campossocio<?php echo $cont; ?>" style="display:none">	    
     <td align="left" >&nbsp;<?php if($cont == 1){ echo "Nome do Responsável<br />";}else{ echo "Nome do Sócio<br>";}?>
-	 <input type="text" size="40" maxlength="100" name="txtNomeSocio<?php echo $cont; ?>" id="txtNomeSocio<?php echo $cont; ?>" class="texto" /> CPF 
+	 <input type="text" size="40" maxlength="100" name="txtNomeSocio<?php echo $cont; ?>" id="txtNomeSocio<?php echo $cont; ?>" class="texto" /><br><br> &nbsp;CPF<br> 
 	 
 	 <input type="text" size="14" maxlength="14" name="txtCpfSocio<?php echo $cont; ?>" id="txtCpfSocio<?php echo $cont; ?>" class="texto" />
 	 

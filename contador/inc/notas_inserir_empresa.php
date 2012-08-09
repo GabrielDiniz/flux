@@ -59,7 +59,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 }
 	else{echo "Nenhuma empresa cadastrada";}
 }
-if($btSelecionarEmpresa!=""){
+if($_POST['btSelecionarEmpresa']!=""){
  if($btInserirNota !="")
 	 {
 	   $servico = explode("|",$_POST['cmbCodServico1']);
