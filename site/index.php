@@ -47,7 +47,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				</div>
 				<h3>Prestadores</h3>
 				<p>
-					Unean auctor wisi eturna aliquam volutpat adipiscing duisac.
+						Área destinada aos prestadores de serviços para acesso ao sistema de emissão e cadastro.
 				</p>
 				<a href="prestadores.php"></a>
 			</div>
@@ -73,7 +73,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				</div>
 				<h3>Contadores</h3>
 				<p>
-					Unean auctor wisi eturna aliquam volutpat adipiscing duisac.
+					Área destinada aos contadores para acesso ao sistema de emissão e cadastro.
 				</p>
 				<a href="contadores.php"></a>
 			</div>
@@ -129,7 +129,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 
 	<div class="wrapper">
 
-		<div class="grid_4 padtop2">
+		<div class="grid_4 padtop5">
 			<div class="dropcap">
 				4
 			</div>
@@ -140,7 +140,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				</div>
 			</div>
 		</div>
-<div class="grid_4 padtop2">
+<div class="grid_4 padtop5">
 			<div class="dropcap">
 				5
 			</div>

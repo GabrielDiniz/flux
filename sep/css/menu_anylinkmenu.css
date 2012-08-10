@@ -10,12 +10,13 @@ padding: 11px 0;
 z-index: 100; 
     background: none repeat scroll 0 0 #FAFAFA;
     color: #444444;
-   border-right: 1px solid #ECECEC;
+   border: 1px solid #DDDDDD;
+   
     text-align: left;
     font: 12px/15px 'Arimo',sans-serif;
   width: 152px;
-    text-transform: uppercase;}
-
+    text-transform: uppercase;
+ box-shadow: 0 0 5px 0 rgba(222, 222, 222, 0.9);}
 
 }
 

@@ -52,7 +52,7 @@ Fith Floor, Boston, MA 02110-1301, USA
             
 	  	</tr>
 	  <tr>
-		<td background="img/busca_fundo.jpg" align="center" colspan="2">	
+		<td  align="center" colspan="2">	
 		<select name="CODEMISSOR" id="CODEMISSOR" size="18" style="width:400px; background-color:#255b8f;color:#FFFFFF;" class="combo" onchange="document.frmbusca.submit();">   		
 			<?php 
 				$codtipo_orgaop = codtipo('orgao_publico');

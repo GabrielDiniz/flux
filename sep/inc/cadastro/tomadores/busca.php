@@ -17,26 +17,22 @@ junto com este sistema, se nao, acesse o Portal do Software Publico Brasileiro n
 www.softwarepublico.gov.br, ou escreva para a Fundacao do Software Livre Inc., 51 Franklin St,
 Fith Floor, Boston, MA 02110-1301, USA
 */
-?>
-<table border="0" cellspacing="0" cellpadding="0" >
-  <tr>
-    <td width="18" align="left" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_icone.jpg" /></td>
-    <td width="150" background="img/form/cabecalho_fundo.jpg" align="left" class="formCabecalho">&nbsp;SEPISS - Pesquisar</td>  
-    <td width="19" align="right" valign="top" background="img/form/cabecalho_fundo.jpg"><img src="img/form/cabecalho_btfechar.jpg" width="19" height="21" border="0" onclick="document.getElementById('divBuscaTomadores').style.visibility='hidden'" /></td>
-  </tr>
-  <tr>
-    <td width="18" background="img/form/lateralesq.jpg"></td>
+?><div id="draggable" class="box2">
+			<a id="close-bot" onclick="document.getElementById('divBuscaTomadores').style.visibility='hidden'" title="Fechar"></a>
+<table  border="0" cellspacing="0" cellpadding="0">
+	<tr>    <legend>Pesquisar</legend>
     <td align="center">
+
 <form method="post"  name="frmbuscatomadores" id="frmbuscatomadores">
 	<input type="hidden" name="include" id="include" value="<?php echo  $_POST['include'];?>" />
-	<table width="100%">
+
 	  <tr>
-		<td><input name="txtBuscaNomeTomador" id="txtBuscaNomeTomador" type="text" class="texto" size="39" style="background-color:#255b8f; color:#FFFFFF; text-transform:uppercase"  >	
+		<td><input name="txtBuscaNomeTomador" id="txtBuscaNomeTomador" type="text" class="texto" size="39"   >	
 		<input name="btBuscarCliente" type="submit" value="" id="btBuscarCliente"></td>
 	  </tr>
 	  <tr>
-		<td background="img/busca_fundo.jpg" align="center">	
-		<select name="CODTOMADOR" id="CODTOMADOR" size="13" style="width:277px; background-color:#255b8f;color:#FFFFFF;" class="combo" onchange="document.frmbuscatomadores.submit();">   		
+	
+		<select name="CODTOMADOR" id="CODTOMADOR" size="13"  class="combo" onchange="document.frmbuscatomadores.submit();">   		
 			<?php 
 				if(isset($_POST['txtBuscaNomeTomador']))
 				{
@@ -72,18 +68,14 @@ Fith Floor, Boston, MA 02110-1301, USA
 					}//fim while
 				}?>
 		</select>
-		</td>
-	</tr>
-</table>
+		
+  
 </form>
 	</td>
-	<td width="19" background="img/form/lateraldir.jpg"></td>
-  </tr>
-  <tr>
-    <td align="left" background="img/form/rodape_fundo.jpg"><img src="img/form/rodape_cantoesq.jpg" /></td>
-    <td background="img/form/rodape_fundo.jpg"></td>
-    <td align="right" background="img/form/rodape_fundo.jpg"><img src="img/form/rodape_cantodir.jpg" /></td>
+	</td>
+	</tr>
   </tr>
 </table>
+</div>
 <map name="Map"><area shape="rect" coords="277,4,294,18" onclick="document.getElementById('divBuscaTomadores').style.visibility='hidden';" alt="Fechar">
 </map>

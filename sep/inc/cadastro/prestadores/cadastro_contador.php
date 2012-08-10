@@ -38,10 +38,10 @@ Fith Floor, Boston, MA 02110-1301, USA
 	}
  -->
 </style>
-<div id="divBuscaPrestador"  >
+<div id="divBuscaPrestador">
 	<?php include("inc/cadastro/prestadores/busca_prestador_cont.php"); ?>
 </div>
-<div id="divBuscaContador"  >
+<div id="divBuscaContador">
 	<?php include("inc/cadastro/prestadores/busca_contador.php"); ?>
 </div>
 <?php

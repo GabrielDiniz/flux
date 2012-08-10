@@ -86,7 +86,7 @@ section.padcontent2{ padding:48px 0 41px;}
 section.padcontent3{ padding:48px 0 36px;}
 section.padcontent4{ padding:48px 0 29px;}
 section.padcontent5{ padding:48px 0 49px;}
-.box1{ background:#fff; border:1px solid #e8e8e8; border-radius:5px; text-align:center; margin:30px 0 0 0; padding:33px 0 53px 0; position:relative;
+.box1{  box-shadow: 0 0 5px 0 rgba(222, 222, 222, 0.9); background:#fff; border:1px solid #ddd; border-radius:5px; text-align:center; margin:30px 0 0 0; padding:33px 0 53px 0; position:relative;
 -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
 .box1 a{ display:block; position:absolute; top:0; left:0; right:0; bottom:0; z-index:3;}
 .imgs{ width:92px; height:92px; margin:0 auto; position:relative; z-index:2;}
@@ -105,9 +105,9 @@ section.padcontent5{ padding:48px 0 49px;}
 	.news img{ float:left; margin:5px 19px 0 0;}
 	.news p{ padding:3px 0 1px 0;}
 	.news em{ color:#444; font-size:12px;}
-.boxbase{border:1px solid #DDDDDD;background-color: white; float: left; box-shadow: 0 0 5px 0 rgba(222, 222, 222, 0.9); width: 645px; margin-left: -50px; margin-top: 25px; border-radius: 0 5px 5px 0; padding: 7px 18px; padding-bottom: 18px;}
-.box2{ background:#fff; border:1px solid #DDDDDD; border-radius:5px; margin:53px 0 0 0; padding:20px 0 20px 26px; position:relative; overflow:visible;}
-.box3{  background:#fff; border:1px solid #DDDDDD; border-radius:5px; margin:53px 0 0 0; padding:20px 0 20px 26px; position:relative; overflow:hidden; text-align:center;}
+.boxbase{border:1px solid #DDDDDD;background-color: white; float: left; box-shadow: 0 0 5px 0 rgba(222, 222, 222, 0.9); width: 645px; margin-left: -50px; margin-top: 25px; border-radius: 5px; padding: 7px 18px; padding-bottom: 18px;}
+.box2{ box-shadow: 0 0 5px 0 rgba(222, 222, 222, 0.9); background:#fff; border:1px solid #DDDDDD; border-radius:5px; margin:53px 0 0 0; padding:20px 0 20px 26px; position:relative; overflow:visible;}
+.box3{   box-shadow: 0 0 5px 0 rgba(222, 222, 222, 0.9); background:#fff; border:1px solid #DDDDDD; border-radius:5px; margin:53px 0 0 0; padding:20px 0 20px 26px; position:relative; overflow:hidden; text-align:center;}
 .quotes{ width:615px; height:52px; position:relative; float:left; border-right:1px solid #d7d7d7; padding-top:6px;}
 .quotes blockquote{ font:italic 15px/22px Arial, Helvetica, sans-serif; color:#828387; background: url(../images/quotes.png) 0 3px no-repeat; padding:0 50px 0 64px;}
 	.quotes .flex-control-nav{ position:relative; overflow:hidden; list-style:none; position:absolute; right:19px; bottom:1px;}
@@ -189,6 +189,7 @@ footer a:hover{ text-decoration:none; color:#000;}
 	.social li a:hover .img-2{ opacity:1;}
 	.social li a:hover .img-1{ opacity:0;}
 /* padding */
+.padtop5{ padding-top:25px;}
 .padtop3{ padding-top:6px;}
 .padtop4{ padding-top:39px;}
 .padtop2{ padding-top:54px;}

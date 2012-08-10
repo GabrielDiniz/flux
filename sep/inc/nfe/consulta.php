@@ -103,7 +103,7 @@ input[type*="text"]{
 					<tr>
 						<td align="left">Código de Verificação</td>
 						<td align="left">
-							<input name="txtCodigoVerificacao" type="text" size="10" class="texto" style="text-transform:uppercase;" />
+							<input name="txtCodigoVerificacao" type="text" size="10" class="texto"  />
 						</td>
 					</tr>
 					<tr>

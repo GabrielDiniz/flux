@@ -35,7 +35,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 				<input name="btBuscarCliente" type="submit" value="" id="btBuscarCliente"></td>
 	  	</tr>
 	  <tr>
-		<td background="img/busca_fundo.jpg" align="center">	
+		<td  align="center">	
 		<select name="CODOPR" id="CODOPR" size="13" style="width:277px; background-color:#255b8f;color:#FFFFFF;" class="combo" onchange="document.getElementById('frmBuscaOpr').submit();">   		
 			<?php						
 				if(isset($_POST['txtBuscaNomeOpr']))

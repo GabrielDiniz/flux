@@ -1,8 +1,9 @@
 *{ font-family: 'Arimo',sans-serif !important;}
 .box2 {
     background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #E8E8E8;
-    border-radius: 5px 5px 5px 5px;
+     border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(222, 222, 222, 0.9);
     margin: 53px 0 50px;
     overflow: visible;
     padding: 20px 0 20px 26px;
@@ -13,17 +14,22 @@ section {
     padding-bottom: 0px;
     width: 100%;
 }
+
+
+
 input[type="text"],input[type=password],textarea,select{border-radius: 2px 2px 2px 2px;
     cursor: text;
     margin-bottom: 10px;
     margin-left: 5px;
-    text-transform: uppercase;
-border: 1px solid #BEBEBE;
-box-shadow: 0 3px 0 0 #F0F0F0 inset;
+border: 1px solid #BEBEBE; height:25px;
+ 
 padding: 6px 10px;
 color: #666666;
     font-size: 13px;
-height: 25px; background-color: white;}
+	 background-color: white;
+	 -webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease; 
+	 box-shadow:0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 #FFFFFF; 
+}
 
 textarea{
 height: 100%;}
@@ -53,7 +59,9 @@ input.botao:hover {
     background: none repeat scroll 0 0 #2C9BB6;
     color: #FFFFFF;
     text-decoration: none;
+	
 }
+
 
 
 table, table td {
@@ -81,13 +89,13 @@ legend strong{
 }
 
 legend {
-    float: left;
+    float: none;
     color: #2C9BB6;
     font-size: 16px;
     font-weight: normal;
-    margin-bottom: 15px !important;
+    margin-bottom: 25px !important;
     text-transform: uppercase;
-	padding-right: 720px;
+	padding-right: 420px;
 }
 
 /* Contact form */

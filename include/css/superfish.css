@@ -19,7 +19,7 @@
 	width:			152px; 
 	display:none;
 	background:#fafafa;
-	padding:11px 0;
+	padding:11px 0; box-shadow: 0 0 5px 0 rgba(222, 222, 222, 0.9); border:1px solid #ddd;
 }
 .sf-menu li li{width:100%;padding:0; background:#fafafa; border:none;}
 .sf-menu li li:first-child{ border:none;}

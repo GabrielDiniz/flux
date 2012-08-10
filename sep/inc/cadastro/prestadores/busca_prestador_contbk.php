@@ -52,7 +52,7 @@ Fith Floor, Boston, MA 02110-1301, USA
 						</td>
 					</tr>
 					<tr>
-						<td background="img/busca_fundo.jpg" align="center">
+						<td  align="center">
 							<select name="CODPRESTADOR" id="CODPRESTADOR" size="13" style="width:277px; background-color:#255b8f;color:#FFFFFF;" class="combo" 
 							onchange="document.getElementById('frmbuscaprest').submit();">
 								<?php 
